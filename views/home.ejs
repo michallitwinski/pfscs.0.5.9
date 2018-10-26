@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pl">
+<head>
+
+    <% include partials/main/head.ejs %>
+
+</head>
+<body>
+    <div id="wrapper" class="border">
+        <% include partials/main/navi.ejs %>
+    
+        <main>
+            <div id="start_info">
+                <% include partials/home/start.ejs %>
+            </div>
+            <div id="start_tech" class="ukryj">
+                <% include partials/home/tech.ejs %>
+            </div>
+        </main>
+        
+        <% include partials/main/footer.ejs %>
+    </div>
+    <script src="../javascripts/start.js"></script>
+</body>
+</html>

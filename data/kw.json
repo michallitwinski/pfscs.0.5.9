@@ -1,0 +1,2974 @@
+{
+    "taryfikator":{
+        "piesi":[{
+            "poz": 1,
+            "artKw": "art. 90 k.w ",
+            "opis": "Wchodzenie na jezdnię bezpośrednio przed jadący pojazd na przejściach dla pieszych ",
+            "artPrd": "art. 14 pkt 1 lit. a ",
+            "wysokosc": 50,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 2,
+            "artKw": "art. 90 k.w ",
+            "opis": "Wchodzenie na jezdnię bezpośrednio przed jadący pojazd w miejscach innych niż przejścia dla pieszych",
+            "artPrd": "art. 14 pkt 1 lit. a ",
+            "wysokosc": 100,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 3,
+            "artKw": "art. 90 k.w ",
+            "opis": "Wchodzenie na jezdnię spoza pojazdu lub innej przeszkody ograniczającej widoczność drogi ",
+            "artPrd": "art. 14 pkt 1 lit. b ",
+            "wysokosc": 100,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 5,
+            "artKw": "art. 92 § 1 lub art. 90 k.w. ",
+            "opis": "Niestosowanie się do znaków drogowych dotyczących ruchu pieszych ",
+            "artPrd": "§ 30 lub § 39 w zw. z § 40 [1] ",
+            "wysokosc": 50,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 6,
+            "artKw": "art. 90 lub art. 97 k.w. ",
+            "opis": "Przechodzenie przez jezdnię w miejscach o ograniczonej widoczności drogi na obszarze zabudowanym ",
+            "artPrd": "art. 14 pkt 2 ",
+            "wysokosc": 50,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 7,
+            "artKw": "art. 90 lub art. 97 k.w. ",
+            "opis": "Przechodzenie przez jezdnię w miejscach o ograniczonej widoczności drogi na obszarze niezabudowanym ",
+            "artPrd": "art. 14 pkt 2 ",
+            "wysokosc": 100,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 8,
+            "artKw": "art. 90 lub art. 97 k.w. ",
+            "opis": "Zwalnianie kroku lub zatrzymywanie się bez uzasadnionej potrzeby podczas przechodzenia przez jezdnię lub torowisko ",
+            "artPrd": "art. 14 pkt 3 ",
+            "wysokosc": 50,
+            "kod": "- ",
+            "pkt": "- "
+        },
+        {
+            "poz": 17,
+            "artKw": "art. 90 lub art. 97 k.w. ",
+            "opis": "Naruszenie przepisów dotyczących ruchu pieszych na drogach dla rowerów ",
+            "artPrd": "art. 11 ust. 4 ",
+            "wysokosc": 50,
+            "kod": "- ",
+            "pkt": "- "
+        }],
+
+        "pojazdy":{
+            "a":[
+                {
+                    "poz": "1w",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku „jazdy prawostronnej”",
+                    "artPrd": "art. 16 ust. 1-3 ",
+                    "wysokosc": "20-500",
+                    "kod": "H 08 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 18,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Zajmowanie więcej niż jednego, wyznaczonego na jezdni, pasa ruchu ",
+                    "artPrd": "art. 16 ust. 4 ",
+                    "wysokosc": 150,
+                    "kod": "H 08 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 19,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku poruszania się po poboczu przez kierującego pojazdem zaprzęgowym, rowerem, wózkiem rowerowym, motorowerem, wózkiem ręcznym albo osobę prowadzącą pojazd napędzany silnikiem ",
+                    "artPrd": "art. 16 ust. 5 ",
+                    "wysokosc": 100,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 20,
+                    "artKw": "art. 90",
+                    "opis": "Nieustąpienie miejsca nadjeżdżającemu pojazdowi szynowemu przez kierującego pojazdem ",
+                    "artPrd": "art. 16 ust. 6 ",
+                    "wysokosc": 250,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 29,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Wjeżdżanie na pas między jezdniami ",
+                    "artPrd": "art. 45 ust. 1 pkt 5 ",
+                    "wysokosc": 100,
+                    "kod": "K 10 ",
+                    "pkt": "0"
+                },
+                {
+                    "poz": 30,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Niedopełnienie obowiązków przez uczestników wypadku poprzez nieusunięcie pojazdu z miejsca wypadku, w którym nie było zabitego lub rannego ",
+                    "artPrd": "art. 44 ust. 1 pkt 3 lub ust. 3 ",
+                    "wysokosc": 150,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                }
+            ],
+            "b":[
+                {
+                    "poz": 33,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie pierwszeństwa innemu pojazdowi lub uczestnikowi ruchu podczas włączania się do ruchu ",
+                    "artPrd": "art. 17 ust. 2 ",
+                    "wysokosc": 300,
+                    "kod": "D 07 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 34,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Uniemożliwienie włączenia się do ruchu autobusowi (trolejbusowi) sygnalizującemu zamiar zmiany pasa ruchu lub wjechania z zatoki na jezdnię z oznaczonego przystanku na obszarze zabudowanym ",
+                    "artPrd": "art. 18a ust. 1 ",
+                    "wysokosc": 200,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 35,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Naruszenie obowiązków przez kierującego pojazdem zbliżającego się do miejsca postoju autobusu szkolnego ",
+                    "artPrd": "art. 18a ust. 1 ",
+                    "wysokosc": 200,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                }
+            ],
+            "c":[
+                {
+                    "poz": 42,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Hamowanie w sposób powodujący zagrożenie bezpieczeństwa ruchu lub jego utrudnienie ",
+                    "artPrd": "art. 19 ust. 2 pkt 2 ",
+                    "wysokosc": "od 100 do 300",
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 43,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Jazda z prędkością utrudniającą ruch innym kierującym ",
+                    "artPrd": "art. 19 ust. 2 pkt 1 ",
+                    "wysokosc": "od 50 do 200",
+                    "kod": "E 07 ",
+                    "pkt": "2"
+                }
+            ],
+            "d":[{
+                    "poz": 46,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zawracanie w warunkach, w których mogłoby to zagrażać bezpieczeństwu ruchu lub ruch ten utrudnić ",
+                    "artPrd": "art. 22 ust. 6 pkt 4 ",
+                    "wysokosc": "od 200 do 400",
+                    "kod": "D 10 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 47,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zawracanie w tunelach, na mostach i wiaduktach oraz na drogach jednokierunkowych ",
+                    "artPrd": "art. 22 ust. 6 pkt 1 ",
+                    "wysokosc": "200",
+                    "kod": "D 10 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 48,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Utrudnianie lub tamowanie ruchu poprzez niesygnalizowanie lub błędne sygnalizowanie manewru ",
+                    "artPrd": "art. 22 ust. 5 ",
+                    "wysokosc": "200",
+                    "kod": "D 11 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 49,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Nieodpowiednie ustawienie pojazdu na jezdni przed skręceniem ",
+                    "artPrd": "art. 22 ust. 2 ",
+                    "wysokosc": "150",
+                    "kod": "Z 01 ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": 50,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Nieustąpienie pierwszeństwa przez kierującego pojazdem zmieniającego zajmowany pas ruchu ",
+                    "artPrd": "art. 22 ust. 4 ",
+                    "wysokosc": "250",
+                    "kod": "D 05 ",
+                    "pkt": "5"
+                }
+            ],
+            "e":[
+                {
+                    "poz": 51,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Omijanie pojazdu, który jechał w tym samym kierunku, lecz zatrzymał się w celu ustąpienia pierwszeństwa pieszemu ",
+                    "artPrd": "art. 26 ust. 3 pkt 2 ",
+                    "wysokosc": "500",
+                    "kod": "B 01 ",
+                    "pkt": "10"
+                },
+                {
+                    "poz": 52,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Omijanie pojazdu oczekującego na otwarcie ruchu przez przejazd kolejowy w sytuacji, w której wymagało to wjechania na część jezdni przeznaczoną dla przeciwnego kierunku ruchu ",
+                    "artPrd": "art. 28 ust. 3 pkt 4",
+                    "wysokosc": "250",
+                    "kod": "Z 01 ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": 53,
+                    "artKw": "art. 90 k.w ",
+                    "opis": "Utrudnianie ruchu podczas cofania",
+                    "artPrd": "art. 23 ust. 1 pkt 3",
+                    "wysokosc": "od 50 do 200 ",
+                    "kod": "D 08 ",
+                    "pkt": "4"
+                },
+                {
+                    "poz": 54,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazów cofania w tunelach, na mostach i wiaduktach ",
+                    "artPrd": "art. 23 ust. 2",
+                    "wysokosc": "200",
+                    "kod": "H 02 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": "18w",
+                    "artKw": "art. 97, 90 albo 86§1 lub 2k.w.",
+                    "opis": "Nieustąpienie pierwszeństwa pieszemu podczas cofania",
+                    "artPrd": "art. 23 ust. 1 pkt 3 p.r.d.",
+                    "wysokosc": "50-200",
+                    "kod": "B 06",
+                    "pkt": "6"
+                },
+                {
+                    "poz": "19w",
+                    "artKw": "art. 90 albo 97 k.w.",
+                    "opis": "Naruszenie zakazu rozdzielania kolumn pieszych",
+                    "artPrd": "art. 25 ust.4 pkt 2 p.r.d.",
+                    "wysokosc": "20-500",
+                    "kod": "B 07",
+                    "pkt": "5"
+                }
+            ],
+            "f":[
+                {
+                    "poz": 57,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Naruszenie przez kierującego obowiązku upewnienia się przed wyprzedzaniem, czy ma odpowiednią widoczność i dostateczne miejsce do wyprzedzania bez utrudnienia komukolwiek ruchu ",
+                    "artPrd": "art. 24 ust. 1 pkt 1 ",
+                    "wysokosc": 250,
+                    "kod": "F 01 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 58,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Naruszenie przez kierującego obowiązku upewnienia się przed wyprzedzaniem, czy kierujący jadący za nim nie rozpoczął manewru wyprzedzania ",
+                    "artPrd": "art. 24 ust. 1 pkt 2 ",
+                    "wysokosc": 250,
+                    "kod": "F 01 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 64,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zwiększanie prędkości przez kierującego pojazdem wyprzedzanym ",
+                    "artPrd": "art. 24 ust. 6 ",
+                    "wysokosc": 350,
+                    "kod": "F 10 ",
+                    "pkt": "3"
+                },
+                {
+                    "poz": 65,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Niestosowanie się przez kierującego pojazdem wolnobieżnym, ciągnikiem rolniczym lub pojazdem bez silnika do obowiązku zjechania jak najbardziej na prawo w celu ułatwienia wyprzedzenia ",
+                    "artPrd": "art. 24 ust. 6 ",
+                    "wysokosc": 100,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "17w",
+                    "artKw": "art. 97, 90 albo 86§1 lub 2k.w.",
+                    "opis": "Wyprzedzanie na przejściach dla pieszych i bezpośrednio przed nimi",
+                    "artPrd": "art. 26 ust. 3 pkt 1 p.r.d.",
+                    "wysokosc": "200",
+                    "kod": "B 02",
+                    "pkt": "10"
+                }
+            ],
+            "g":[
+                {
+                    "poz": 67,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie przez kierującego pojazdem pierwszeństwa pieszym znajdującym się na przejściu ",
+                    "artPrd": "art. 26 ust. 1 ",
+                    "wysokosc": 350,
+                    "kod": "B 03 ",
+                    "pkt": "10"
+                },
+                {
+                    "poz": 68,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie przez kierującego pojazdem pierwszeństwa pieszym na skrzyżowaniu przy skręcaniu w drogę poprzeczną ",
+                    "artPrd": "art. 26 ust. 2 ",
+                    "wysokosc": 350,
+                    "kod": "B 04 ",
+                    "pkt": "10"
+                },
+                {
+                    "poz": 69,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie przez kierującego pojazdem pierwszeństwa pieszym przy przejeżdżaniu przez chodnik lub drogę dla pieszych albo podczas jazdy po placu, na którym ruch pieszych i pojazdów odbywa się po tej samej powierzchni ",
+                    "artPrd": "art. 26 ust. 4 albo ust. 5 ",
+                    "wysokosc": 350,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "2w",
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Nieustąpienie pierwszeństwa przejazdu na skrzyżowaniu w sytuacji równorzędnej",
+                    "artPrd": "art. 25 ust. 1",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "D 01",
+                    "pkt": "6"
+                },
+                {
+                    "poz": "3w",
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Nieustąpienie pierwszeństwa przejazdu na skrzyżowaniu oznaczonym znakami określającymi pierwszeństwo przejazdu",
+                    "artPrd": "par. 5 ust. 5-7",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "D 02",
+                    "pkt": "6"
+                },
+                {
+                    "poz": "4w",
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Nieustąpienie pierwszeństwa przejazdu pojazdom szynowym",
+                    "artPrd": "art. 25 ust. 2",
+                    "wysokosc": "250",
+                    "kod": "D 03",
+                    "pkt": "6"
+                },
+                {
+                    "poz": "5w",
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Nieustąpienie pierwszeństwa przejazdu w razie przecinania się poza skrzyżowaniem kierunku ruchu lub torów jazdy pojazdów poruszających się po tej samej drodze",
+                    "artPrd": "art. 25 ust. 3",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "D 06",
+                    "pkt": "5"
+                },
+                {
+                    "poz": "6w",
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Nieustąpienie przejazdu pojazdowi uprzywilejowanemu",
+                    "artPrd": "art. 9",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "D 09",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 70,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie przez kierującego pojazdem pierwszeństwa rowerowi znajdującemu się na przejeździe dla rowerzystów ",
+                    "artPrd": "art. 27 ust. 1 ",
+                    "wysokosc": 350,
+                    "kod": "D 04 ",
+                    "pkt": "6"
+                },
+                {
+                    "poz": 71,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie przez kierującego pojazdem pierwszeństwa rowerowi przy przejeżdżaniu przez drogę dla rowerów poza jezdnią ",
+                    "artPrd": "art. 27 ust. 3 ",
+                    "wysokosc": 350,
+                    "kod": "D 04 ",
+                    "pkt": "6"
+                },
+                {
+                    "poz": 72,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Niezatrzymanie pojazdu w celu umożliwienia przejścia przez jezdnię osobie niepełnosprawnej, używającej specjalnego znaku lub osobie o widocznej ograniczonej sprawności ruchowej ",
+                    "artPrd": "art. 26 ust. 7 ",
+                    "wysokosc": 350,
+                    "kod": "B 05 ",
+                    "pkt": "10"
+                },
+                {
+                    "poz": 73,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku usunięcia pojazdu unieruchomionego na przejeździe kolejowym (tramwajowym) lub ostrzegania kierujących pojazdami szynowymi w sytuacji, w której usunięcie pojazdu nie było możliwe ",
+                    "artPrd": "art. 28 ust. 4 lub ust. 6 ",
+                    "wysokosc": 300,
+                    "kod": "Z 01 ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": 74,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku zatrzymania pojazdu w takim miejscu i na taki czas, aby umożliwić pieszym swobodny dostęp do pojazdów komunikacji publicznej – w przypadku braku wysepki dla pasażerów na przystanku ",
+                    "artPrd": "art. 26 ust. 6 ",
+                    "wysokosc": 100,
+                    "kod": "K 05 ",
+                    "pkt": "0"
+                },
+                {
+                    "poz": 77,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Jazda wzdłuż po chodniku lub przejściu dla pieszych pojazdem silnikowym ",
+                    "artPrd": "art. 26 ust. 3 pkt 3 ",
+                    "wysokosc": 250,
+                    "kod": "K 04 ",
+                    "pkt": "0"
+                },
+                {
+                    "poz": 78,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Jazda wzdłuż po chodniku lub przejściu dla pieszych innym pojazdem niż pojazd silnikowy ",
+                    "artPrd": "art. 26 ust. 3 pkt 3 ",
+                    "wysokosc": 100,
+                    "kod": "- ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": 79,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez kierującego zakazu wjeżdżania na skrzyżowanie, jeśli na skrzyżowaniu lub za nim nie ma miejsca do kontynuowania jazdy ",
+                    "artPrd": "art. 25 ust. 4 pkt 1 ",
+                    "wysokosc": 300,
+                    "kod": "H 16 ",
+                    "pkt": "2"
+                }
+            ],
+            "h":[
+                {
+                    "poz": 80,
+                    "artKw": "art. 88 lub art. 90 k.w. ",
+                    "opis": "Niewłączenie przez kierującego pojazdem wymaganych świateł w czasie jazdy w warunkach zmniejszonej przejrzystości powietrza",
+                    "artPrd": "art. 30 ust. 1 pkt 1 lit. a lub pkt 2 lit. a",
+                    "wysokosc": 200,
+                    "kod": "G 02",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 81,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Naruszenie przez kierującego pojazdem innym niż silnikowy zakazu wyprzedzania innych pojazdów w czasie jazdy w warunkach zmniejszonej przejrzystości powietrza oraz obowiązku korzystania z pobocza drogi, a jeżeli nie jest to możliwe – to jazdy jak najbliżej krawędzi jezdni ",
+                    "artPrd": "art. 30 ust. 1 pkt 2 lit. b ",
+                    "wysokosc": 100,
+                    "kod": "- ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": 84,
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Używanie tylnych świateł przeciwmgłowych przy normalnej przejrzystości powietrza ",
+                    "artPrd": "art. 30 ust. 3",
+                    "wysokosc": 100,
+                    "kod": "G 07",
+                    "pkt": "2"
+                }
+            ],
+            "j":[
+                {
+                    "poz": "97",
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Nieustąpienie miejsca pieszym przez kierującego rowerem korzystającego z drogi dla rowerów i pieszych ",
+                    "artPrd": "art. 33 ust. 1 ",
+                    "wysokosc": 50,
+                    "kod": "- ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": "97a",
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Niedopuszczenie przez kierującego rowerem śluzy rowerowej, kiedy zaistnieje możliwość kontynuowania jazdy w zamierzonym kierunku ",
+                    "artPrd": "art. 33 ust. 1a ",
+                    "wysokosc": 50,
+                    "kod": "- ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": "98",
+                    "artKw": "art. 90 lub art. 97 k.w.",
+                    "opis": "Naruszenie przez kierującego rowerem lub motorowerem zakazu jazdy po jezdni obok innego uczestnika ruchu, z zastrzeżeniem lp. 98a ",
+                    "artPrd": "art. 33 ust. 3 pkt 1 ",
+                    "wysokosc": 50,
+                    "kod": "Z 01",
+                    "pkt": "- "
+                },
+                {
+                    "poz": "98a",
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Utrudnianie poruszania się innym uczestnikom ruchu przez kierującego rowerem jadącego po jezdni obok innego roweru lub motoroweru ",
+                    "artPrd": "art. 33 ust. 3 pkt 1 w zw. z ust. 3a ",
+                    "wysokosc": 200,
+                    "kod": "- ",
+                    "pkt": "- "
+                },
+                {
+                    "poz": "99",
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Naruszenie przez kierującego rowerem lub motorowerem zakazu jazdy bez trzymania co najmniej jednej ręki na kierownicy oraz nóg na pedałach lub podnóżkach ",
+                    "artPrd": "art. 33 ust. 3 pkt 2 ",
+                    "wysokosc": 50,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "100",
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Naruszenie przez kierującego rowerem lub motorowerem zakazu czepiania się pojazdów ",
+                    "artPrd": "art. 33 ust. 3 pkt 3 ",
+                    "wysokosc": 100,
+                    "kod": "Z 01",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "103",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez kierującego rowerem przepisów o korzystaniu z chodnika lub drogi dla pieszych ",
+                    "artPrd": "art. 33 ust. 5 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "104",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy obok innego uczestnika ruchu na jezdni ",
+                    "artPrd": "art. 34 ust. 5 pkt 2 ",
+                    "wysokosc": 100,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "105",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu pozostawiania pojazdu niezabezpieczonego przed ruszeniem ",
+                    "artPrd": "art. 34 ust. 5 pkt 3 ",
+                    "wysokosc": 100,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "106",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez kierującego pojazdem zaprzęgowym zakazu jazdy pojazdami na płozach bez dzwonków lub grzechotek ",
+                    "artPrd": "art. 34 ust. 5 pkt 4 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "107",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Pędzenie zwierząt płochliwych, niesprawnych fizycznie lub nie dających sobą kierować ",
+                    "artPrd": "art. 35 ust. 2 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "108",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Pędzenie zwierząt bez odpowiedniego nadzoru, a pojedynczych bez uwięzi ",
+                    "artPrd": "art. 37 ust. 1 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "109",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Pędzenie zwierząt bez odpowiedniego nadzoru, a pojedynczych bez uwięzi ",
+                    "artPrd": "art. 37 ust. 1 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "110",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez poganiacza obowiązku poruszania się po lewej stronie pędzonych zwierząt ",
+                    "artPrd": "art. 37 ust. 2 pkt 1 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "111",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez poganiacza obowiązku używania, w okresie niedostatecznej widoczności, odpowiedniego oświetlenia ",
+                    "artPrd": "art. 37 ust. 2 pkt 2 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "112",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Naruszenie przez poganiacza zakazu pędzenia zwierząt po określonych drogach ",
+                    "artPrd": "art. 37 ust. 4 pkt 1 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "113",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez poganiacza zakazu przepędzania zwierząt w poprzek drogi w miejscu niewidocznym na dostateczną odległość ",
+                    "artPrd": "art. 37 ust. 4 pkt 3 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "114",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez poganiacza zakazu zatrzymywania zwierząt na jezdni ",
+                    "artPrd": "art. 37 ust. 4 pkt 4 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "115",
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie przez poganiacza zakazu dopuszczania do zajmowania przez zwierzęta więcej niż prawej połowy jezdni albo drogi dla pieszych lub rowerów ",
+                    "artPrd": "art. 37 ust. 4 pkt 5 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": "117",
+                    "artKw": "art. 90 lub art. 91 k.w ",
+                    "opis": "Pozostawienie pojazdu zaprzęgowego na postoju bez zachowania środków ostrożności niezbędnych do uniknięcia wypadku ",
+                    "artPrd": "art. 46 ust. 5 ",
+                    "wysokosc": 50,
+                    "kod": "-",
+                    "pkt": "-"
+                }
+            ],
+            "k":[
+                {
+                    "poz": 119,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu zawracania na autostradzie lub drodze ekspresowej ",
+                    "artPrd": "art. 22 ust. 6 pkt 2 lub pkt 3 ",
+                    "wysokosc": 300,
+                    "kod": "D 10",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 120,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Cofanie na autostradzie lub drodze ekspresowej ",
+                    "artPrd": "art. 23 ust. 2 ",
+                    "wysokosc": 300,
+                    "kod": "H 01 ",
+                    "pkt": "5"
+                },
+                {
+                    "poz": 121,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Wjazd na autostradę lub drogę ekspresową pojazdem, dla ruchu, którego drogi te nie są przeznaczone ",
+                    "artPrd": "art. 45 ust. 1 pkt 4 ",
+                    "wysokosc": 250,
+                    "kod": "Z 01 ",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 122,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Zatrzymanie lub postój pojazdu na autostradzie lub drodze ekspresowej w innych miejscach niż wyznaczone w tym celu ",
+                    "artPrd": "art. 49 ust. 3 ",
+                    "wysokosc": 300,
+                    "kod": "H 04 ",
+                    "pkt": "1"
+                },
+                {
+                    "poz": 123,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Nieusunięcie z jezdni pojazdu unieruchomionego z przyczyn technicznych oraz nieostrzeganie innych uczestników ruchu ",
+                    "artPrd": "art. 49 ust. 3 ",
+                    "wysokosc": 300,
+                    "kod": "H 04 ",
+                    "pkt": "1"
+                },
+                {
+                    "poz": 124,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Niesygnalizowanie lub niewłaściwe sygnalizowanie postoju pojazdu silnikowego z powodu uszkodzenia lub wypadku na autostradzie lub drodze ekspresowej ",
+                    "artPrd": "art. 50 ust. 1 pkt 1lub ust. 2 pkt 1 ",
+                    "wysokosc": 300,
+                    "kod": "H 04",
+                    "pkt": "1"
+                }
+            ],
+            "l":[{
+                    "poz": 125,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Zatrzymanie lub postój pojazdu w warunkach, w których nie jest on z dostatecznej odległości widoczny dla innych kierujących lub powoduje utrudnienie ruchu ",
+                    "artPrd": "art. 46 ust. 1 ",
+                    "wysokosc": "od 100 do 300 ",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 126,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Niezachowanie wymaganego odstępu za poprzedzającym pojazdem przez kierującego pojazdem w tunelu, podczas zatrzymania wynikającego z warunków lub przepisów ruchu drogowego ",
+                    "artPrd": "art. 47a ",
+                    "wysokosc": "100",
+                    "kod": "Z 01",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 127,
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Zatrzymywanie pojazdu na przejeździe kolejowym lub tramwajowym, na skrzyżowaniu oraz w odległości mniejszej niż 10 m od przejazdu lub skrzyżowania ",
+                    "artPrd": "art. 49 ust. 1 pkt 1",
+                    "wysokosc": "300",
+                    "kod": "H 04",
+                    "pkt": 1
+                },
+                {
+                    "poz": 128,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu na przejściu dla pieszych lub na przejeździe dla rowerzystów oraz w odległości mniejszej niż 10 m przed tym przejściem lub przejazdem, a na drodze dwukierunkowej o dwóch pasach ruchu – także za nimi ",
+                    "artPrd": "art. 49 ust. 1 pkt 2 ",
+                    "wysokosc": "od 100 do 300 ",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 129,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu w tunelu, na moście lub na wiadukcie ",
+                    "artPrd": "art. 49 ust. 1 pkt 3 ",
+                    "wysokosc": "200",
+                    "kod": "H 04",
+                    "pkt": 1
+                },
+                {
+                    "poz": 130,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu na jezdni wzdłuż linii ciągłej oraz w pobliżu jej punktów krańcowych, jeżeli kierujący pojazdami wielośladowymi są zmuszeni do najeżdżania na tę linię ",
+                    "artPrd": "art. 49 ust. 1 pkt 4 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 131,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu na jezdni obok linii przerywanej wyznaczającej krawędź jezdni oraz na jezdni lub na poboczu obok linii ciągłej wyznaczającej krawędź jezdni ",
+                    "artPrd": "art. 49 ust. 1 pkt 5 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 132,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu w odległości mniejszej niż 10 m od przedniej strony znaku lub sygnału drogowego, jeżeli pojazd je zasłania ",
+                    "artPrd": "art. 49 ust. 1 pkt 6 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 133,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu przy lewej krawędzi jezdni  ",
+                    "artPrd": "art. 49 ust. 1 pkt 7 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 134,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu na pasie między jezdniami ",
+                    "artPrd": "art. 49 ust. 1 pkt 8 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 135,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu w odległości mniejszej niż 15 m od słupka lub tablicy oznaczającej przystanek, a na przystanku z zatoką – na całej jej długości ",
+                    "artPrd": "art. 49 ust. 1 pkt 9 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 136,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Zatrzymywanie pojazdu w odległości mniejszej niż 15 m od punktów krańcowych wysepki, jeżeli jezdnia z prawej jej strony ma tylko jeden pas ruchu  ",
+                    "artPrd": "art. 49 ust. 1 pkt 10 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 137,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Na drodze dla rowerów, pasie ruchu dla rowerów lub w śluzie rowerowej, z wyjątkiem roweru ",
+                    "artPrd": "art. 49 ust. 1 pkt 11 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 138,
+                    "artKw": "art. 84, 90 lub art. 91 k.w. ",
+                    "opis": "Brak sygnalizowania lub niewłaściwe sygnalizowanie postoju pojazdu z powodu uszkodzenia lub wypadku ",
+                    "artPrd": "art. 50 ust. 1 pkt 2 lub ust. 2 pkt 2 ",
+                    "wysokosc": "150",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 139,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie warunków dopuszczalności zatrzymania lub postoju pojazdu na chodniku ",
+                    "artPrd": "art. 47 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 140,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku zatrzymania pojazdu na jezdni jak najbliżej jej krawędzi i równolegle do niej ",
+                    "artPrd": "art. 46 ust. 2 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 141,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie obowiązku umieszczania pojazdu (z wyjątkiem pojazdu zaprzęgowego) poza jezdnią w czasie postoju na drodze poza obszarem zabudowanym ",
+                    "artPrd": "art. 46 ust. 3 ",
+                    "wysokosc": "od 150 do 300 ",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 142,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu postoju w miejscach utrudniających wjazd lub wyjazd ",
+                    "artPrd": "art. 49 ust. 2 pkt 1 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 143,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu postoju w miejscach utrudniających dostęp do innego prawidłowo zaparkowanego pojazdu lub wyjazd tego pojazdu ",
+                    "artPrd": "art. 49 ust. 2 pkt 2 ",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 144,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu postoju przed lub za przejazdem kolejowym na odcinku od przejazdu do słupka wskaźnikowego z jedną kreską ",
+                    "artPrd": "art. 49 ust. 2 pkt 3",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 145,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu postoju w strefie zamieszkania w miejscach innych niż wyznaczone ",
+                    "artPrd": "art. 49 ust. 2 pkt 4",
+                    "wysokosc": "100",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 146,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie zakazu postoju na obszarze zabudowanym pojazdu lub zespołu pojazdów o dopuszczalnej masie całkowitej przekraczającej 16 ton lub o długości przekraczającej 12 m ",
+                    "artPrd": "art. 49 ust. 2 pkt 5 ",
+                    "wysokosc": "od 200 do 300 ",
+                    "kod": "H 04 ",
+                    "pkt": 1
+                }
+            ],
+            "m":[{
+                    "poz": 147,
+                    "artKw": "art. 88 k.w. ",
+                    "opis": "Jazda bez wymaganych świateł od zmierzchu do świtu ",
+                    "artPrd": "art. 51 ust. 1 ",
+                    "wysokosc": "200",
+                    "kod": "G 01 ",
+                    "pkt": "4"
+                },
+                {
+                    "poz": 148,
+                    "artKw": "art. 88 k.w. ",
+                    "opis": "Jazda bez wymaganych świateł od świtu do zmierzchu ",
+                    "artPrd": "art. 51 ust. 1 lub 2 ",
+                    "wysokosc": "100",
+                    "kod": "G 03 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 149,
+                    "artKw": "art. 88 k.w. ",
+                    "opis": "Jazda bez wymaganych świateł pojazdami niewyposażonymi w światła mijania, drogowe lub do jazdy dziennej ",
+                    "artPrd": "art. 51 ust. 6 ",
+                    "wysokosc": "100",
+                    "kod": "-",
+                    "pkt": "-"
+                },
+                {
+                    "poz": 150,
+                    "artKw": "art. 88 k.w. ",
+                    "opis": "Jazda bez wymaganych świateł w tunelu, niezależnie od pory doby ",
+                    "artPrd": "art. 51 ust. 1 lub ust. 6 ",
+                    "wysokosc": "200",
+                    "kod": "G 04 ",
+                    "pkt": "4"
+                },
+                {
+                    "poz": 151,
+                    "artKw": "art. 88 k.w. ",
+                    "opis": "Nieużywanie wymaganego oświetlenia podczas zatrzymania lub postoju w warunkach niedostatecznej widoczności ",
+                    "artPrd": "art. 52 ust. 1 lub ust. 2 lub art. 30 ust. ",
+                    "wysokosc": "od 150 do 300 ",
+                    "kod": "G 08 ",
+                    "pkt": "3"
+                },
+                {
+                    "poz": 152,
+                    "artKw": "art. 90 k.w. ",
+                    "opis": "Korzystanie ze świateł drogowych w sposób niezgodny z przepisami ",
+                    "artPrd": "art. 51 ust. 3 ",
+                    "wysokosc": "200",
+                    "kod": "G 09 ",
+                    "pkt": "3"
+                },
+                {
+                    "poz": 153,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Naruszenie warunków dopuszczalności używania przednich świateł przeciwmgłowych ",
+                    "artPrd": "art. 51 ust. 5",
+                    "wysokosc": "100",
+                    "kod": "G 06 ",
+                    "pkt": "2"
+                },
+                {
+                    "poz": 154,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Używanie „szperacza” podczas jazdy ",
+                    "artPrd": "art. 52 ust. 3 ",
+                    "wysokosc": "100",
+                    "kod": "K 11 ",
+                    "pkt": "0"
+                }
+            ],
+            "n":[{
+                    "poz": 155,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Bezpodstawne korzystanie z ułatwień w ruchu drogowym przez kierującego pojazdem uprzywilejowanym ",
+                    "artPrd": "art. 53 ust. 2 ",
+                    "wysokosc": 300,
+                    "kod": "K 12 ",
+                    "pkt": 0
+                },
+                {
+                    "poz": 162,
+                    "artKw": "art. 90 lub art. 97 k.w. ",
+                    "opis": "Wjeżdżanie między jadące w kolumnie rowery lub wózki rowerowe ",
+                    "artPrd": "art. 32 ust. 6 ",
+                    "wysokosc": 200,
+                    "kod": "H 19 ",
+                    "pkt": 2
+                },
+                {
+                    "poz": 165,
+                    "artKw": "art. 90 k.w.",
+                    "opis": "Naruszenie przepisów dotyczących przewozu dzieci lub młodzieży przez kierującego innym pojazdem ",
+                    "artPrd": "art. 57 ust. 2",
+                    "wysokosc": 200,
+                    "kod": "J 04 ",
+                    "pkt": 1
+                },
+                {
+                    "poz": 166,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Naruszenie przepisów dotyczących przewozu osób niepełnosprawnych przez kierującego pojazdem przewożącym takie osoby ",
+                    "artPrd": "art. 58 ust. 1 ",
+                    "wysokosc": 200,
+                    "kod": "J 05",
+                    "pkt": 2
+                },
+                {
+                    "poz": 167,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Niezachowanie szczególnej ostrożności przez kierującego pojazdem, który omija pojazd przeznaczony do przewozu osób niepełnosprawnych ",
+                    "artPrd": "art. 58 ust. 2 ",
+                    "wysokosc": 200,
+                    "kod": "J 06",
+                    "pkt": 1
+                },
+                {
+                    "poz": 168,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Naruszenie przepisów o obowiązku wysyłania przez pojazdy żółtych sygnałów błyskowych ",
+                    "artPrd": "art. 54 ust. 1 lub ust. 3 ",
+                    "wysokosc": 200,
+                    "kod": "K 14 ",
+                    "pkt": 0
+                },
+                {
+                    "poz": 169,
+                    "artKw": "art. 90 lub art. 97 k.w ",
+                    "opis": "Bezpodstawne używanie żółtego sygnału błyskowego ",
+                    "artPrd": "art. 54 ust. 4 ",
+                    "wysokosc": 100,
+                    "kod": "K 15 ",
+                    "pkt": 0
+                },
+                {
+                    "poz": "7w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Holowanie pojazdu o niesprawnym układzie kierowniczym lub niesprawnych hamulcach",
+                    "artPrd": "Art.31 ust.2 pkt 1",
+                    "wysokosc": 250,
+                    "kod": "K 07",
+                    "pkt": 0
+                },
+                {
+                    "poz": "8w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Holowanie pojazdu na połączeniu giętkim, jeżeli w pojeździe tym działanie układu hamulcowego uzależnione jest od pracy silnika, a silnik jest unieruchomiony",
+                    "artPrd": "Art.31 ust.2 pkt 2",
+                    "wysokosc": 250,
+                    "kod": "K 07",
+                    "pkt": 0
+                },
+                {
+                    "poz": "9w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Holowanie więcej niż jednego pojazdu, z wyjątkiem pojazdu członowego",
+                    "artPrd": "Art.31 ust.2 pkt 3",
+                    "wysokosc": 250,
+                    "kod": "K 07",
+                    "pkt": 0
+                },
+                {
+                    "poz": "10w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Holowanie pojazdem z przyczepą (naczepą)",
+                    "artPrd": "Art.31 ust.2 pkt 4",
+                    "wysokosc": 250,
+                    "kod": "K 07",
+                    "pkt": 0
+                },
+                {
+                    "poz": "11w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Holowanie na autostradzie z wyjątkiem holowania przez pojazdy przeznaczone do holowania do najbliższego wyjazdu lub miejsca obsługi podróżnych",
+                    "artPrd": "Art.31 ust.2 pkt 5",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "K 07",
+                    "pkt": 0
+                },
+                {
+                    "poz": "12w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Naruszenie przepisów dotyczących jazdy w zorganizowanych kolumnach poprzez przekroczenie dopuszczalnej liczby pojazdów",
+                    "artPrd": "Art. 32 ust. 1",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "K 08",
+                    "pkt": 0
+                },
+                {
+                    "poz": "13w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Naruszenie przepisów dotyczących jazdy w zorganizowanych kolumnach poprzez niezachowanie wymaganej odległości między kolumnami lub pojazdami w kolumnie",
+                    "artPrd": "Art. 32 ust. 2",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "K 09",
+                    "pkt": 0
+                },
+                {
+                    "poz": "14w",
+                    "artKw": "art. 90 lub art. 97 k.w",
+                    "opis": "Niestosowanie się przez kierującego pojazdem uprzywilejowanym do sygnałów dawanych przez osobę kierującą ruchem",
+                    "artPrd": "Art. 32 ust. 3",
+                    "wysokosc": "od 20 do 500",
+                    "kod": "K 13",
+                    "pkt": 0
+                }
+            ]
+        },
+
+        "kierujacy":[
+            {
+                "poz": "186",
+                "artKw": "art. 94 § 1 k.w ",
+                "opis": "Kierowanie pojazdem silnikowym, z wyłączeniem czterokołowca lekkiego, lub tramwajem przez osobę niemającą uprawnienia do kierowania pojazdami ",
+                "artPrd": "art. 3 w zw. z art. 4–7 o.k.p [5] ",
+                "wysokosc": "500",
+                "kod": "K 02 ",
+                "pkt": "0"
+            },
+            {
+                "poz": "187",
+                "artKw": "art. 94 § 1 k.w ",
+                "opis": "Kierowanie pojazdem silnikowym, z wyłączeniem czterokołowca lekkiego, lub tramwajem przez osobę niemającą uprawnienia wymaganego dla danego rodzaju pojazdu ",
+                "artPrd": "art. 3 w zw. z art. 4–7 o.k.p [5] ",
+                "wysokosc": "300",
+                "kod": "K 02 ",
+                "pkt": "0"
+            },
+            {
+                "poz": "187a",
+                "artKw": "art. 94 § 1 k.w ",
+                "opis": "Kierowanie motorowerem lub czterokołowcem lekkim przez osobę niemającą do tego uprawnienia ",
+                "artPrd": "art. 3 w zw. z art. 4–6 o.k.p [5] ",
+                "wysokosc": "200",
+                "kod": "Z 01",
+                "pkt": "- "
+            },
+            {
+                "poz": "188",
+                "artKw": "art. 94 § 1 k.w",
+                "opis": "Kierowanie bez uprawnienia rowerem, wózkiem rowerowym lub pojazdem zaprzęgowym ",
+                "artPrd": "art. 3 w zw. z art. 7 ust. 1 pkt 2 lub 3 o.k.p [5] ",
+                "wysokosc": "100",
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": "189",
+                "artKw": "art. 95 k.w.",
+                "opis": "Kierowanie pojazdem przez osobę nieposiadającą przy sobie wymaganych dokumentów",
+                "artPrd": "art. 38 lub art. 71ust. 5a ",
+                "wysokosc": "50 za brak każdego z wymaganych dokumentów, nie więcej niż 250 ",
+                "kod": "K 03",
+                "pkt": "0"
+            }
+            ,
+            {
+                "poz": "15w",
+                "artKw": "Art. 94 § 2 k.w",
+                "opis": "Kierowanie pojazdem pomimo braku dopuszczenia pojazdu do ruchu",
+                "artPrd": "art. 71",
+                "wysokosc": "od 20 do 500",
+                "kod": "H 05",
+                "pkt": "1"
+            }
+        ],
+
+        "wykroczenia":[
+            {
+                "poz": 192,
+                "artKw": "art. 96§1 pkt 2 k.w.",
+                "opis": "Dopuszczenie przez właściciela, posiadacza, użytkownika lub prowadzącego pojazd do prowadzenia pojazdu na drodze publicznej, w strefie zamieszkania lub strefie ruchu przez osobę nie mającą wymaganych uprawnień ",
+                "artPrd": "art. 3 w zw. z art. 7 ust. 1 pkt 2 lub 3 o.k.p [5] ",
+                "wysokosc": "300",
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": 193,
+                "artKw": "art. 96§1 pkt 5 k.w.",
+                "opis": "Dopuszczenie przez właściciela, posiadacza, użytkownika lub prowadzącego pojazd do jazdy na drodze publicznej, w strefie zamieszkania lub w strefie ruchu pojazdu nienależycie zaopatrzonego w wymagane urządzenia lub przyrządy albo pomimo, że nie nadają się one do spełnienia swojego przeznaczenia ",
+                "artPrd": "art. 66 ",
+                "wysokosc": "od 50 do 200 ",
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": 194,
+                "artKw": "art. 96§1 pkt 4 k.w.",
+                "opis": "Dopuszczenie przez właściciela, posiadacza, użytkownika lub prowadzącego pojazd do jazdy na drodze publicznej, w strefie zamieszkania lub w strefie ruchu pojazdu pomimo braku wymaganych dokumentów stwierdzających dopuszczenie pojazdu do ruchu ",
+                "artPrd": "art. 71 ",
+                "wysokosc": "50",
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": 195,
+                "artKw": "art. 91 k.w. ",
+                "opis": "Zaśmiecanie lub zanieczyszczanie drogi publicznej ",
+                "artPrd": "art. 45 ust. 1 pkt 9 ",
+                "wysokosc": "od 50 do 200",
+                "kod": "- ",
+                "pkt": "- "
+            }
+        ],
+
+        "sygnaly":[
+            {
+                "poz": "1c",
+                "artKw": "art. 92§2 k.w",
+                "opis": "Niezastosowanie się, w celu uniknięcia kontroli, do sygnału osoby uprawnionej do kontroli ruchu drogowego, nakazującego zatrzymanie pojazdu",
+                "artPrd": "§ 16",
+                "wysokosc": "20-500",
+                "kod": "C 01",
+                "pkt": 8
+            },
+            {
+                "poz": "2c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niezastosowanie się do sygnałów świetlnych",
+                "artPrd": "§ 95–98, § 102 ust. 2, § 104 lub § 106 z.s.d.",
+                "wysokosc": "300-500",
+                "kod": "C 02",
+                "pkt": 6
+            },
+            {
+                "poz": "3c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niezastosowanie się do sygnałów i poleceń dawanych przez osoby uprawnione do kontroli ruchu drogowego",
+                "artPrd": "§108 ust. 2–5 z.s.d.",
+                "wysokosc": "20-500",
+                "kod": "C 03",
+                "pkt": 6
+            },
+            {
+                "poz": "4c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niezastosowanie się do sygnałów i poleceń podawanych przez osoby uprawnione do kierowania ruchem drogowym",
+                "artPrd": "§109 z.s.d. lub art. 129 ust. 2 pkt 1 lub 7 p.r.d.",
+                "wysokosc": "20-500",
+                "kod": "C 04",
+                "pkt": 6
+            },
+            {
+                "poz": "5c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niestosowanie się do znaku B-2 „zakaz wjazdu”",
+                "artPrd": "§ 17 ust. 1 z.s.d.",
+                "wysokosc": "20-500",
+                "kod": "C 05",
+                "pkt": 5
+            },
+            {
+                "poz": "6c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niestosowanie się do znaku B-1 „zakaz ruchu w obu kierunkach”",
+                "artPrd": "§ 16 z.s.d",
+                "wysokosc": "20-500",
+                "kod": "C 06",
+                "pkt": 5
+            },
+            {
+                "poz": "7c",
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niestosowanie się do znaku B-21 „zakaz skręcania w lewo” lub B-22 „zakaz skręcania w prawo”",
+                "artPrd": "§22 ust. 1 z.s.d.",
+                "wysokosc": "20-500",
+                "kod": "C 07",
+                "pkt": 5
+            },
+            {
+                "poz": "8c",
+                "artKw": "art. 92 § 1 k.w.",
+                "opis": "Niestosowanie się do znaku B-25 lub B-26 „zakaz wyprzedzania”",
+                "artPrd": "§ 23 ust. 1–3 z.s.d.",
+                "wysokosc": "20-500",
+                "kod": "F 09",
+                "pkt": 5
+            },
+            {
+                "poz": "16w",
+                "artKw": "Art.90, 97 albo 92  par. 1 kw",
+                "opis": "Niestosowanie się do znaku B-23 „zakaz zawracania”",
+                "artPrd": "par. 22 ust. 5",
+                "wysokosc": "200",
+                "kod": "D 10",
+                "pkt": 5
+            },
+            {
+                "poz": 201,
+                "artKw": "art. 90 lub art. 92§1 k.w",
+                "opis": "Niestosowanie się do znaków B-3 „zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych”, B-3a „zakaz wjazdu autobusów”, B-4 „zakaz wjazdu motocykli”, B-6 „zakaz wjazdu ciągników rolniczych” lub B-7 „zakaz wjazdu pojazdów silnikowych z przyczepą”",
+                "artPrd": "§ 18 ust. 1–3 lub ust. 6–8 ",
+                "wysokosc": 250,
+                "kod": "C 13 ",
+                "pkt": 3
+            },
+            {
+                "poz": 202,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-13 do B-14 „zakaz wjazdu...” ",
+                "artPrd": "§ 19 [1] ",
+                "wysokosc": 250,
+                "kod": "C 14 ",
+                "pkt": 2
+            },
+            {
+                "poz": 203,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków C-12 „ruch okrężny” ",
+                "artPrd": "§ 36 ust. 1 [1] ",
+                "wysokosc": 250,
+                "kod": " ",
+                "pkt": 5
+            },
+            {
+                "poz": 204,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-15 „zakaz wjazdu pojazdów o szerokości ponad ...... m”, B-16 „zakaz wjazdu pojazdów o wysokości ponad ...... m” lub B-17 „zakaz wjazdu pojazdów o długości ponad ...... m” ",
+                "artPrd": "§ 20 ust. 1 – 3 [1] ",
+                "wysokosc": 150,
+                "kod": "C 14 ",
+                "pkt": 2
+            },
+            {
+                "poz": "204a",
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-5 „zakaz wjazdu samochodów ciężarowych”, ",
+                "artPrd": "§ 18 ust. 4 i 5, ",
+                "wysokosc": 500,
+                "kod": "C 13 ",
+                "pkt": 3
+            },
+            {
+                "poz": "204a",
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-18 „zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad ....... t” lub B-19 „zakaz wjazdu pojazdów o nacisku osi większym niż ........ t” ",
+                "artPrd": "§ 20 ust. 4 lub § 20 ust. 5 i 6 [1] ",
+                "wysokosc": 500,
+                "kod": "C 14 ",
+                "pkt": 2
+            },
+            {
+                "poz": 205,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-8, B-9, B-10, B-11, B-12 „zakaz wjazdu...” ",
+                "artPrd": "§ 18 ust. 9 –13 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 206,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-29 „zakaz używania sygnałów dźwiękowych” ",
+                "artPrd": "§ 24 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 207,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaków B-31 „pierwszeństwo dla nadjeżdżających z przeciwka” ",
+                "artPrd": "§ 25 [1] ",
+                "wysokosc": 100,
+                "kod": "C 12 ",
+                "pkt": 4
+            },
+            {
+                "poz": 208,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków B-32 „stój – kontrola celna” lub jego odpowiedników ",
+                "artPrd": "§ 26 [1] ",
+                "wysokosc": 200,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 209,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków B-35 „zakaz postoju” ",
+                "artPrd": "§ 28 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 210,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków B-36 „zakaz zatrzymywania się” ",
+                "artPrd": "§ 28 ust. 2 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 211,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków B-37 lub B-38 „zakaz postoju w dni...” ",
+                "artPrd": "§ 28 ust. 6 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 212,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków B-39 „strefa ograniczonego postoju” ",
+                "artPrd": "§ 29 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 213,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków C-1, C-2, C-3, C-4, C-5, C-6, C-7, C-8, C-9, C-10, C-11, „nakaz jazdy...” ",
+                "artPrd": "§ 35 [1] ",
+                "wysokosc": 250,
+                "kod": "C 08 ",
+                "pkt": 5
+            },
+            {
+                "poz": 214,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków C-13 „droga dla rowerów” ",
+                "artPrd": "§ 37 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 215,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków C-14 „prędkość minimalna” ",
+                "artPrd": "§ 38 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 216,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków C-17 „nakazany kierunek jazdy dla pojazdów z materiałami niebezpiecznymi” ",
+                "artPrd": "§ 41 [1] ",
+                "wysokosc": 400,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 217,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków BT-1 „ograniczenie prędkości” ",
+                "artPrd": "§ 81 ust. 1 i 2 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 218,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków BT-3 „blokada zwrotnicy” ",
+                "artPrd": "§ 81 ust. 3 [1] ",
+                "wysokosc": 200,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 219,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-2 „linia pojedyncza ciągła” ",
+                "artPrd": "§ 86 ust. 3 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 220,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-3 „linia jednostronnie przekraczalna” ",
+                "artPrd": "§ 86 ust. 4 [1] ",
+                "wysokosc": 200,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 221,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-4 „linia podwójna ciągła” ",
+                "artPrd": "§ 86 ust. 5 [1] ",
+                "wysokosc": 200,
+                "kod": "C 11 ",
+                "pkt": 5
+            },
+            {
+                "poz": 222,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-7b „linia krawędziowa ciągła” ",
+                "artPrd": "§ 86 ust. 8 pkt 2 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 223,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-17 „linia przystankowa” ",
+                "artPrd": "§ 90 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 224,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków C-18 „nakaz używania łańcuchów przeciwpoślizgowych” ",
+                "artPrd": "§ 42 [1] ",
+                "wysokosc": 200,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 225,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaków P-21 „powierzchnia wyłączona” ",
+                "artPrd": "§ 90 ust. 5 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 226,
+                "artKw": "art. 92§1 k.w ",
+                "opis": "Niezatrzymanie pojazdu w związku ze znakiem B-20 „stop” ",
+                "artPrd": "§ 21 ust. 1 pkt 1 lub ust. 2 albo ust. 4 [1] ",
+                "wysokosc": 100,
+                "kod": "C 16 ",
+                "pkt": 2
+            },
+            {
+                "poz": 227,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niezatrzymanie pojazdu we właściwym miejscu w związku z nadawanym sygnałem świetlnym ",
+                "artPrd": "§ 99 [1] § 102 ust. 4 [1] § 107 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 228,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku D-11 „początek pasa ruchu dla autobusów” lub D-12 „pas ruchu dla autobusów” oraz P-22 „BUS” ",
+                "artPrd": "§ 49 ust. 1 lub 2 [1] § 91 ust. 1 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 229,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku D-13 „początek pasa ruchu powolnego” ",
+                "artPrd": "§ 49 ust. 3 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 230,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku D-18 „parking”, D-18a „parking – miejsce zastrzeżone” lub D-18b „parking zadaszony” ",
+                "artPrd": "§ 52 ust. 1 –3, ust. 4 lub ust. 5 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 231,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku D-18 „parking” lub D-18b „parking zadaszony”, z umieszczoną pod znakiem tabliczką T-29, albo D-18a „parking – miejsce zastrzeżone”, z umieszczoną pod znakiem tabliczką T-29 ",
+                "artPrd": "§ 52 ust. 6 w zw. z § 2 ust. 4 albo § 52 ust. 4 w zw. z § 2 ust. 4 [1] ",
+                "wysokosc": 500,
+                "kod": "C 17 ",
+                "pkt": 5
+            },
+            {
+                "poz": 232,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku P-18 „stanowisko postojowe” i P-24 „miejsce dla pojazdu osoby niepełnosprawnej” albo P-20 „koperta” i P-24 „miejsce dla pojazdu osoby niepełnosprawnej”, umieszczonego samodzielnie bez znaku pionowego D-18, D-18a lub D-18b ",
+                "artPrd": "§ 90 ust. 2 i § 92 albo § 90 ust. 4 i § 92 [1] ",
+                "wysokosc": 500,
+                "kod": "C 18 ",
+                "pkt": 5
+            },
+            {
+                "poz": 233,
+                "artKw": "art. 90 lub art. 92§1 k.w ",
+                "opis": "Niestosowanie się do znaku D-19 „postój taksówek” ",
+                "artPrd": "§ 53 [1]",
+                "wysokosc": 100,
+                "kod": "C 15",
+                "pkt": 1
+            },
+            {
+                "poz": 234,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaku F-10 „kierunki na pasach ruchu” lub F-11 „kierunki na pasie ruchu” ",
+                "artPrd": "§ 72 lub ",
+                "wysokosc": 250,
+                "kod": "C 09 ",
+                "pkt": 5
+            },
+            {
+                "poz": 234,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaku P-8a „strzałka kierunkowa na wprost”, P-8b „strzałka kierunkowa do skręcania” lub P-8c „strzałka kierunkowa do zawracania” ",
+                "artPrd": "§ 87 ust. 1–2 [1] ",
+                "wysokosc": 250,
+                "kod": "C 10 ",
+                "pkt": 5
+            },
+            {
+                "poz": 235,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaku BT-4 „stop – zwrotnica eksploatowana jednostronnie” ",
+                "artPrd": "§ 81 ust. 4 [1] ",
+                "wysokosc": 200,
+                "kod": "C 15 ",
+                "pkt": 1
+            },
+            {
+                "poz": 236,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaku P-18 „stanowisko postojowe”, P-19 „linia wyznaczająca pas postojowy” ",
+                "artPrd": "§ 90 ust. 2–3 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15",
+                "pkt": 1
+            },
+            {
+                "poz": 237,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do znaku P-20 „koperta” ",
+                "artPrd": "§ 90 ust. 4 [1] ",
+                "wysokosc": 100,
+                "kod": "C 15",
+                "pkt": 1
+            },
+            {
+                "poz": 238,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do sygnałów świetlnych przez wejście na przejście dla pieszych, jeżeli sygnalizator S-5 nadaje sygnał czerwony",
+                "artPrd": "§ 98 ust. 2 pkt 2 [1] ",
+                "wysokosc": 100,
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": 239,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do sygnałów świetlnych przez kierującego kolumną pieszych, jeźdźca lub poganiacza ",
+                "artPrd": "§ 100 [1] ",
+                "wysokosc": 100,
+                "kod": "- ",
+                "pkt": "- "
+            },
+            {
+                "poz": 240,
+                "artKw": "art. 90 lub art. 92§1 k.w. ",
+                "opis": "Niestosowanie się do sygnałów świetlnych S-1, S-2, S-3 przez kierującego pojazdem wjeżdżającego za sygnalizator, kiedy jest to zabronione ",
+                "artPrd": "§ 95–98, 102, 104 lub 106 [1] ",
+                "wysokosc": "300–500",
+                "kod": "C 02 ",
+                "pkt": 6
+            }
+        ]
+    },
+    
+    "znaki":{
+
+        "znakiOstrzegawcze":[{
+            "id": "a1",
+            "nazwa": "A-1",
+            "opis": "niebezpieczny zakręt w prawo"
+        },
+            
+        {
+            "id": "a2",
+            "nazwa": "A-2",
+            "opis": "niebezpieczny zakręt w lewo"
+        },
+    
+        {
+            "id": "a3",
+            "nazwa": "A-3",
+            "opis": "niebezpieczne zakręty - pierwszy w prawo"
+        },
+    
+        {
+            "id": "a4",
+            "nazwa": "A-4",
+            "opis": "niebezpieczne zakręty - pierwszy w lewo"
+        },
+    
+        {
+            "id": "a5",
+            "nazwa": "A-5",
+            "opis": "skrzyżowanie dróg"
+        },
+    
+        {
+            "id": "a6a",
+            "nazwa": "A-6a",
+            "opis": "skrzyżowanie z drogą podporządkowaną występującą po obu stronach"
+        },
+
+        {
+            "id": "a6b",
+            "nazwa": "A-6b",
+            "opis": "skrzyżowanie z drogą podporządkowaną występującą po prawej stronie"
+        },
+
+        {
+            "id": "a6c",
+            "nazwa": "A-6c",
+            "opis": "skrzyżowanie z drogą podporządkowaną występującą po lewej stronie"
+        },
+
+        {
+            "id": "a6d",
+            "nazwa": "A-6d",
+            "opis": "wlot drogi jednokierunkowej z prawej strony"
+        },
+
+        {
+            "id": "a6e",
+            "nazwa": "A-6e",
+            "opis": "wlot drogi jednokierunkowej z lewej strony"
+        },
+    
+        {
+            "id": "a7",
+            "nazwa": "A-7",
+            "opis": "ustąp pierwszeństwa"
+        },
+    
+        {
+            "id": "a8",
+            "nazwa": "A-8",
+            "opis": "skrzyżowanie o ruchu okrężnym"
+        },
+    
+        {
+            "id": "a9",
+            "nazwa": "A-9",
+            "opis": "przejazd kolejowy z zaporami"
+        },
+    
+        {
+            "id": "a10",
+            "nazwa": "A-10",
+            "opis": "przejazd kolejowy bez zapór"
+        },
+    
+        {
+            "id": "a11",
+            "nazwa": "A-11",
+            "opis": "nierówna droga"
+        },
+    
+        {
+            "id": "a11a",
+            "nazwa": "A-11a",
+            "opis": "próg zwalniający"
+        },
+    
+        {
+            "id": "a12a",
+            "nazwa": "A-12a",
+            "opis": "zwężenie jezdni - dwustronne"
+        },
+    
+        {
+            "id": "a12b",
+            "nazwa": "A-12b",
+            "opis": "zwężenie jezdni - prawostronne"
+        },
+    
+        {
+            "id": "a12c",
+            "nazwa": "A-12c",
+            "opis": "zwężenie jezdni - lewostronne"
+        },
+    
+        {
+            "id": "a13",
+            "nazwa": "A-13",
+            "opis": "ruchomy most"
+        },
+            
+        {
+            "id": "a14",
+            "nazwa": "A-14",
+            "opis": "roboty na drodze"
+        },
+    
+        {
+            "id": "a15",
+            "nazwa": "A-15",
+            "opis": "śliska jezdnia"
+        },
+    
+        {
+            "id": "a16",
+            "nazwa": "A-16",
+            "opis": "przejście dla pieszych"
+        },
+    
+        {
+            "id": "a17",
+            "nazwa": "A-17",
+            "opis": "dzieci"
+        },
+    
+        {
+            "id": "a18a",
+            "nazwa": "A-18a",
+            "opis": "zwierzęta gospodarskie"
+        },
+    
+        {
+            "id": "a18b",
+            "nazwa": "A-18b",
+            "opis": "zwierzęta dzikie"
+        },
+            
+        {
+            "id": "a19",
+            "nazwa": "A-19",
+            "opis": "boczny wiatr"
+        },
+    
+        {
+            "id": "a20",
+            "nazwa": "A-20",
+            "opis": "odcinek jezdni o ruchu dwukierunkowym"
+        },
+    
+        {
+            "id": "a21",
+            "nazwa": "A-21",
+            "opis": "tramwaj"
+        },
+    
+        {
+            "id": "a22",
+            "nazwa": "A-22",
+            "opis": "niebezpieczny zjazd"
+        },
+    
+        {
+            "id": "a23",
+            "nazwa": "A-23",
+            "opis": "stromy podjazd"
+        },
+            
+        {
+            "id": "a24",
+            "nazwa": "A-24",
+            "opis": "rowerzyści"
+        },
+    
+        {
+            "id": "a25",
+            "nazwa": "A-25",
+            "opis": "spadające odłamki skalne"
+        },
+    
+        {
+            "id": "a26",
+            "nazwa": "A-26",
+            "opis": "lotnisko"
+        },
+    
+        {
+            "id": "a27",
+            "nazwa": "A-27",
+            "opis": "nabrzeże lub brzeg rzeki"
+        },
+    
+        {
+            "id": "a28",
+            "nazwa": "A-28",
+            "opis": "sypki żwir"
+        },
+    
+        {
+            "id": "a29",
+            "nazwa": "A-29",
+            "opis": "sygnały świetlne"
+        },
+            
+        {
+            "id": "a30",
+            "nazwa": "A-30",
+            "opis": "inne niebezpieczeństwo"
+        },
+    
+        {
+            "id": "a31",
+            "nazwa": "A-31",
+            "opis": "niebezpieczne pobocze"
+        },
+    
+        {
+            "id": "a32",
+            "nazwa": "A-32",
+            "opis": "oszronienie jezdni"
+        },
+    
+        {
+            "id": "a33",
+            "nazwa": "A-33",
+            "opis": "zator drogowy"
+        },
+    
+        {
+            "id": "a34",
+            "nazwa": "A-34",
+            "opis": "wypadek drogowy"
+        }],
+
+        "znakiZakazu":[{
+            "id": "b1",
+            "nazwa": "B-1",
+            "opis": "zakaz ruchu w obu kierunkach"
+        },
+            
+        {
+            "id": "b2",
+            "nazwa": "B-2",
+            "opis": "zakaz wjazdu"
+        },
+    
+        {
+            "id": "b3",
+            "nazwa": "B-3",
+            "opis": "zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych"
+        },
+    
+        {
+            "id": "b3a",
+            "nazwa": "B-3a",
+            "opis": "zakaz wjazdu autobusów"
+        },
+    
+        {
+            "id": "b4",
+            "nazwa": "B-4",
+            "opis": "zakaz wjazdu motocykli"
+        },
+    
+        {
+            "id": "b5",
+            "nazwa": "B-5",
+            "opis": "zakaz wjazdu samochodów ciężarowych"
+        },
+            
+        {
+            "id": "b6",
+            "nazwa": "B-6",
+            "opis": "zakaz wjazdu ciągników rolniczych"
+        },
+    
+        {
+            "id": "b7",
+            "nazwa": "B-7",
+            "opis": "zakaz wjazdu pojazdów silnikowych z przyczepą"
+        },
+    
+        {
+            "id": "b8",
+            "nazwa": "B-8",
+            "opis": "zakaz wjazdu pojazdów zaprzęgowych"
+        },
+    
+        {
+            "id": "b9",
+            "nazwa": "B-9",
+            "opis": "zakaz wjazdu rowerów"
+        },
+    
+        {
+            "id": "b10",
+            "nazwa": "B-10",
+            "opis": "zakaz wjazdu motorowerów"
+        },
+            
+        {
+            "id": "b11",
+            "nazwa": "B-11",
+            "opis": "zakaz wjazdu wózków rowerowych"
+        },
+    
+        {
+            "id": "b12",
+            "nazwa": "B-12",
+            "opis": "zakaz wjazdu wózków ręcznych"
+        },
+    
+        {
+            "id": "b13",
+            "nazwa": "B-13",
+            "opis": "zakaz wjazdu pojazdów z materiałami wybuchowymi lub łatwo zapalnymi"
+        },
+    
+        {
+            "id": "b13a",
+            "nazwa": "B-13a",
+            "opis": "zakaz wjazdu pojazdów z materiałami niebezpiecznym"
+        },
+    
+        {
+            "id": "b14",
+            "nazwa": "B-14",
+            "opis": "zakaz wjazdu pojazdów z materiałami, które mogą skazić wodę"
+        },
+            
+        {
+            "id": "b15",
+            "nazwa": "B-15",
+            "opis": "zakaz wjazdu pojazdów o szerokości ponad 2 m"
+        },
+    
+        {
+            "id": "b16",
+            "nazwa": "B-16",
+            "opis": "zakaz wjazdu pojazdów o wysokości ponad 3,5 m"
+        },
+    
+        {
+            "id": "b17",
+            "nazwa": "B-17",
+            "opis": "zakaz wjazdu pojazdów o długości ponad 6 m"
+        },
+    
+        {
+            "id": "b18",
+            "nazwa": "B-18",
+            "opis": "zakaz wjazdu pojazdów o rzeczywistej masie całkowitej ponad 7 t"
+        },
+    
+        {
+            "id": "b19",
+            "nazwa": "B-19",
+            "opis": "zakaz wjazdu pojazdów o nacisku osi większym niż 5 t"
+        },
+            
+        {
+            "id": "b20",
+            "nazwa": "B-20",
+            "opis": "stop"
+        },
+    
+        {
+            "id": "b21",
+            "nazwa": "B-21",
+            "opis": "zakaz skręcania w lewo"
+        },
+    
+        {
+            "id": "b22",
+            "nazwa": "B-22",
+            "opis": "zakaz skręcania w prawo"
+        },
+    
+        {
+            "id": "b23",
+            "nazwa": "B-23",
+            "opis": "zakaz zawracania"
+        },
+    
+        {
+            "id": "b24",
+            "nazwa": "B-24",
+            "opis": "koniec zakazu zawracania"
+        },
+            
+        {
+            "id": "b25",
+            "nazwa": "B-25",
+            "opis": "zakaz wyprzedzania"
+        },
+    
+        {
+            "id": "b26",
+            "nazwa": "B-26",
+            "opis": "zakaz wyprzedzania przez samochody ciężarowe"
+        },
+    
+        {
+            "id": "b27",
+            "nazwa": "B-27",
+            "opis": "koniec zakazu wyprzedzania"
+        },
+    
+        {
+            "id": "b28",
+            "nazwa": "B-28",
+            "opis": "koniec zakazu wyprzedzania przez samochody ciężarowe"
+        },
+    
+        {
+            "id": "b29",
+            "nazwa": "B-29",
+            "opis": "zakaz używania sygnałów dźwiękowych"
+        },
+            
+        {
+            "id": "b30",
+            "nazwa": "B-30",
+            "opis": "koniec zakazu używania sygnałów dźwiękowych"
+        },
+    
+        {
+            "id": "b31",
+            "nazwa": "B-31",
+            "opis": "pierwszeństwo dla nadjeżdżających z przeciwka"
+        },
+    
+        {
+            "id": "b32",
+            "nazwa": "B-32",
+            "opis": "stój - kontrola celna"
+        },
+    
+        {
+            "id": "b33",
+            "nazwa": "B-33",
+            "opis": "ograniczenie prędkości"
+        },
+    
+        {
+            "id": "b34",
+            "nazwa": "B-34",
+            "opis": "koniec ograniczenia prędkości"
+        },
+            
+        {
+            "id": "b35",
+            "nazwa": "B-35",
+            "opis": "zakaz postoju"
+        },
+    
+        {
+            "id": "b36",
+            "nazwa": "B-36",
+            "opis": "zakaz zatrzymywania się"
+        },
+    
+        {
+            "id": "b37",
+            "nazwa": "B-37",
+            "opis": "zakaz postoju w dni nieparzyste"
+        },
+    
+        {
+            "id": "b38",
+            "nazwa": "B-38",
+            "opis": "zakaz postoju w dni parzyste"
+        },
+    
+        {
+            "id": "b39",
+            "nazwa": "B-39",
+            "opis": "strefa ograniczonego postoj"
+        },
+    
+        {
+            "id": "b40",
+            "nazwa": "B-40",
+            "opis": "koniec strefy ograniczonego postoju"
+        },
+    
+        {
+            "id": "b41",
+            "nazwa": "B-41",
+            "opis": "zakaz ruchu pieszych"
+        },
+            
+        {
+            "id": "b42",
+            "nazwa": "B-42",
+            "opis": "koniec wszelkich zakazów"
+        },
+    
+        {
+            "id": "b43",
+            "nazwa": "B-43",
+            "opis": "strefa ograniczonej prędkości"
+        },
+    
+        {
+            "id": "b44",
+            "nazwa": "B-44",
+            "opis": "koniec strefy ograniczonej prędkości"
+        }],
+
+
+        
+        "znakiNakazu":[{
+            "id": "c1",
+            "nazwa": "C-1",
+            "opis": "nakaz jazdy w prawo (przed znakiem)"
+        },
+
+        {
+            "id": "c2",
+            "nazwa": "C-2",
+            "opis": "nakaz jazdy w prawo (za znakiem)"
+        },
+
+        {
+            "id": "c3",
+            "nazwa": "C-3",
+            "opis": "nakaz jazdy w lewo (przed znakiem)"
+        },
+
+        {
+            "id": "c4",
+            "nazwa": "C-4",
+            "opis": "nakaz jazdy w lewo (za znakiem)"
+        },
+
+        {
+            "id": "c5",
+            "nazwa": "C-5",
+            "opis": "nakaz jazdy prosto"
+        },
+
+        {
+            "id": "c6",
+            "nazwa": "C-6",
+            "opis": "nakaz jazdy prosto lub w prawo"
+        },
+
+        {
+            "id": "c7",
+            "nazwa": "C-7",
+            "opis": "nakaz jazdy prosto lub w lewo"
+        },
+
+        {
+            "id": "c8",
+            "nazwa": "C-8",
+            "opis": "akaz jazdy w prawo lub w lewo"
+        },
+
+        {
+            "id": "c9",
+            "nazwa": "C-9",
+            "opis": "nakaz jazdy z prawej strony znaku"
+        },
+
+        {
+            "id": "c10",
+            "nazwa": "C-10",
+            "opis": "nakaz jazdy z lewej strony znaku"
+        },
+
+        {
+            "id": "c11",
+            "nazwa": "C-11",
+            "opis": "nakaz jazdy z prawej lub lewej strony znaku"
+        },
+
+        {
+            "id": "c12",
+            "nazwa": "C-12",
+            "opis": "ruch okrężny"
+        },
+
+        {
+            "id": "c13",
+            "nazwa": "C-13",
+            "opis": "droga dla rowerów"
+        },
+
+        {
+            "id": "c13a",
+            "nazwa": "C-13a",
+            "opis": "koniec drogi dla rowerów"
+        },
+
+        {
+            "id": "c14",
+            "nazwa": "C-14",
+            "opis": "prędkość minimalna"
+        },
+
+        {
+            "id": "c15",
+            "nazwa": "C-15",
+            "opis": "koniec minimalnej prędkości"
+        },
+
+        {
+            "id": "c16",
+            "nazwa": "C-16",
+            "opis": "droga dla pieszych"
+        },
+
+        {
+            "id": "c16a",
+            "nazwa": "C-16a",
+            "opis": "koniec drogi dla pieszych"
+        },
+
+        {
+            "id": "c17",
+            "nazwa": "C-17",
+            "opis": "nakazany kierunek jazdy dla pojazdów z materiałami niebezpiecznymi"
+        },
+
+        {
+            "id": "c18",
+            "nazwa": "C-18",
+            "opis": "nakaz używania łańcuchów przeciwpoślizgowych"
+        },
+
+        {
+            "id": "c19",
+            "nazwa": "C-19",
+            "opis": "koniec nakazu używania łańcuchów przeciw poślizgowych"
+        }],
+
+
+        "znakiInformacyjne":[{
+            "id": "d1",
+            "nazwa": "D-1",
+            "opis": "droga z pierwszeństwem"
+        },
+    
+        {
+            "id": "d2",
+            "nazwa": "D-2",
+            "opis": "koniec drogi z pierwszeństwem"
+        },
+    
+        {
+            "id": "d3",
+            "nazwa": "D-3",
+            "opis": "droga jednokierunkowa"
+        },
+    
+        {
+            "id": "d4a",
+            "nazwa": "D-4a",
+            "opis": "droga bez przejazdu"
+        },
+    
+        {
+            "id": "d4b",
+            "nazwa": "D-b4",
+            "opis": "wjazd na drogę bez przejazdu"
+        },
+    
+        {
+            "id": "d5",
+            "nazwa": "D-5",
+            "opis": "pierwszeństwo na zwężonym odcinku drogi"
+        },
+    
+        {
+            "id": "d6",
+            "nazwa": "D-6",
+            "opis": "przejście dla pieszych"
+        },
+    
+        {
+            "id": "d6a",
+            "nazwa": "D-6a",
+            "opis": "przejazd dla rowerzystów"
+        },
+    
+        {
+            "id": "d6b",
+            "nazwa": "D-6b",
+            "opis": "przejście dla pieszych i przejazd dla rowerzystów"
+        },
+    
+        {
+            "id": "d7",
+            "nazwa": "D-7",
+            "opis": "droga ekspresowa"
+        },
+    
+        {
+            "id": "d8",
+            "nazwa": "D-8",
+            "opis": "koniec drogi ekspresowej"
+        },
+    
+        {
+            "id": "d9",
+            "nazwa": "D-9",
+            "opis": "autostrada"
+        },
+    
+        {
+            "id": "d10",
+            "nazwa": "D-10",
+            "opis": "koniec autostrady"
+        },
+    
+        {
+            "id": "d11",
+            "nazwa": "D-11",
+            "opis": "początek pasa ruchu dla autobusów"
+        },
+    
+        {
+            "id": "d12",
+            "nazwa": "D-12",
+            "opis": "pas ruchu dla autobusów"
+        },
+    
+        {
+            "id": "d13",
+            "nazwa": "D-13",
+            "opis": "początek pasa ruchu powolnego"
+        },
+    
+        {
+            "id": "d14",
+            "nazwa": "D-14",
+            "opis": "koniec pasa ruchu"
+        },
+    
+        {
+            "id": "d15",
+            "nazwa": "D-15",
+            "opis": "przystanek autobusowy"
+        },
+    
+        {
+            "id": "d16",
+            "nazwa": "D-16",
+            "opis": "przystanek trolejbusowy"
+        },
+    
+        {
+            "id": "d17",
+            "nazwa": "D-17",
+            "opis": "przystanek tramwajowy"
+        },
+    
+        {
+            "id": "d18",
+            "nazwa": "D-18",
+            "opis": "parking"
+        },
+    
+        {
+            "id": "d18a",
+            "nazwa": "D-18a",
+            "opis": "parking - miejsce zastrzeżone"
+        },
+    
+        {
+            "id": "d18b",
+            "nazwa": "D-18b",
+            "opis": "parking zadaszony"
+        },
+    
+        {
+            "id": "d19",
+            "nazwa": "D-19",
+            "opis": "postój taksówek"
+        },
+    
+        {
+            "id": "d20",
+            "nazwa": "D-20",
+            "opis": "koniec postoju taksówek"
+        },
+    
+        {
+            "id": "d21",
+            "nazwa": "D-21",
+            "opis": "szpital"
+        },
+    
+        {
+            "id": "d21a",
+            "nazwa": "D-21a",
+            "opis": "policja"
+        },
+    
+        {
+            "id": "d22",
+            "nazwa": "D-22",
+            "opis": "punkt opatrunkowy"
+        },
+    
+        {
+            "id": "d23",
+            "nazwa": "D-23",
+            "opis": "stacja paliwowa"
+        },
+    
+        {
+            "id": "d23a",
+            "nazwa": "D-23a",
+            "opis": "stacja paliwowa tylko z gazem do napędu pojazdów"
+        },
+    
+        {
+            "id": "d24",
+            "nazwa": "D-24",
+            "opis": "telefon"
+        },
+    
+        {
+            "id": "d25",
+            "nazwa": "D-25",
+            "opis": "poczta"
+        },
+    
+        {
+            "id": "d26",
+            "nazwa": "D-26",
+            "opis": "stacja obsługi technicznej"
+        },
+    
+        {
+            "id": "d26a",
+            "nazwa": "D-26a",
+            "opis": "wulkanizacja"
+        },
+    
+        {
+            "id": "d26b",
+            "nazwa": "D-26b",
+            "opis": "myjnia"
+        },
+    
+        {
+            "id": "d26c",
+            "nazwa": "D-26c",
+            "opis": "toaleta publiczna"
+        },
+    
+        {
+            "id": "d26d",
+            "nazwa": "D-26d",
+            "opis": "natryski"
+        },
+    
+        {
+            "id": "d27",
+            "nazwa": "D-27",
+            "opis": "bufet lub kawiarnia"
+        },
+    
+        {
+            "id": "d28",
+            "nazwa": "D-28",
+            "opis": "restauracja"
+        },
+    
+        {
+            "id": "d29",
+            "nazwa": "D-29",
+            "opis": "hotel (motel)"
+        },
+    
+        {
+            "id": "d30",
+            "nazwa": "D30",
+            "opis": "obozowisko (kemping)"
+        },
+    
+        {
+            "id": "d31",
+            "nazwa": "D-31",
+            "opis": "obozowisko (kemping) wyposażone w podłączenia elektryczne do przyczep"
+        },
+    
+        {
+            "id": "d32",
+            "nazwa": "D-32",
+            "opis": "pole biwakowe"
+        },
+    
+        {
+            "id": "d33",
+            "nazwa": "D-33",
+            "opis": "schronisko młodzieżowe"
+        },
+    
+        {
+            "id": "d34",
+            "nazwa": "D-34",
+            "opis": "punkt informacji turystycznej"
+        },
+    
+        {
+            "id": "d34a",
+            "nazwa": "D-34a",
+            "opis": "nformacja radiowa o ruchu drogowym"
+        },
+    
+        {
+            "id": "d35",
+            "nazwa": "D-35",
+            "opis": "przejście podziemne dla pieszych"
+        },
+    
+        {
+            "id": "d35a",
+            "nazwa": "D-35a",
+            "opis": "schody ruchome w dół"
+        },
+    
+        {
+            "id": "d36",
+            "nazwa": "D36",
+            "opis": "przejście nadziemne dla pieszych"
+        },
+    
+        {
+            "id": "d36a",
+            "nazwa": "D-36a",
+            "opis": "schody ruchome w górę"
+        },
+    
+        {
+            "id": "d37",
+            "nazwa": "D-37",
+            "opis": "tunel"
+        },
+    
+        {
+            "id": "d38",
+            "nazwa": "D-38",
+            "opis": "koniec tunelu"
+        },
+    
+        {
+            "id": "d39",
+            "nazwa": "D-39",
+            "opis": "dopuszczalne prędkości"
+        },
+    
+        {
+            "id": "d40",
+            "nazwa": "D-40",
+            "opis": "strefa zamieszkania"
+        },
+    
+        {
+            "id": "d41",
+            "nazwa": "D-41",
+            "opis": "koniec strefy zamieszkania"
+        },
+    
+        {
+            "id": "d42",
+            "nazwa": "D-42",
+            "opis": "obszar zabudowany"
+        },
+    
+        {
+            "id": "d43",
+            "nazwa": "D43",
+            "opis": "koniec obszaru zabudowanego"
+        },
+    
+        {
+            "id": "d44",
+            "nazwa": "D-44",
+            "opis": "strefa parkowania"
+        },
+    
+        {
+            "id": "d45",
+            "nazwa": "D-45",
+            "opis": "koniec strefy parkowania"
+        },
+    
+        {
+            "id": "d46",
+            "nazwa": "D-46",
+            "opis": "droga wewnętrzna"
+        },
+    
+        {
+            "id": "d47",
+            "nazwa": "D-47",
+            "opis": "koniec drogi wewnętrznej"
+        },
+    
+        {
+            "id": "d48",
+            "nazwa": "D-48",
+            "opis": "zmiana pierwszeństwa"
+        },
+    
+        {
+            "id": "d49",
+            "nazwa": "D-49",
+            "opis": "pobór opłat"
+        }],
+
+
+
+        "znakiPoziome":[{
+            "id": "p1",
+            "nazwa": "P-1",
+            "opis": "linia pojedyncza przerywana"
+        },
+    
+        {
+            "id": "p2",
+            "nazwa": "P-2",
+            "opis": "linia pojedyncza ciągła"
+        },
+    
+        {
+            "id": "p3",
+            "nazwa": "P-3",
+            "opis": "linia jednostronnie przekraczalna"
+        },
+    
+        {
+            "id": "p4",
+            "nazwa": "P-4",
+            "opis": "linia podwójna ciągła"
+        },
+    
+        {
+            "id": "p5",
+            "nazwa": "P-5",
+            "opis": "linia podwójna przerywana"
+        },
+    
+        {
+            "id": "p6",
+            "nazwa": "P-6",
+            "opis": "linia ostrzegawcza"
+        },
+    
+        {
+            "id": "p7a",
+            "nazwa": "P-7a",
+            "opis": "linia krawędziowa przerywana"
+        },
+    
+        {
+            "id": "p7b",
+            "nazwa": "P-7b",
+            "opis": "linia krawędziowa ciągła"
+        },
+    
+        {
+            "id": "p8a",
+            "nazwa": "P-8a",
+            "opis": "strzałka kierunkowa na wprost"
+        },
+    
+        {
+            "id": "p8b",
+            "nazwa": "P-8b",
+            "opis": "strzałka kierunkowa do skręcania"
+        },
+    
+        {
+            "id": "p8c",
+            "nazwa": "P-8c",
+            "opis": "strzałka kierunkowa do zawracania"
+        },
+    
+        {
+            "id": "p9",
+            "nazwa": "P-9",
+            "opis": "strzałka naprowadzająca"
+        },
+    
+        {
+            "id": "p10",
+            "nazwa": "P-10",
+            "opis": "przejście dla pieszych"
+        },
+    
+        {
+            "id": "p11",
+            "nazwa": "P-11",
+            "opis": "przejazd dla rowerzystów"
+        },
+    
+        {
+            "id": "p12",
+            "nazwa": "P-12",
+            "opis": "linia bezwzględnego zatrzymania - stop"
+        },
+    
+        {
+            "id": "p13",
+            "nazwa": "P-13",
+            "opis": "linia warunkowego zatrzymania złożona z trójkątów"
+        },
+    
+        {
+            "id": "p14",
+            "nazwa": "P-14",
+            "opis": "linia warunkowego zatrzymania złożona z prostokątów"
+        },
+    
+        {
+            "id": "p15",
+            "nazwa": "P-15",
+            "opis": "trójkąt podporządkowania"
+        },
+    
+        {
+            "id": "p16",
+            "nazwa": "P-16",
+            "opis": "napis stop"
+        },
+    
+        {
+            "id": "p17",
+            "nazwa": "P-17",
+            "opis": "linia przystankowa"
+        },
+    
+        {
+            "id": "p18",
+            "nazwa": "P-18",
+            "opis": "stanowisko postojowe"
+        },
+    
+        {
+            "id": "p19",
+            "nazwa": "P-19",
+            "opis": "linia wyznaczająca pas postojowy"
+        },
+    
+        {
+            "id": "p20",
+            "nazwa": "P-20",
+            "opis": "koperta"
+        },
+    
+        {
+            "id": "p21",
+            "nazwa": "P-21",
+            "opis": "powierzchnia wyłączona"
+        },
+    
+        {
+            "id": "p22",
+            "nazwa": "P-22",
+            "opis": "BUS"
+        },
+    
+        {
+            "id": "p23",
+            "nazwa": "P-23",
+            "opis": "rower"
+        },
+    
+        {
+            "id": "p24",
+            "nazwa": "P-24",
+            "opis": "miejsce dla pojazdu osoby niepełnosprawnej"
+        },
+    
+        {
+            "id": "p25",
+            "nazwa": "P-25",
+            "opis": "próg zwalniający"
+        }],
+
+
+
+        "znakiSwietlne": [{
+            "id": "s1",
+            "nazwa": "S-1",
+            "opis": "sygnalizator z sygnałami do kierowania ruchem"
+        },
+
+        {
+            "id": "s2",
+            "nazwa": "S-2",
+            "opis": "sygnalizator z sygnałem dopuszczającym warunkowe skręcanie"
+        },
+
+        {
+            "id": "s3",
+            "nazwa": "S-3",
+            "opis": "sygnalizator kierunkowy"
+        },
+
+        {
+            "id": "s4",
+            "nazwa": "S-4",
+            "opis": "sygnalizator z sygnałami dla pasów ruchu"
+        },
+
+        {
+            "id": "s5",
+            "nazwa": "S-5",
+            "opis": "sygnalizator z sygnałami dla pieszych"
+        },
+
+        {
+            "id": "s6",
+            "nazwa": "S-6",
+            "opis": "sygnalizator z sygnałami dla rowerzystów"
+        },
+
+        {
+            "id": "s7",
+            "nazwa": "S-7",
+            "opis": "sygnalizator z sygnałem nakazującym opuszczenie pasa ruchu"
+        }]
+    }
+}

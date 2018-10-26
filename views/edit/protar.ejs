@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Taryfikacja</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokol.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokolPrint.css" media="print">
+</head>
+
+<body>
+	<% include proMenu.ejs %>
+	<div id="protoWrapper">
+		<div style="text-align: right" id="ProNrDr">P-10</div>
+		<div id="proTarR1C1">
+		</div>
+		<div id="proTarR1C2">
+			<div id="proTarR1C2N1">
+				<p><span id="proTarSygn" class="text2 clear" contenteditable="true">sygnatura?</span><span id="proTarSygnNr" class="text2" contenteditable="true">Nr?</span><br>
+					<i>(nazwa i numer rejestru albo znak sprawy)</i><br>
+					<span id="proTarRef" class="text2" contenteditable="true">referat?</span><br>
+					<i>(nazwa jednostki prowadzącej sprawę)</i><br></p>
+			</div>
+		</div>
+		<div id="proTarR2">
+			<span class="text1">PROTOKÓŁ</span><br>
+			<span class="text2">taryfikacji celnej i wyceny przedmiotów <span class ="protarPrzestepstwo" contenteditable="true">wykroczenia</span> skarbowego</span>
+		</div>
+		<div id="proTarR3C1">
+			<div id="proTarR3C1N1">
+				<span id="proTarMiejsce" class="text1" contenteditable="true">Szczecin</span>
+				<hr>
+				<i>(miejscowość)</i>
+			</div>
+		</div>
+		<div id="proTarR3C2" class="tabDataPro">
+			<table>
+				<tr contenteditable="true" class="text2" id="dataStartId">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="pusteTd" contenteditable="false"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+				</tr>
+				<tr class="pusteTr">
+					<td>g</td>
+					<td>g</td>
+					<td>m</td>
+					<td>m</td>
+					<td></td>
+					<td>d</td>
+					<td>d</td>
+					<td>m</td>
+					<td>m</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+				</tr>
+			</table>
+		</div>
+		<div id="proTarR4" class="clear">
+			<span class="text3">Na podstawie art. 143 § 2 kpk w związku z art. 113 § 1 kks</span>
+		</div>
+		<div id="proTarR5C1">
+			<span class="text2" contenteditable="true">rewident celny</span><br>
+			<i>(stopień funkcjonariusza celnego)</i>
+		</div>
+		<div id="proTarR5C2">
+			<span class="text2" contenteditable="true">Michał Litwiński</span><br>
+			<i>(imię i nazwisko)</i>
+		</div>
+		<div class="text3 just" style="text-align:center;">
+			z <b><span contenteditable="true" id="proJednostka">jednostka?</span></b>
+		</div>
+		<i>(nazwa jednostki)</i>
+		<div class="text3 just">
+			dokonał taryfikacji celnej wyceny przedmiotów <b><span class ="protarPrzestepstwo" contenteditable="true">wykroczenia</span></b> skarbowego w sprawie przeciwko: <span contenteditable="true"><b>nie dotyczy</b></span>
+		</div>
+		<i>(mię i nazwisko, adres zamieszkania)</i>
+		<div class="text3 just">
+			Czynności dokonano na podstawie oględzin, odnośnie zaś przedmiotów, których nie zatrzymano na podstawie: <span
+			 contenteditable="true"><b>nie dotyczy</b></span>
+		</div>
+		<div class="text3 just">
+			w czynnościach uczestniczył biegły - specjalista*: <span contenteditable="true"><b>nie dotyczy</b></span>
+		</div>
+		<div class="text3 just">
+			zamieszkały w <span contenteditable="true"><b>nie dotyczy</b></span>
+		</div>
+		<i>(zawód, imię i nazwisko)</i>
+		<div class="text3 just">
+			który, uprzedzony o odpowiedzialności karnej z art. 233§ 1 kk za zeznanie nieprawdy lub zatajenie prawdy podczas
+			zeznania mającego służyć za dowód w postępowaniu sądowym lub w innym postępowaniu prowadzonym na podstawie ustawy,
+			udzielił opinii <span contenteditable="true"><b>nie dotyczy</b></span>
+			przedmiotu, oznaczonego w niniejszym pro kole liczbą porządkową <span contenteditable="true"><b>nie dotyczy</b></span>
+		</div>
+		<table id="proTarAuto">
+			<tr class="thead">
+				<td class="proTarTd1">Lp.</td>
+				<td class="proTarTd2">Opis  przedmiotów z  uwzględnieniem  cech istotnych dla taryfikacji lub wyceny (waga, ilość, miara, materiał z którego przedmiot zrobiono, zużycie itp.)</td>
+				<td class="proTarTd3">Kod taryfy celnej</td>
+				<td class="proTarTd4">Uszczuplona kwota cła</td>
+				<td class="proTarTd5">AKCYZA</td>
+				<td class="proTarTd6">VAT</td>
+			</tr>
+
+		</table>
+		<div class="text3" id="proTarR6C1">
+			Czynności zakończono  :
+		</div>
+		<div id="proTarR6C2" class="tabDataPro">
+			<table>
+				<tr contenteditable="true" class="text2" id="dataKoniecId">
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="pusteTd" contenteditable="false"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+				</tr>
+				<tr class="pusteTr">
+					<td>g</td>
+					<td>g</td>
+					<td>m</td>
+					<td>m</td>
+					<td></td>
+					<td>d</td>
+					<td>d</td>
+					<td>m</td>
+					<td>m</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+				</tr>
+			</table>
+		</div>
+		<div id="proTarR7"class="clear">
+			<br>
+			<span class="text3">Na tym protokół zakończono i po odczytaniu podpisano</span>
+			<br><br><br>
+			……………………………………………………………………………………<br>
+			<i>(podpis funkcjonariusza)</i>
+			<br><br><br>
+			……………………………………………………………………………………<br>
+			<i>(podpis osoby biorącej udział)</i>
+		</div>
+		<span class="clear"></span>
+	</div>
+</body>
+<script src="../javascripts/kalk/protokolI.js"></script>
+</html>

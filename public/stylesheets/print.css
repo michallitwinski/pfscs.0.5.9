@@ -1,0 +1,42 @@
+body{
+	font-family: 'Domine', 'Times New Roman', 'Times', serif;
+	color: black;
+}
+menu, header, #btn_oblicz, #btn_druk, #btn_stawki, #btn_kurs_dnia_pokaz, #btn_wiecej, #btn_protar,#stawki_rok_block, #btn_kody, #wiecej_kalk, a{
+    display: none;
+}
+.border{
+	border: 3px solid black;
+}
+#stawki_rok{
+	border: 1px solid black;
+	border-radius: 5px/5px;
+	text-align: center;
+	color: black;
+	box-shadow: none;
+}
+#stawki input{
+	border: none;
+	color: black;
+	width: 55px;
+	font-size: 105%;
+}
+input[type="number"], .inputType{
+	border: 1px solid black;
+	text-align: center;
+	color: black;
+	box-shadow: none;
+}
+input[type=radio]:not(old) + label > span{
+	border: 0.0625em solid black;
+	box-shadow: none;
+}
+input[type=radio]:not(old):checked + label > span:before{
+	color: black;
+	text-align: center;
+	text-shadow: none;
+}
+footer{
+    border: none !important;
+    box-shadow: none !important;
+}

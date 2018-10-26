@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="pl">
+<head>
+
+    <% include main/head.ejs %>
+    
+</head>
+<body>
+<div id="wrapper" class="border">
+    <% include main/navi.ejs %>
+    <div id="kwkksMainBox" class="border">
+        <h1>Kodeks Wykroczeń</h1>
+            <!-- Początek części odpowiadającej za przepisy -->
+        <div id="przepisyBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_przepisyBox" class="arrowDown" onclick="pokazDiv('przepisySmallBox','btn_przepisyBox')">
+            <div onclick="pokazDiv('przepisySmallBox','btn_przepisyBox')" class="bigBtn cursor"><h2>Przepisy</h2></div>
+            <div id="przepisySmallBox" class="clear overflowH">
+                <a href="/download/mandaty.pdf" target="_blank"> ROZPORZĄDZENIE PREZESA RADY MINISTRÓW<br>
+                z dnia 14 marca 2017 r.<br> 
+                w sprawie nadania funkcjonariuszom Służby Celno-Skarbowej uprawnień do nakładania grzywien w drodze mandatu karnego</a>
+                <br>
+                <a href="/download/kpow.pdf" target="_blank">USTAWA<br> 
+                z dnia 24 sierpnia 2001 r.<br>
+                Kodeks postępowania w sprawach o wykroczenia</a>
+                <br>
+                <a href="/download/kw.pdf" target="_blank">USTAWA<br> 
+                z dnia 20 maja 1971 r.<br>
+                Kodeks wykroczeń</a>
+                <br>
+                <a href="/download/prawo_o_ruchu_drogowym.pdf" target="_blank">USTAWA<br> 
+                z dnia 20 czerwca 1997 r.<br>
+                Prawo o ruchu drogowym</a>
+                <br>
+            </div>
+        </div>
+            <!-- Koniec części odpowiadającej za przepisy -->
+
+
+            <!-- Początek części odpowiadającej Taryfikator -->
+        <div id="taryfikatorBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_taryfikatorBox" class="arrowDown" onclick="pokazDiv('taryfikatorHideBox','btn_taryfikatorBox')">
+            <div class="bigBtn cursor" onclick="pokazDiv('taryfikatorHideBox','btn_taryfikatorBox')"><h2>Taryfikator</h2></div>
+            <div id="taryfikatorHideBox" class="clear overflowH">
+                <div id="taryfikatorMenuBox">
+                    <div id="btn_tarSmallBoxI" class="btn border light cursor" onclick="pokazPoz('tarSmallBoxI')"><h3>I. Przepisy o ruchu pieszych</h3></div>
+                    <div id="btn_taryfikatorIImenu" class="btn border light cursor"><div onclick="wyswietldiv('taryfikatorIImenu')"><h3>II. Przepisy dotyczące ruchu pojazdów</h3></div>
+                        <div id="taryfikatorIImenu" class="ukryj">
+                        <br>
+                            <div id="btn_tarSmallBoxIIA" class="tarIImenu">A. <u onclick="pokazPoz('tarSmallBoxIIA')">Zasady ogólne i przepisy porządkowe</u></div>
+                            <div id="btn_tarSmallBoxIIB" class="tarIImenu">B. <u onclick="pokazPoz('tarSmallBoxIIB')">Włączanie się do ruchu </u></div>
+                            <div id="btn_tarSmallBoxIIC" class="tarIImenu">C. <u onclick="pokazPoz('tarSmallBoxIIC')">Prędkość i hamowanie </u></div>
+                            <div id="btn_tarSmallBoxIID" class="tarIImenu">D. <u onclick="pokazPoz('tarSmallBoxIID')">Zmiana kierunku jazdy lub pasa ruchu </u></div>
+                            <div id="btn_tarSmallBoxIIE" class="tarIImenu">E. <u onclick="pokazPoz('tarSmallBoxIIE')">Wymijanie, omijanie i cofanie </u></div>
+                            <div id="btn_tarSmallBoxIIF" class="tarIImenu">F. <u onclick="pokazPoz('tarSmallBoxIIF')">Wyprzedzanie</u></div>
+                            <div id="btn_tarSmallBoxIIG" class="tarIImenu">G. <u onclick="pokazPoz('tarSmallBoxIIG')">Przecinanie się kierunków ruchu</u></div>
+                            <div id="btn_tarSmallBoxIIH" class="tarIImenu">H. <u onclick="pokazPoz('tarSmallBoxIIH')">Ostrzeganie oraz jazda w warunkach zmniejszonej przejrzystości powietrza</u></div>
+                            <div id="btn_tarSmallBoxIIJ" class="tarIImenu">J. <u onclick="pokazPoz('tarSmallBoxIIJ')">Przepisy o ruchu rowerów, motorowerów, pojazdów zaprzęgowych oraz ruchu zwierząt</u></div>
+                            <div id="btn_tarSmallBoxIIK" class="tarIImenu">K. <u onclick="pokazPoz('tarSmallBoxIIK')">Autostrady i drogi ekspresowe</u></div>
+                            <div id="btn_tarSmallBoxIIL" class="tarIImenu">L. <u onclick="pokazPoz('tarSmallBoxIIL')">Zatrzymanie i postój</u></div>
+                            <div id="btn_tarSmallBoxIIM" class="tarIImenu">M. <u onclick="pokazPoz('tarSmallBoxIIM')">Używanie świateł zewnętrznych</u></div>
+                            <div id="btn_tarSmallBoxIIN" class="tarIImenu">N. <u onclick="pokazPoz('tarSmallBoxIIN')">Używanie pojazdów w ruchu drogowym</u></div>
+                        </div>
+                    </div>
+                    <div id="btn_tarSmallBoxIII" class="btn border light cursor" onclick="pokazPoz('tarSmallBoxIII')"><h3>III. Kierujący</h3></div>
+                    <div id="btn_tarSmallBoxIV" class="btn border light cursor" onclick="pokazPoz('tarSmallBoxIV')"><h3>IV. Inne wykroczenia</h3></div>
+                    <div id="btn_tarSmallBoxV" class="btn border light cursor"  onclick="pokazPoz('tarSmallBoxV')"><h3>V. Znaki i sygnały drogowe</h3></div>
+                    <!-- Początek wyszukiwarki -->
+                    <div class="border light" id="tarWyszukiwarka">
+                        <label for="lekiInput"><h3>Wyszukiwarka: </h3></label>
+                        <input type="text" id="tarInput" placeholder="Wyszukaj po opisie" class="inputType podswietlenie">
+                        <span id="tarBrak"></span>
+                    </div>
+                </div>
+                    <!-- Początek części wypisującej wykroczenia -->
+            <div id="tarBigBox">
+                    <!-- I -->
+                    <div id="tarSmallBoxI">
+                    <% for( var i = 0; i < kw.taryfikator.piesi.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxI')">
+                        <%= kw.taryfikator.piesi[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.piesi[i].opis %></span>     
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxI_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxI_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.piesi[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.piesi[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.piesi[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.piesi[i].wysokosc %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>  
+                    <% } %>
+                    </div>
+                    <!-- II -->
+                    <div id="tarSmallBoxIIA">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.a.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIA')">
+                        <%= kw.taryfikator.pojazdy.a[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.a[i].opis %></span>   
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIA_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIA_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.a[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.a[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.a[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.a[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.a[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.a[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIB">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.b.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIB')">
+                        <%= kw.taryfikator.pojazdy.b[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.b[i].opis %></span> 
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIB_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIB_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.b[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.b[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.b[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.b[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.b[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.b[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIC">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.c.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIC')">
+                        <%= kw.taryfikator.pojazdy.c[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.c[i].opis %></span> 
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIC_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIC_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.c[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.c[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.c[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.c[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.c[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.c[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIID">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.d.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIID')">
+                        <%= kw.taryfikator.pojazdy.d[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.d[i].opis %></span> 
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIID_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIID_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.d[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.d[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.d[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.d[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.d[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.d[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIE">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.e.length; i++ ) { %>
+                        <div class="tarPoz border cursor light ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIE')">
+                        <%= kw.taryfikator.pojazdy.e[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.e[i].opis %></span> 
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIE_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIE_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.e[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.e[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.e[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.e[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.e[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.e[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIF">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.f.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIF')">
+                        <%= kw.taryfikator.pojazdy.f[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.f[i].opis %></span> 
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIF_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIF_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.f[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.f[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.f[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.f[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.f[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.f[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIG">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.g.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIG')">
+                        <%= kw.taryfikator.pojazdy.g[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.g[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIG_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIG_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.g[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.g[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.g[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.g[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.g[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.g[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIH">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.h.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIH')">
+                        <%= kw.taryfikator.pojazdy.h[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.h[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIH_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIH_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.h[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.h[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.h[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.h[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.h[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.h[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIJ">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.j.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIJ')">
+                        <%= kw.taryfikator.pojazdy.j[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.j[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIJ_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIJ_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.j[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.j[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.j[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.j[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.j[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.j[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIK">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.k.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIK')">
+                        <%= kw.taryfikator.pojazdy.k[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.k[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIK_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIK_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.k[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.k[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.k[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.k[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.k[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.k[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIL">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.l.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIL')">
+                        <%= kw.taryfikator.pojazdy.l[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.l[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIL_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIL_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.l[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.l[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.l[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.l[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.l[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.l[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIM">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.m.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIM')">
+                        <%= kw.taryfikator.pojazdy.m[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.m[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIM_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIM_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.m[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.m[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.m[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.m[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.m[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.m[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+
+                    <div id="tarSmallBoxIIN">
+                    <% for( var i = 0; i < kw.taryfikator.pojazdy.n.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIIN')">
+                        <%= kw.taryfikator.pojazdy.n[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.pojazdy.n[i].opis %></span>
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIIN_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIIN_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.pojazdy.n[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.pojazdy.n[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.pojazdy.n[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.pojazdy.n[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.pojazdy.n[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.pojazdy.n[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+                    <!-- III -->
+                    <div id="tarSmallBoxIII">
+                    <% for( var i = 0; i < kw.taryfikator.kierujacy.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIII')">
+                        <%= kw.taryfikator.kierujacy[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.kierujacy[i].opis %></span>     
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIII_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIII_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.kierujacy[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.kierujacy[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.kierujacy[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.kierujacy[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.kierujacy[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.kierujacy[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+                    <!-- IV -->
+                    <div id="tarSmallBoxIV">
+                    <% for( var i = 0; i < kw.taryfikator.wykroczenia.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxIV')">
+                        <%= kw.taryfikator.wykroczenia[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.wykroczenia[i].opis %></span>     
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxIV_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxIV_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.wykroczenia[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.wykroczenia[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.wykroczenia[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.wykroczenia[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.wykroczenia[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.wykroczenia[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+                    <!-- V -->
+                    <div id="tarSmallBoxV">
+                    <% for( var i = 0; i < kw.taryfikator.sygnaly.length; i++ ) { %>
+                        <div class="tarPoz border light cursor ukryj" onclick="displayPoz(<%=i%>, 'tarSmallBoxV')">
+                        <%= kw.taryfikator.sygnaly[i].poz %>.
+                        <span class="tarOpis"><%= kw.taryfikator.sygnaly[i].opis %></span>     
+                        </div>
+                        <!-- Wyświetlany div -->
+                        <div id="tarSmallBoxV_id_<%=i%>" class="tarBox">
+                        <img src="/images/exit.png" alt="exit" id="tarSmallBoxV_Exit_<%=i%>">
+                        <table class="clear">
+                            <tr><td colspan="2"><%= kw.taryfikator.sygnaly[i].opis %></td></tr>
+                            <tr><td>Kodeks wykroczeń:</td><td><%= kw.taryfikator.sygnaly[i].artKw %></td></tr>
+                            <tr><td>Prawo o ruchu drogowym:</td><td><%= kw.taryfikator.sygnaly[i].artPrd %></td></tr>
+                            <tr><td>Grzywna w zł:</td><td><%= kw.taryfikator.sygnaly[i].wysokosc %></td></tr>
+                            <tr><td>Punkty karne:</td><td><%= kw.taryfikator.sygnaly[i].pkt %></td></tr>
+                            <tr><td>Kod wykroczenia:</td><td><%= kw.taryfikator.sygnaly[i].kod %></td></tr>
+                        </table>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                    <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Koniec części odpowiadającej Taryfikator -->
+            <!-- Początek części odpowiadającej za znaki -->
+        <div id="znakiBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_znakiBox" class="arrowDown" onclick="pokazDiv('znakiHideBox','btn_znakiBox')">
+            <div class="bigBtn cursor" onclick="pokazDiv('znakiHideBox','btn_znakiBox')"><h2>Znaki</h2></div>
+            <div id="znakiHideBox" class="clear overflowH">
+                <div id="znakiMenuBox" class="clear">
+                    <div id="znakiOstrzegawczeBtn" class="btn border light cursor" onclick="pokazZnaki('znakiOstrzegawcze')">Znaki Ostrzegawcze</div>
+                    <div id="znakiZakazuBtn" class="btn border light cursor" onclick="pokazZnaki('znakiZakazu')">Znaki Zakazu</div>
+                    <div id="znakiNakazuBtn" class="btn border light cursor" onclick="pokazZnaki('znakiNakazu')">Znaki Nakazu</div>
+                    <div id="znakiInformacyjneBtn" class="btn border light cursor" onclick="pokazZnaki('znakiInformacyjne')">Znaki Informacyjne</div>
+                    <div id="znakiPoziomeBtn" class="btn border light cursor" onclick="pokazZnaki('znakiPoziome')">Znaki Poziome</div>
+                    <div id="znakiSwietlneBtn" class="btn border light cursor" onclick="pokazZnaki('znakiSwietlne')">Znaki Sygnału</div>   
+                </div>
+            <div id="znakiWszystkie">
+            <div id="znakiOstrzegawcze">
+                <% for( var i = 0; i < kw.znaki.znakiOstrzegawcze.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiOstrzegawcze[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiOstrzegawcze[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                            <img src="/images/znaki/ostrzegawcze/<%= kw.znaki.znakiOstrzegawcze[i].id %>.gif"> 
+                        </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiOstrzegawcze[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiOstrzegawcze[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+
+            <div id="znakiZakazu">
+                <% for( var i = 0; i < kw.znaki.znakiZakazu.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiZakazu[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiZakazu[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                            <img src="/images/znaki/zakazu/<%= kw.znaki.znakiZakazu[i].id %>.gif"> 
+                        </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiZakazu[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiZakazu[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+
+            <div id="znakiNakazu">
+                <% for( var i = 0; i < kw.znaki.znakiNakazu.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiNakazu[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiNakazu[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                            <img src="/images/znaki/nakazu/<%= kw.znaki.znakiNakazu[i].id %>.gif"> 
+                        </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiNakazu[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiNakazu[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+
+            <div id="znakiInformacyjne">
+                <% for( var i = 0; i < kw.znaki.znakiInformacyjne.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiInformacyjne[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiInformacyjne[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                            <img src="/images/znaki/informacyjne/<%= kw.znaki.znakiInformacyjne[i].id %>.gif"> 
+                            </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiInformacyjne[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiInformacyjne[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+
+            <div id="znakiPoziome">
+                <% for( var i = 0; i < kw.znaki.znakiPoziome.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiPoziome[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiPoziome[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                                <img src="/images/znaki/poziome/<%= kw.znaki.znakiPoziome[i].id %>.gif"> 
+                        </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiPoziome[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiPoziome[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+
+            <div id="znakiSwietlne">
+                <% for( var i = 0; i < kw.znaki.znakiSwietlne.length; i++) { %>
+                    <div id="<%= kw.znaki.znakiSwietlne[i].id %>" class="znakiSmallBox border light clear ukryj" onclick="displayPozZnak('<%= kw.znaki.znakiSwietlne[i].nazwa %>')">
+                        <div class="kwSmallLeft">
+                            <img src="/images/znaki/swietlne/<%= kw.znaki.znakiSwietlne[i].id %>.gif"> 
+                        </div>
+                        <div class="kwSmallCenter">
+                            <span class="nazwaZnaku"><%= kw.znaki.znakiSwietlne[i].nazwa %></span>
+                        </div>
+                        <div class="kwSmallRight">
+                            <%= kw.znaki.znakiSwietlne[i].opis %>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                <% } %>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Koniec części odpowiadającej za znaki -->
+    <a href="kks" class="border kwkksLink clear"><h2>Kodeks Karny Skarbowy</h2></a>
+
+<% include main/footer.ejs %>
+
+</div>
+</body>
+<script src="../javascripts/kw.js"></script>
+</html>

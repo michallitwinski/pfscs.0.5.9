@@ -1,0 +1,9 @@
+<p id="stawki_rok_block"><label for="stawki_rok">Wyliczenie na podstawie stawek na rok: </label>
+    <select id="stawki_rok" class="inputType">
+         <% for( var i = 0; i<stawkiLata.length; i++) { %>
+            <option><%= stawkiLata[i]%></option>
+         <% } %>
+    </select>
+    <span id="ieStawkiZapBtn" class="ukryj">Zatwierdź</span>
+    <span id="serverError"></span>
+</p>

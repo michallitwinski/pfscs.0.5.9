@@ -1,0 +1,34 @@
+<h2 id="kalkNazwa">Susz tytoniowy</h2>
+<br>
+
+<% include ../kalkulator/rok.ejs%>
+
+<label for="susz_ilosc_kg">Podaj ilość w kg: </label><input type="number" id="susz_ilosc_kg"><br>
+
+<label for="susz_ilosc_gr">Ilość w gr: </label><input type="number" id="susz_ilosc_gr" disabled><br>
+
+<% include ../kalkulator/btn_wynik.ejs%>
+
+<div id="wiecej_kalk">
+<div id="btn_druk" class="przyciski border light">Drukuj</div>
+<div id="btn_stawki" class="przyciski border light">Stawki</div>
+<div id="btn_kody" class="przyciski border light">Kody</div>
+
+<div id="stawki" class="ukryj">
+<p>
+<label for="susz_stawka_akcyzy_1_kg"> Stawka akcyzy za 1 kg suszu: </label><input typ="number" id="susz_stawka_akcyzy_1_kg" value="<%=stawki.susz_stawka_akcyzy_1_kg%>" disabled><br>
+
+<label for="prog_przetępstwa"> Ustawowy próg przestępstwa wynosi: </label><input typ="number" id="prog_przetępstwa" value="<%=stawki.prog_przetępstwa%>" disabled><br>
+
+<label for="stawka_vat"> Stawka VAT: </label><input typ="number" id="stawka_vat" value="<%=stawki.stawka_vat%>" disabled><br>
+</p>
+</div>
+
+<div id="kody" class="ukryj">
+<% include ../kalkulator/kody.ejs%>
+</div>
+
+</div>
+
+<script src="javascripts/kalk/susz.js"></script>
+<script src="javascripts/kalk/kalkWspolne.js"></script>

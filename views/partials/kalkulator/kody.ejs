@@ -1,0 +1,71 @@
+<table>
+    <th colspan="2">Kody CN</th>
+    <tr>
+        <td colspan="2"><b>Spirytus:</b></td>
+    <tr>
+    <tr>
+        <td>Alkohol etylowy nieskażony o objętościowej mocy alkoholu 80 % obj. lub większej</td>
+        <td class="tbCnKod">2207 10 00 17</td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>Wódka:</b></td>
+    <tr>
+    <tr>
+        <td colspan="2">O objętościowej mocy alkoholu 45,4 % obj. lub mniejszej, w pojemnikach o objętości</td>
+    <tr>
+    <tr>
+        <td>2 litry lub mniejszej</td>
+        <td class="tbCnKod">2208 60 11</td>
+    </tr>
+    <tr>
+        <td>Większej niż 2 litry</td>
+        <td class="tbCnKod">2208 60 19</td>
+    </tr>
+    <tr>
+        <td colspan="2">O objętościowej mocy alkoholu większej niż 45,4 % obj., w pojemnikach o objętości</td>
+    <tr>
+    <tr>
+        <td>2 litry lub mniejszej</td>
+        <td class="tbCnKod">2208 60 91</td>
+    </tr>
+    <tr>
+        <td>Większej niż 2 litry</td>
+        <td class="tbCnKod">2208 60 99</td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>Tytoń:</b></td>
+    <tr>
+     <tr>
+        <td>W bezpośrednich opakowaniach o zawartości netto nieprzekraczającej 500g</td>
+        <td class="tbCnKod">2403 19 10</td>
+    </tr>
+    <tr>
+        <td>Pozostały</td>
+        <td class="tbCnKod">2403 19 90</td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>Papierosy:</b></td>
+    <tr>
+    <tr>
+        <td>Papierosy zawierające tytoń</td>
+        <td class="tbCnKod"> 2402 20</td>
+    </tr>
+    <tr>
+        <td>Zawierające goździki</td>
+        <td class="tbCnKod">2402 20 10</td>
+    </tr>
+    <tr>
+        <td>Pozostałe</td>
+        <td class="tbCnKod">2402 20 90</td>
+    </tr>
+
+</table>
+<table>
+    <th colspan="2">Kody Kreskowe</th>
+<% for( var i = 0; i < kodyKreskowe.length; i++ ) { %>
+    <tr>
+        <td><%=kodyKreskowe[i].kraj%></td>
+        <td><%=kodyKreskowe[i].kod%></td>
+    </tr>
+<% } %>
+</table>

@@ -1,0 +1,4 @@
+Michał do kalkulatora trzeba dodawać lata od najwyższego [0] będzie pierwsze
+Następnie stworzyć kolejny plik z stawkami
+Akcyza za lata 2016 i 2017 jest inaczej naliczana niż 2018
+- jest if w obliczeniach papierosy i tytoń

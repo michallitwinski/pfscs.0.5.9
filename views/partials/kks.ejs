@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pl">
+<head>
+
+    <% include main/head.ejs %>
+
+</head>
+<body>
+<div id="wrapper" class="border">
+    <% include main/navi.ejs %>
+    <div id="kwkksMainBox" class="border">
+        <h1>Kodeks Karny Skarbowy</h1>
+            <!-- Początek części odpowiadającej za przepisy dodać można przydatne -->
+        <div id="przepisyBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_przepisyBox" class="arrowDown" onclick="pokazDiv('przepisySmallBox','btn_przepisyBox')">
+            <div onclick="pokazDiv('przepisySmallBox','btn_przepisyBox')" class="bigBtn cursor"><h2>Przepisy</h2></div>
+            <div id="przepisySmallBox" class="clear overflowH">
+                <div class="border light">
+                    <h3><b>Ogólne</b></h3>
+                    <a href="/download/kks.pdf" target="_blank">USTAWA<br>
+                    z dnia 10 września 1999 r.<br> 
+                    Kodeks karny skarbowy</a>
+                    <br>
+                    <a href="/download/akcyza.pdf" target="_blank">USTAWA<br>
+                    z dnia 6 grudnia 2008 r.<br> 
+                    o podatku akcyzowym</a>
+                </div>
+                <div class="border light">
+                    <h3><b>Wykroczenie / Ustawowy próg / rodzaje uszczuplenia wg. kks</b></h3>
+                    <br>
+                    <p><b>Minimalne wynagrodzenie na ten rok wynosi: <%=min_pensja%> zł</b></p>
+                    <p>Art. 48 § 1. Kara grzywny może być wymierzona w granicach od jednej
+                    dziesiątej do dwudziestokrotnej wysokości minimalnego wynagrodzenia, chyba że
+                    kodeks stanowi inaczej.<br>
+                    § 2. Mandatem karnym można nałożyć karę grzywny w granicach
+                    nieprzekraczających podwójnej wysokości minimalnego wynagrodzenia.</p>
+                    <p><b>tj. wysokość mandatu może wynosić: od <%=min_pensja/10%> do <%=min_pensja*2%> zł</b></p><br>
+                    <p>Art. 53 § 3. Wykroczenie skarbowe jest to czyn zabroniony przez kodeks pod groźbą kary grzywny określonej kwotowo, jeżeli kwota uszczuplonej lub narażonej na uszczuplenie należności publicznoprawnej albo wartość przedmiotu czynu nie przekracza pięciokrotnej wysokości minimalnego wynagrodzenia w czasie jego popełnienia. Wykroczeniem skarbowym jest także inny czyn zabroniony, jeżeli kodeks tak stanowi.</p>
+                    <p><b>tj. ustawowy próg wynosi: <%=min_pensja*5%> zł</b></p><br>
+                    <p>Art. 53 § 14. Mała wartość jest to wartość, która w czasie popełnienia czynu
+                    zabronionego nie przekracza dwustukrotnej wysokości minimalnego
+                    wynagrodzenia.</p>
+                    <p><b>tj.: <span id="malaWartosc"><%=min_pensja*200%></span> zł</b></p><br>
+                    <p>Art. 53 § 15. Duża wartość jest to wartość, która w czasie popełnienia czynu
+                    zabronionego przekracza pięćsetkrotną wysokość minimalnego wynagrodzenia.</p>
+                    <p><b>tj.: <%=min_pensja*500%> zł</b></p><br>
+                    <p>Art. 53 § 16. Wielka wartość jest to wartość, która w czasie popełnienia czynu
+                    zabronionego przekracza tysiąckrotną wysokość minimalnego wynagrodzenia.</p>
+                    <p><b>tj.: <%=min_pensja*1000%> zł</b></p><br>
+                </div>
+            </div>
+        </div>
+            <!-- Początek poszczególnych artykułów -->
+        <div id="pozaUeBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_pozaUeBox" class="arrowDown" onclick="pokazDiv('pozaUeSmallBox','btn_pozaUeBox')">
+            <div onclick="pokazDiv('pozaUeSmallBox','btn_pozaUeBox')" class="bigBtn cursor"><h2>Towar z kraju trzeciego</h2></div>
+            <div id="pozaUeSmallBox" class="clear overflowH">
+                <br>
+                <h3><b>Paserstwo</b></h3>
+                <br>
+                <p>o to, że w dniu/przed dniem <span class="akDate">...(kiedy?)…</span> w ...(gdzie?)… przenosiłem/przechowywałem/przewoziłem samochodem o nr rej. …(nr?)…, <span class="parIle">…(ile?)…</span> <span class="parJednostkaTyp">sztuk wyrobów akcyzowych różnych marek</span>, bez polskich znaków akcyzy, co do których należność celna wynosi łącznie <span class="wtisClo">……</span> zł, należność z tytułu podatku VAT wynosi łącznie <span class="wtisVat">……</span> zł, co do których należny podatek akcyzowy wynosi łącznie <span class="wtisAkcyza">……</span> zł, wiedząc, że zostały sprowadzone na terytorium kraju bez zgłoszenia celnego oraz bez uprzedniego oznaczenia znakami akcyzy i stanowią one przedmiot czynu zabronionego określonego w <span class="kwaII">art. 86§4 kks w zb. z art. 63§7 kks w zb. z art. 54§3 kks w zw. z art. 7§1 kks</span><br>
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe z <span id="kwaIII">art. 65§4 kks w zb. z art. 91§4 kks w zw. z art. 7§1 kks</span></b></p>
+                <br>
+                <h3><b>Przemyt</b></h3>
+                <br>
+                <p> o to, że w dniu/przed dniem <span class="akDate">...(kiedy?)…</span> w ...(gdzie?)… nie dopełniając obowiązku celnego sprowadziłem na terytorium kraju bez zgłoszenia celnego <span class="parIle">…(ile?)…</span> <span class="parJednostkaTyp">sztuk wyrobów akcyzowych różnych marek</span>, bez ich uprzedniego oznaczenia znakami akcyzy, przez co naraziłem należność celną na uszczuplenie w kwocie <span class="wtisClo">……</span> zł, należności z tytułu podatku VAT w kwocie <span class="wtisVat">……</span> zł, oraz co do których należny podatek akcyzowy wynosi <span class="wtisAkcyza">……</span> zł.<br>
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe określone w <span class="kwaII">art. 86§4 kks w zb. z art. 63§7 kks w zb. z art. 54§3 kks w zw. z art. 7§1 kks</span></b></p>
+            </div>
+        </div>
+
+        <div id="ueBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_ueBox" class="arrowDown" onclick="pokazDiv('ueSmallBox','btn_ueBox')">
+            <div onclick="pokazDiv('ueSmallBox','btn_ueBox')" class="bigBtn cursor"><h2>Towar wspólnotowy</h2></div>
+            <div id="ueSmallBox" class="clear overflowH">
+                <br>
+                <h3><b>Paserstwo</b></h3>
+                <br>
+                <p>o to, że w dniu <span class="akDate">...(kiedy?)…</span> w ...(gdzie?)… przenosiłem/przechowywałem/przewoziłem samochodem o nr rej. …(nr?)…  <span class="parIle">…(ile?)…</span> <span class="parJednostkaTyp">sztuk wyrobów akcyzowych różnych marek</span>, bez polskich znaków akcyzy, co do których należny podatek akcyzowy wynosi łącznie <span class="wtisAkcyza">……</span> zł, wiedząc, że zostały wprowadzone na terytorium kraju bez ich uprzedniego oznaczenia znakami akcyzy  i stanowią one przedmiot czynu zabronionego określonego w <span class="kwaIV">art. 63§7 kks</span><br>
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe z <span id="kwaV">art. 65§4 kks</span></b></p>
+                <br>
+                <h3><b>Wprowadzenie na teren kraju</b></h3>
+                <br>
+                <p>o to, że w dniu/przed dniem <span class="akDate">...(kiedy?)…</span> w ...(gdzie?)… sprowadziłem na terytorium kraju <span class="parIle">…(ile?)…</span> <span class="parJednostkaTyp">sztuk wyrobów akcyzowych różnych marek</span>, bez ich uprzedniego oznaczenia znakami akcyzy, co do których należny podatek akcyzowy wynosi łącznie <span class="wtisAkcyza">……</span> zł,<br>
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe z <span class="kwaIV">art. 63§7 kks</span></b></p>
+            </div>
+        </div>
+
+        <div id="akcBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_akcBox" class="arrowDown" onclick="pokazDiv('akcSmallBox','btn_akcBox')">
+            <div onclick="pokazDiv('akcSmallBox','btn_akcBox')" class="bigBtn cursor"><h2>Niezłożenie deklaracji w terminie</h2></div>
+            <div id="akcSmallBox" class="clear overflowH">
+                <br>
+                <p>o to, że do dnia <span class="akDate">...(kiedy?)…</span> nie złożyłem deklaracji AKC-U/S lub AKC-4/E za pojazd marki ……, model ……, rok produkcji ……, nr VIN ……, który nabyłem/sprowadziłem na terytorium kraju w dniu <span id="akcTermiOd">……</span> wiedząc, że w dniu <span id="akcTermiDo">……</span> upłyną termin na złożenie ww deklaracji, przez co naraziłem na uszczuplenie podatek akcyzowy w kwocie <span id="akcAkcyza">……</span> zł.<br> 
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe z <span id="kwaVI">art. 54§3 kks</span></b></p>
+            </div>
+        </div>
+
+        <div id="paliwoBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_paliwoBox" class="arrowDown" onclick="pokazDiv('paliwoSmallBox','btn_paliwoBox')">
+            <div onclick="pokazDiv('paliwoSmallBox','btn_paliwoBox')" class="bigBtn cursor"><h2>Zmiana przeznaczenia</h2></div>
+            <div id="paliwoSmallBox" class="clear overflowH">
+                <br>
+                <p>o to, że w dniu <span class="akDate">...(kiedy?)…</span> zmieniłem przeznaczenie oleju opałowego/żeglugowego poprzez zużywanie go do celów napędu pojazdu nr rej. ……, marka ……, model ……. przez co naraziłem na uszczuplenie podatek akcyzowy w kwocie …… zł.<br>
+                <b>tj. o <span class="kwaI">wykroczenie</span> skarbowe z <span id="kwaVII">art. 73a§3 kks</span></b></p>
+            </div>
+        </div>
+
+        <div id="utrudnianieBox" class="kwkksContentBox border">
+            <img src="/images/menu.png" id="btn_utrudnianieBox" class="arrowDown" onclick="pokazDiv('utrudnianieSmallBox','btn_utrudnianieBox')">
+            <div onclick="pokazDiv('utrudnianieSmallBox','btn_utrudnianieBox')" class="bigBtn cursor"><h2>Utrudnianie kontroli celno-skarbowej</h2></div>
+            <div id="utrudnianieSmallBox" class="clear overflowH">
+                <br>
+                <p>
+                Art. 83. § 1. Kto osobie uprawnionej do przeprowadzenia czynności
+                sprawdzających, kontroli podatkowej, kontroli celno-skarbowej lub czynności
+                audytowych udaremnia lub utrudnia wykonanie czynności służbowej, w
+                szczególności kto wbrew żądaniu tej osoby nie okazuje księgi lub innego
+                dokumentu dotyczącego prowadzonej działalności gospodarczej lub księgę lub
+                inny dokument niszczy, uszkadza, czyni bezużytecznymi, ukrywa lub usuwa,
+                podlega karze grzywny do 720 stawek dziennych.
+                § 2. W wypadku mniejszej wagi, sprawca czynu zabronionego określonego
+                w § 1
+                podlega karze grzywny za wykroczenie skarbowe.
+                </p>
+            </div>
+        </div>
+            <!-- Koniec poszczególnych artykułów można dodać dalsze -->
+    </div>
+    <a href="kw" class="border kwkksLink clear"><h2>Kodeks Wykroczeń</h2></a>
+    <% include main/footer.ejs %>
+</div>
+</body>
+<script src="../javascripts/kks.js"></script>
+</html>

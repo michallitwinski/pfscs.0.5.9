@@ -1,0 +1,27 @@
+{
+    "stawki":{
+        "rok": 2017,
+        "pap_wartosc_celna": 112,
+        "pap_stawka_cło": 57.60,
+        "pap_stawka_akcyzy_1000_szt": 206.76,
+        "tyt_wartosc_celna": 112,
+        "tyt_stawka_cło": 74.90,
+        "tyt_kwotowa_stawka_akcyzy_1_kg": 141.29,
+        "susz_stawka_akcyzy_1_kg": 458.64,
+        "spi_stawka_cło": 19.20,
+        "spi_wartość_rynkowa": 90,
+        "wod_stawka_cło": 0,
+        "wod_wartość_rynkowa": 60,
+        "stawka_akcyzy_wyroby_tyt": 31.41,
+        "srednia_wazona_detaliczna_cena_sprzedazy": 679.87,
+        "alk_stawka_akcyzy_100_procent": 5704,
+        "stawka_vat": 23,
+        "prog_przetępstwa": 10000,
+        "min_pensja": 2000,
+        "pojazdy":{
+            "pojemnosci":["Poniżej 2L","Powyżej 2L"],
+            "stawki":[3.1, 18.6],
+            "termin": 14
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <% include partials/main/head.ejs %>
+</head>
+<body>
+    <div id="wrapper" class="border">
+        <% include partials/main/navi.ejs %>
+        <menu>
+            <div class="border">
+                <ul>
+                    <% for( var i = 0; i < kalkulator.length; i++ ) { %>
+                        <li><a href="<%=kalkulator[i].link%>" class="border link"><%=kalkulator[i].typ%></a></li>
+                    <% } %>
+                </ul>
+            </div>
+            <div id="kalkAddMenuWraper" class="border ukryj">
+                <div id="kalkAddMenu">
+                    <div id="autoElementy">
+                    
+                    </div>
+                    <div class="kalkAddNazwaBtn border light" id="kalkAddzapBtn" title="Informacja">?</div>
+                    <div class="kalkAddNazwaBtn border light" id="kalkAddplusBtn" title="Dodaj">+</div>
+                    <div class="kalkAddNazwaBtn border light" id="kalkAddparBtn" title="Pokaż zarzut">§</div><br>
+                    <input type="text" class="inputType ukryj" id="kalkAddNazwaInput" placeholder="Podaj nazwę towaru">
+                    <div id="kalkAddZlicz" class="btnKalkMenuII border ukryj">Zlicz należności</div>
+                    <div id="btn_protokoly" class="btnKalkMenuII border">Protokoły</div>
+                    <div id="btn_protar" class="btnKalkMenuII border ukryj">Taryfikacja</div>
+                    <div id="btn_proogl" class="btnKalkMenuII border ukryj">Oględziny</div>
+                    <div id="btn_kalkspis" class="btnKalkMenuII border ukryj">Spis i Opis</div>
+                </div>
+            </div>
+        </menu>
+        <section id="main_kalk">
+            <% if(kalkulator_typ == "intro") { %>
+            <% include partials/kalkulator/kalk_intro.ejs %>
+            <% } else if(kalkulator_typ == "papierosy") { %>
+            <% include partials/kalkulator/papierosy.ejs %>
+            <% } else if(kalkulator_typ == "tyton") { %>
+            <% include partials/kalkulator/tyton.ejs %>
+            <% } else if(kalkulator_typ == "susz") { %>
+            <% include partials/kalkulator/susz.ejs %>
+            <% } else if(kalkulator_typ == "spirytus") { %>
+            <% include partials/kalkulator/spirytus.ejs %>
+            <% } else if(kalkulator_typ == "wodka") { %>
+            <% include partials/kalkulator/wodka.ejs %>
+            <% } else if(kalkulator_typ == "pojazdy") { %>
+            <% include partials/kalkulator/pojazdy.ejs %>
+            <% } else if(kalkulator_typ == "zlicz") { %>
+            <% include partials/kalkulator/zlicz.ejs %>
+            <% } %>
+        </section>
+        <% include partials/main/footer.ejs %>
+	</div>
+</body>
+</html>

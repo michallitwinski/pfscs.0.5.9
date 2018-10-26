@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ogledziny</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokol.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokolPrint.css" media="print">
+</head>
+
+<body>
+	<% include proMenu.ejs %>
+	<div id="protoWrapper">
+		<div style="text-align: right" id="ProNrDr">P-6</div>
+		<div id="proTarR1C1">
+			<span class="text1">PROTOKÓŁ OGLĘDZIN</span>
+			<div id="proOglR1C1N">
+				<input id="radio1" type="radio" name="radio"><label for="radio1"><span></span>Miejsca</label><br>
+				<input id="radio2" type="radio" name="radio" checked><label for="radio2"><span></span>Rzeczy</label>
+			</div>
+		</div>
+		<div id="proTarR1C2">
+			<div id="proTarR1C2N1">
+				<p><span id="proTarSygn" class="text2 clear" contenteditable="true">sygnatura?</span><span id="proTarSygnNr" class="text2" contenteditable="true">Nr?</span><br>
+					<i>(nazwa i numer rejestru albo znak sprawy)</i><br>
+					<span id="proTarRef" class="text2" contenteditable="true">referat?</span><br>
+					<i>(nazwa jednostki prowadzącej sprawę)</i><br>
+					<span id="proTarRef" class="text2" contenteditable="true">Pomieszczenia służbowe</span><br>
+					<i>miejsce dokonywania czynności)</i><br>
+				</p>
+			</div>
+		</div>
+		<div id="proTarR3C1">
+			<div id="proTarR3C1N1">
+				<span id="proTarMiejsce" class="text1" contenteditable="true">Szczecin</span>
+				<hr>
+				<i>(miejscowość)</i>
+			</div>
+		</div>
+		<div id="proTarR3C2" class="tabDataPro">
+			<table>
+				<tr contenteditable="true" class="text2" id="dataStartId">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="pusteTd" contenteditable="false"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+					<td class="dataStartClass"></td>
+				</tr>
+				<tr class="pusteTr">
+					<td>g</td>
+					<td>g</td>
+					<td>m</td>
+					<td>m</td>
+					<td></td>
+					<td>d</td>
+					<td>d</td>
+					<td>m</td>
+					<td>m</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+				</tr>
+			</table>
+		</div>
+		<div id="proTarR4" class="clear">
+			<span class="text3">Na podstawie art. 192 § 1 i 4 kpk, art. 207 kpk, art. 308 § 1 kpk, zgodnie z art. 143 § 1 pkt 3
+				kpk w związku z art.113 § 1 kks w związku z art.122 § 1 pkt 1 kks z art.133§ 1 pkt 1 kks</span>
+		</div>
+		<table id="oglMainTab">
+			<tr>
+				<td class="tdDark" colspan="7">Prowadzący czynność</td>
+				<td contenteditable="true" colspan="8">rewident celny Michał Litwiński</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="7">Protokolant</td>
+				<td contenteditable="true" colspan="8">protokołowałem osobiście</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="7">Specjalista</td>
+				<td contenteditable="true" colspan="8">bez udziału</td>
+			</tr>
+
+			<tr>
+				<td class="tdDark" colspan="7">Biegły</td>
+				<td contenteditable="true" colspan="8">bez udziału</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="7">Inna osoba</td>
+				<td contenteditable="true" colspan="8">bez udziału</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="15">Czynność utrwalana za pomocą urządzenia rejestrującego: <input id="rejestr1" type="checkbox"
+					 name="obraz"><label for="rejestr1"><span></span>obraz</label>
+					<input id="rejestr2" type="checkbox" name="dzwiek"><label for="rejestr2"><span></span>dźwięk</label></td>
+			</tr>
+			<tr>
+				<td class="tdDark tdw" colspan="7">Rodzaj i cechy identyfikujące urządzenie, nośnik oraz techniczne warunki
+					rejestracji</td>
+				<td contenteditable="true" colspan="8">nie dotyczy</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="7">Dane osoby obsługującej urządzenie</td>
+				<td contenteditable="true" colspan="8">nie dotyczy</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="15">Dokumentacja oględzin</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="5">Zdjęcia</td>
+				<td class="tdDark" colspan="5">Szkic</td>
+				<td class="tdDark" colspan="5">Video</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" colspan="5">nie wykonano</td>
+				<td contenteditable="true" colspan="5">nie wykonano</td>
+				<td contenteditable="true" colspan="5">nie wykonano</td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="15">Warunki atmosferyczne , widoczne i inne, w których prowadzono oględzin</td>
+			</tr>
+			<tr>
+				<td class="tdDark">temperatura</td>
+				<td class="tdDark" colspan="5">opady</td>
+				<td class="tdDark" colspan="4">wiatr</td>
+				<td class="tdDark" colspan="3">natężenie ruchu pojazdów lub osób</td>
+				<td class="tdDark" colspan="2">oświetlenie</td>
+			</tr>
+			<tr>
+				<td rowspan="2"><span contenteditable="true">20</span> <sup>o</sup>C</td>
+				<td class="tdDark"><span class="vertical">bark</span></td>
+				<td class="tdDark"><span class="vertical">śnieg</span></td>
+				<td class="tdDark"><span class="vertical">deszcz</span></td>
+				<td class="tdDark"><span class="vertical">mżawka</span></td>
+				<td class="tdDark"><span class="vertical">grad</span></td>
+				<td class="tdDark"><span class="vertical">brak</span></td>
+				<td class="tdDark"><span class="vertical">słaby</span></td>
+				<td class="tdDark"><span class="vertical">średni</span></td>
+				<td class="tdDark"><span class="vertical">silny</span></td>
+				<td class="tdDark"><span>brak</span></td>
+				<td class="tdDark"><span>małe</span></td>
+				<td class="tdDark"><span>duże</span></td>
+				<td class="tdDark"><span class="vertical">naturalne</span></td>
+				<td class="tdDark"><span class="vertical">sztuczne</span></td>
+			</tr>
+			<tr>
+				<td><input id="war1" type="radio" name="opady" checked><label for="war1"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war2" type="radio" name="opady"><label for="war2"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war3" type="radio" name="opady"><label for="war3"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war4" type="radio" name="opady"><label for="war4"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war5" type="radio" name="opady"><label for="war5"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war6" type="radio" name="wiatr" checked><label for="war6"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war7" type="radio" name="wiatr"><label for="war7"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war8" type="radio" name="wiatr"><label for="war8"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war9" type="radio" name="wiatr"><label for="war9"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war10" type="radio" name="ruch" checked><label for="war10"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war11" type="radio" name="ruch"><label for="war11"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war12" type="radio" name="ruch"><label for="war12"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war13" type="radio" name="oswietlenie"><label for="war13"><span style="margin-left: -25px;"></span></label></td>
+				<td><input id="war13" type="radio" name="oswietlenie" checked><label for="war13"><span style="margin-left: -25px;"></span></label></td>
+			</tr>
+			<tr>
+				<td class="tdDark" colspan="15">Informacja o innych warunkach, w których prowadzono oględziny</td>
+			</tr>
+			<tr>
+				<td contenteditable="true" colspan="15" class="tdH just pad">brak<br><br><br><br><br><br></td>
+			</tr>
+		</table>
+
+		<div id="str2">
+			<table id="autoTabOgl">
+				<tr>
+					<td class="tdDark" colspan="4">Opis przebiegu i wyników oględzin</td>
+				</tr>
+				<tr>
+					<td contenteditable="true" colspan="4" class="just pad">Oględziny przeprowadzono w pomieszczeniu biurowym
+						Pierwszego Referatu Kontroli Mobilnej z siedzibą w Lubieszynie. W wyniku oględzin stwierdzono:</td>
+				</tr>
+				<tr>
+					<td class="tdDark" colspan="4">Opis czynności technicznych wykonanych przez specjalistę</td>
+				</tr>
+				<tr>
+					<td contenteditable="true" colspan="4" class="just pad">nie dotyczy</td>
+				</tr>
+				<tr>
+					<td class="tdDark" colspan="4">Ujawnione i zabezpieczone w toku oględzin przedmioty lub ślady kryminalistyczne <input type="button" value="Dodaj pole" style="float:right;" id="btnProAdd"></td>
+				</tr>
+				<tr>
+					<td class="tdDark">nr</td>
+					<td class="tdDark">Przedmioty - opis</td>
+					<td class="tdDark">nr</td>
+					<td class="tdDark">Ślady kryminalistyczne - opis</td>
+				</tr>
+			</table>
+			<table id="autoTabOg2">
+				<tr>
+					<td class="tdDark">Omówienie skreśleń oraz poprawek i uzupełnień poczynionych w protokole</td>
+				</tr>
+				<tr>
+					<td contenteditable="true" class="just pad tdw">Brak</td>
+				</tr>
+				<tr>
+					<td class="tdDark">Zgłoszone przez osoby uczestniczące w czynności zarzuty, co do treści protokołu oraz
+						oświadczenia osoby wykonującej czynność</td>
+				</tr>
+				<tr>
+					<td contenteditable="true" class="just pad tdw">Brak</td>
+				</tr>
+				<tr>
+					<td class="tdDark">Załączniki do protokołu  –  liczba i rodzaj załączników</td>
+				</tr>
+				<tr>
+					<td contenteditable="true" class="just pad tdw">Brak</td>
+				</tr>
+			</table>
+
+			<br>
+			<br>
+			<br>
+
+			<div class="text3" id="proTarR6C1">
+				Czynności zakończono :
+			</div>
+			<div id="proTarR6C2" class="tabDataPro">
+				<table>
+					<tr contenteditable="true" class="text2" id="dataKoniecId">
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="pusteTd" contenteditable="false"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+						<td class="dataKoniecClass"></td>
+					</tr>
+					<tr class="pusteTr">
+						<td>g</td>
+						<td>g</td>
+						<td>m</td>
+						<td>m</td>
+						<td></td>
+						<td>d</td>
+						<td>d</td>
+						<td>m</td>
+						<td>m</td>
+						<td>r</td>
+						<td>r</td>
+						<td>r</td>
+						<td>r</td>
+					</tr>
+				</table>
+			</div>
+			<div id="proTarR7" class="clear">
+				<br>
+				<span class="text3">Protokół po osobistym odczytaniu / odczytano mi jako zgodny podpisuję</span>
+				<br><br><br>
+				……………………………………………………………………………………<br>
+				<i>(podpis funkcjonariusza)</i>
+				<br><br><br>
+				……………………………………………………………………………………<br>
+				<i>(podpis osóby biorących udział w czynnościach)</i>
+			</div>
+			<span class="clear"></span>
+		</div>
+	</div>
+</body>
+<script src="../javascripts/kalk/protokolI.js"></script>
+</html>

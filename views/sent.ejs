@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pl">
+<head>
+
+    <% include partials/main/head.ejs %>
+
+</head>
+<body>
+    <div id="wrapper" class="border">
+        <% include partials/main/navi.ejs %>
+        <main>
+            <h1>WYKAZ TOWARÓW OBJĘTYCH SYSTEMEM MONITOROWANIA</h1>
+            <div id="sentWykazCN" class="border">
+                <img src="/images/menu.png" id="btn_sentWykazCN" onclick="pokazDiv('sentWykazCNTabela','btn_sentWykazCN')" class="arrowDown">
+                <div onclick="pokazDiv('sentWykazCNTabela','btn_sentWykazCN')" class="bigBtn cursor"><h2>Wykaz kodów CN</h2></div>
+                <div id="sentWykazCNTabela" class="clear">
+                    <p>
+                    Jeżeli masa brutto przesyłki towarów objętych tymi pozycjami przekracza 500 kg lub jej objętość przekracza 500 litrów
+                    </p>
+                    <table>
+                        <thead>
+                            <th>Kod CN</th><th>Opis</th>
+                        </thead>
+                        <tbody>
+                        <% for( var i = 0; i < sent.wykazCN.length; i++ ) { %>
+                            <tr id="sent_tr_<%=i%>" class="cursor" onclick="displaySent(<%=i%>, 'sent')">
+                                <td><%= sent.wykazCN[i].kod %></td><td><p><%=sent.wykazCN[i].opis%></p></td>
+                            </tr>
+                        <% } %>
+                        <% for( var i = 0; i < sent.wykazCN.length; i++ ) { %>
+                            <div id="sentDivId_<%=i%>" class="sentBox">
+                                <img src="/images/exit.png" alt="exit" id="sentBoxExit_<%=i%>">
+                                <h2 class="clear">Kod CN: <%= sent.wykazCN[i].kod %></h2><br>
+                                <p><%=sent.wykazCN[i].opis%></p><br>
+                                <% if(sent.wykazCN[i].wylaczenia != "") { %>
+                                    <p><%=sent.wykazCN[i].wylaczenia%></p><br>
+                                <% } %>
+                                <% if(sent.wykazCN[i].akcyza != "") { %>
+                                    <h3>Uwaga</h3><br>
+                                    <p> Przewóz towarów objętych pozycją CN <%= sent.wykazCN[i].kod %> podlega systemowi monitorowania przewozu, o ile towary te są wymienione w załączniku nr 1 do ustawy z dnia 6 grudnia 2008 r. o podatku akcyzowym, bez względu na przeznaczenie. tj.:</p><br>
+                                        <% for(var j = 0; j < sent.wykazCN[i].akcyza.length; j++) { %>
+                                            <p>Kod CN: <%= sent.wykazCN[i].akcyza[j] %><br> - <%= sent.wykazCN[i].akcyzaOpis[j] %></p><br>
+                                        <% } %>
+                                <% } %>
+                                <% if(sent.wykazCN[i].dodatkowe != "") { %>
+                                    <h3>Często spotykane kody:</h3><br>
+                                    <% for(var j = 0; j < sent.wykazCN[i].dodatkowe.length; j++) { %>
+                                        <%= sent.wykazCN[i].dodatkowe[j] %><br><br>
+                                    <% } %>
+                                <% } %>
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        <% } %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="wykazPozostale" class="border">
+                <img src="/images/menu.png" id="btn_sentWykazInne" onclick="pokazDiv('sentWykazPozostaleTabela','btn_sentWykazInne')" class="arrowDown">
+                <div onclick="pokazDiv('sentWykazPozostaleTabela','btn_sentWykazInne')" class="cursor bigBtn"><h2>Pozostałe towary</h2></div>
+                <div id="sentWykazPozostaleTabela" class="clear">
+                    <% for( var i = 0; i < sent.wykazPozostale.length; i++ ) { %>
+                    <div class="border light">
+                        <h3><%= sent.wykazPozostale[i].towar %></h3><br>
+                        <p><%= sent.wykazPozostale[i].opis %></p>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+            <div id="sentWykazLeki" class="border">
+                <img src="/images/menu.png" id="btn_sentWykazLeki" onclick="pokazDiv('sentWykazLekiTabela','btn_sentWykazLeki')" class="arrowDown">
+                <div onclick="pokazDiv('sentWykazLekiTabela','btn_sentWykazLeki')" class="cursor bigBtn"><h2>Leki</h2></div>
+                <div id="sentWykazLekiTabela" class="clear">
+                    <p> 
+                        Produkty lecznicze, środki spożywcze specjalnego przeznaczenia żywieniowego oraz wyroby medyczne
+                        zagrożone brakiem dostępności na terytorium Rzeczypospolitej Polskiej, objęte obowiązkiem zgłaszania:<br>
+                        - wywozu poza terytorium Rzeczypospolitej Polskiej lub<br>  
+                        - zbycia podmiotowi prowadzącemu działalność poza terytorium Rzeczypospolitej Polskiej.<br> 
+                    <a href="https://www.gov.pl/zdrowie/akty-prawne-w-mz" target="_blank">link do strony Ministaerstwa Zdrowia.</a></p>
+
+                    <div class="border light" id="lekiWyszukiwarka">
+                        <label for="lekiInput">Wyszukiwarka: </label>
+                        <input type="text" id="lekiInput" placeholder="Podaj nazwę" class="inputType podswietlenie">
+                        <span id="lakiBrak"></span>
+                    </div>
+                    <div id="lekiBigBox">
+                        <% for( var i = 0; i < sent.leki.length; i++) { %>
+                            <div class="lekiSmallBox border light cursor" onclick="displaySent(<%=i%>, 'leki')">
+                                <span class="lekiNazwa"><h2><%= sent.leki[i].nazwa %></h2>
+                                <p><%= sent.leki[i].moc %></p>
+                                <p><%= sent.leki[i].międzynarodowa %></p></span>
+                            </div>
+                        <% } %>
+                    </div>
+                    <% for( var i = 0; i < sent.leki.length; i++) { %>
+                            <div id="lekiDivId_<%=i%>" class="sentBox">
+                                <img src="/images/exit.png" alt="exit" id="lekiBoxExit_<%=i%>">
+                                <h2 class="clear"><%= sent.leki[i].nazwa %></h2>
+                                <table>
+                                    <tr>
+                                        <td colspan ="2">Lp.: <%= sent.leki[i].lp %> - wykazu na dzień 15 lipca 2018 r.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nazwa międzynarodowa: </td><td><%= sent.leki[i].międzynarodowa %></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Postać:</td><td><%= sent.leki[i].postac %></td>
+                                    </tr>
+                                    <% if(sent.leki[i].moc != "") { %>
+                                        <tr>
+                                            <td>Moc:</td><td><%= sent.leki[i].moc %></td>
+                                        </tr>
+                                    <% } %>
+                                    <tr>
+                                        <td>Wielkość opakowania:</td><td><%= sent.leki[i].opakowania %></td>
+                                    </tr>
+                                    <% if(sent.leki[i].kod != "###") { %>
+                                        <tr>
+                                            <td>Kod EAN lub inny kod odpowiadający kodowi EAN:</td><td><%= sent.leki[i].kod %></td>
+                                        </tr>
+                                    <% } %>
+                                </table>
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>  
+                    <% } %>
+                </div>
+                
+            </div>
+            
+        </main>
+        <% include partials/main/footer.ejs %>
+    </div>
+    <script src="../javascripts/sent.js"></script>
+</body>
+</html>

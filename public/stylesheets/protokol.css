@@ -1,0 +1,303 @@
+/*Style dla Menu*/
+#proMenu{
+    box-sizing: border-box;
+    color: #DB002F;
+    box-sizing: border-box;
+    max-width: 1000px;
+    min-height: 73px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#proMenu>div{
+    font-size: 140%;
+	display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    width: 22%;
+}
+#proMenu>div:hover{
+	color: white;
+	background-color: #d87886;
+	cursor: pointer;
+	box-shadow: inset 2px 2px 2px black;
+	text-shadow: 2px 2px 2px black;
+	/* opużnienie przejścia v0.2.1 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.border{
+	-webkit-border-radius: 10px/10px;
+	-moz-border-radius: 10px/10px;
+	border-radius: 10px/10px; 
+    border: 3px solid #DB002F;
+    box-shadow: 2px 2px 2px grey;
+}
+/* Rozwijane menu z kodami*/
+#kody2tab{
+    margin-top: 10px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#kody2tab table{
+    color: #DB002F;
+	border: solid 1px #DB002F;
+    padding: 5px;
+    text-align: center;
+    max-width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+#kody2tab table td{
+    border-color: #DB002F;
+}
+th{
+	padding: 10px;
+}
+/*Style dla Protokołów
+-Oględziny*/
+#protoWrapper{
+    font-size: 75%;
+    text-align: center;
+    max-width: 1000px;
+    min-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ukryj{
+    display: none;
+}
+.clear{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.just{
+    text-align: justify;
+}
+#proTarR1C1{
+    float: left;
+    width: 50%;
+    min-height: 10px;
+}
+#proTarR1C2{
+    float: left;
+    width: 50%;
+}
+#proTarR1C2N1{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+}
+#proTarR3C1{
+    float: left;
+    width: 49%;
+    margin-top: 5px;
+}
+#proTarR3C1N1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    border: solid black 1.5px;
+}
+.tabDataPro{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    background-color: #FFFFCC;
+    border: solid black 1px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+#proTarR4{
+    padding: 15px;
+    text-align: left;
+}
+#proTarR5C1{
+    float: left;
+    width: 50%;
+}
+#proTarR5C2{
+    float: left;
+    width: 50%;
+}
+#proTarR6C1{
+    float: left;
+    width: 30%;
+    padding: 30px;
+}
+#proTarR7{
+    float: right;
+    width: 60%;
+}
+.text1 {
+    font-size: 175%;
+    font-weight: 600;
+    line-height: 40px;
+}
+.text2 {
+    font-size: 150%;
+    font-weight: 550;
+    line-height: 70%;
+}
+.text3 {
+    font-size: 140%;
+    font-weight: 450;
+    line-height: 115%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    background-color: white;
+    border: solid black 1px;
+    height: 30px;
+}
+.pusteTd, .pusteTr>td{
+    border-bottom: none;
+    border-top: none;
+    background-color: #FFFFCC;
+}
+.pusteTr>td{
+    border-left: none;
+    border-right: none;
+    height: 50%;
+    font-size: 80%;
+    width: 6%;
+}
+#proTarRef{
+    line-height: 110%;
+}
+/*Elementy do samowypełnianącego się protar*/
+#proTarAuto{
+    margin-top: 10px;
+    font-size: 125%;
+}
+.thead{
+    font-weight: 550;
+}
+.proTarTd1{
+    width: 5%;
+}
+.proTarTd2{
+    width: 55%;
+}
+.proTarTd3{
+    width: 14%;
+}
+.proTarTd4{
+    width: 9%;
+}
+.proTarTd5{
+    width: 9%;
+}
+.proTarTd6{
+    width: 9%;
+}
+
+/* Nowe */
+#proOglR1C1N{
+    text-align: left;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+}
+/* Dla Radio*/
+input[type=radio]:not(old), input[type=checkbox]:not(old){
+    width     : 2em;
+    margin    : 0;
+    padding   : 0;
+    font-size : 1em;
+    opacity   : 0;
+  }
+  input[type=radio]:not(old) + label > span, input[type=checkbox]:not(old) + label > span{
+    display          : inline-block;
+    width            : 1.2em;
+    height           : 1.2em;
+    margin           : 0.25em 0.5em 0.25em 0.25em;
+    border           : 0.09em solid black;
+    background       : #ffffff;
+    vertical-align   : middle;
+  }
+  input[type=radio]:not(old):checked + label > span:before, input[type=checkbox]:not(old):checked + label > span:before{
+    content: 'X';
+        display: block;
+        color: black;
+    font-size: 160%; 
+    font-family: sans-serif;
+      line-height: 0.755em;
+        text-align: center;
+  }
+  #oglMainTab{
+      font-size: 125%;
+  }
+  .tdDark{
+      background-color: lightgrey;
+  }
+  .tdWi{
+    width: 38%;
+  }
+  .vertical{
+    writing-mode:tb-rl;
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+    height: 55px;
+    margin-left: 20px;
+}
+.tdw{
+    width: 45%
+}
+.tdw2{
+    width: 5%
+}
+.tdH{
+    height: 45px;
+}
+#str2{
+    position: relative;
+    top: 120px;
+}
+.pad{
+    padding: 10px;
+}
+#autoTabOg2{
+    margin-top: -1px;
+}
+/* Spis */
+#proSpisR3C1N1{
+    padding: 0px 25px;
+}
+.proPodpisyObok{
+    float: left;
+    width: 50%;
+}
+#proSpisAuto{
+    font-size: 160%;
+    margin-bottom: 5px;
+    line-height: 110%;
+    width: 100%;
+    min-height: 30px;
+}
+#proSpisAutoOl{
+    line-height: 175%;
+    
+}

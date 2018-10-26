@@ -1,0 +1,64 @@
+{
+    "kalkulator": [{
+        "typ" : "Papierosy",
+        "link": "papierosy"
+    },
+        
+    {
+        "typ" : "Tytoń",
+        "link": "tyton"
+    },
+
+    {
+        "typ" : "Susz",
+        "link": "susz"
+    },
+
+    {
+        "typ" : "Spirytus",
+        "link": "spirytus"
+    },
+
+    {
+        "typ" : "Wódka",
+        "link": "wodka"
+    },
+    
+    {
+        "typ" : "Pojazdy - AKC-U",
+        "link": "pojazdy"
+    }],
+    
+    "stawki":[2018,2017,2016],
+
+    "kodyKreskowe":[
+        {"kraj":"Polska","kod":"590"},
+        {"kraj":"Niemcy","kod":"od 400 do 440"},
+        {"kraj":"Rosja","kod":"46"},
+        {"kraj":"Ukraina","kod":"482"},
+        {"kraj":"Estonia","kod":"474"},
+        {"kraj":"Łotwa","kod":"475"},
+        {"kraj":"Litwa","kod":"477"},
+        {"kraj":"Francja","kod":"od 30 do 37"},
+        {"kraj":"Bułgaria","kod":"380"},
+        {"kraj":"Słowenia","kod":"383"},
+        {"kraj":"Chorwacja","kod":"385"},
+        {"kraj":"Mołdawia","kod":"484"},
+        {"kraj":"Armenia","kod":"485"},
+        {"kraj":"Gruzja","kod":"486"},
+        {"kraj":"Bośnia-Hercegowina","kod":"387"},
+        {"kraj":"Wielka Brytania","kod":"50"},
+        {"kraj":"Grecja","kod":"520"},
+        {"kraj":"Macedonia","kod":"531"},
+        {"kraj":"Irlandia","kod":"539"},
+        {"kraj":"Malta","kod":"535"},
+        {"kraj":"Irlandia","kod":"539"},
+        {"kraj":"Belgia & Luksemburg","kod":"54"},
+        {"kraj":"Portugalia","kod":"560"},
+        {"kraj":"Dania","kod":"57"},
+        {"kraj":"Rumunia","kod":"594"},
+        {"kraj":"Węgry","kod":"599"},
+        {"kraj":"Włochy","kod":"od 80 do 83"},
+        {"kraj":"Hiszpania","kod":"84"},
+        {"kraj":"Austria","kod":"90 i 91"}]
+}

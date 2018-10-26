@@ -1,0 +1,527 @@
+@import url(reset.css);
+/* max rozmiar boxa */
+*{box-sizing: border-box;}
+/* Ogólne style */
+body{
+	font-family: 'Domine', 'Times New Roman', 'Times', serif;
+	color: #DB002F;
+	background: #e8e8e8;
+}
+h1{
+	font-size: 160%;
+}
+h2{
+	font-size: 130%;
+}
+h3{
+	font-size: 115%
+}
+p{
+	line-height: 160%;
+}
+a{
+	color: #DB002F;
+}
+b{
+	font-weight: bold;
+}
+#wrapper{
+	background-color: white;
+	max-width: 1000px;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center;
+}
+main{
+	max-width: 90%;
+	margin: 2.5em auto 2.5em auto;
+}
+.border{
+	-webkit-border-radius: 10px/10px;
+	-moz-border-radius: 10px/10px;
+	border-radius: 10px/10px; 
+	border: 3px solid #DB002F;
+	box-shadow: 2px 2px 2px grey;
+}
+.light{
+	border: 2px solid #DB002F;
+	box-shadow: 1px 1px 1px grey;
+}
+.clear{
+	clear: both;
+}
+.ukryj{
+	display: none;
+}
+.cursor{
+	cursor: pointer;
+}
+/* wyłączanie podświetlenia inputu */
+.podswietlenie:focus {
+	outline: none;
+}
+/* Style dla obracanych strzałek rozwijających divy dół*/
+.arrowDown{
+	display: block;
+	transform: rotate(90deg);
+	cursor: pointer;
+	float: right;
+}
+/* style dla stopki */
+footer{
+	text-align: right;
+	font-size: 80%;
+	padding: 3px;
+	margin: 5px;
+}
+/* Początek nawigacji pasek górny i menu kalkulator linki*/
+header{
+	padding: 5px;
+	text-align: left;
+}
+.link, nav>a{
+	color: #DB002F;
+	text-decoration: none;
+	font-size: 110%;
+	padding: 10px;
+	/* opużnienie przejścia v0.2.1 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 2px grey;
+}
+header nav a{
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+	margin: 2px auto;
+}
+/* style do funkcjonalność górnego menu */
+#toggle_menu{
+	margin: 2px;
+	padding: 2px;
+	width: 140px;
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	min-height: 58px;
+}
+nav>img{
+	float: right;
+	margin: 10px 6px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+nav>h1{
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+/* koniec style do funkcjonalność górnego menu */
+menu a{
+	display: block;
+	width: 90%;
+	margin: 5px auto;
+}
+menu a:hover, nav a:hover, #btn_oblicz:hover, #btn_druk:hover, #btn_wiecej:hover ,#btn_stawki:hover, #btn_protokoly:hover, #btn_kody:hover, .kalkAddNazwaBtn:hover, .menuIIbtn:hover, #kalkAddZlicz:hover, #btn_protar:hover, #btn_proogl:hover, #btn_kalkspis:hover, #btn_back:hover, #ieStawkiZapBtn:hover{
+	color: white;
+	background-color: #d87886;
+	cursor: pointer;
+	box-shadow: inset 2px 2px 2px black;
+	text-shadow: 2px 2px 2px black;
+	/* opużnienie przejścia v0.2.1 */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+/* Koniec nawigacji pasek górny i linki kalkulator*/
+/* Przyciski i pola input*/
+.bigBtn{
+	height: 100%;
+}
+.bigBtn>h2{
+	line-height: 30px;
+}
+.przyciski{
+	display: inline-block;
+	margin: 5px 0px;
+	padding: 10px;
+	background-color: white;
+	min-width: 165px;
+	font-family: 'Domine', serif;
+	color: #DB002F;
+	font-size: 16px;
+}
+/* Pola input typ number oraz text*/
+input[type="number"], .inputType{
+	margin: 8px 0px;
+	border: 1px solid #DB002F;
+	border-radius: 5px/5px;
+	padding: 2px;
+	text-align: center;
+	color: #DB002F;
+	box-shadow: 1px 1px 1px grey;
+	background-color: white;
+}
+input[type="number"], #stawki_rok{
+	width: 100px;
+}
+/* dla wyłączonych pól input */
+:disabled{
+	background-color: #ffffff;
+}
+::placeholder {
+	font-size: 100%;
+    color:  #d87886;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-size: 100%;
+   	color: #d87886;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font-size: 100%;
+   	color:  #d87886;
+}
+/* Style dla input typ list*/
+#stawki_rok{
+	font-size: 100%;
+	width: 65px;
+	background-color: white;
+}
+/* style dla pola typu stawki */
+#ieStawkiZapBtn{
+	font-size: 85%;
+	padding: 4px;
+	-webkit-border-radius: 5px/5px; 
+	-moz-border-radius: 5px/5px; 
+	border-radius: 5px/5px; 
+	border: 1px solid #DB002F;
+	box-shadow: 1px 1px 1px grey;
+}
+/* style dla pola typu stawki */
+#stawki input{
+	border: none;
+	color: #DB002F;
+	width: 70px;
+	font-size: 105%;
+}
+/* Początek stylów dla stawek dla euro dla spirytusu */
+#stawki>#kurs_dnia_div>input{
+	text-align: center;
+	border: solid 1px;
+	color: #DB002F;
+	font-size: 105%;
+	-webkit-border-radius: 10px/10px;
+	-moz-border-radius: 10px/10px;
+	border-radius: 10px/10px; 
+	box-shadow: 2px 2px 2px grey;
+	background-color: white;
+}
+#kurs_dnia_input{
+	width: 140px !important;
+}
+	/* koniec euro */
+/* Zaznaczenia typu v0.2.1 */
+input[type=radio]:not(old){
+	width: 1em;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	opacity: 0;
+}
+input[type=radio]:not(old) + label > span{
+	display: inline-block;
+	width: 0.875em;
+	height: 0.875em;
+	margin: 0.75em 0.5em 0.75em 0.25em;
+	border: 0.0625em solid #DB002F;
+	border-radius: 0.25em;
+	background: #ffffff;
+	box-shadow: 1px 1px 1px grey;
+	vertical-align: middle;
+}
+input[type=radio]:not(old):checked + label > span:before{
+	content: '✓';
+	display: block;
+	color: #DB002F;
+	font-size: 140%;
+	line-height: 0.4em;
+	width: 0.1em;
+	text-align: center;
+	text-shadow: 0 0 0.07em grey;
+	font-weight: bold;
+}
+/* Konec Przycisków i pól input*/
+/* Koniec ogólnych stylów */
+/* Początek kalkulator */
+menu{
+	margin: 5px;
+}
+menu>div{
+	padding: 5px;
+}
+#main_kalk{
+	padding: 10px;
+}
+#wiecej_kalk{
+	height: 0px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Dodatkowy przycisk dla IE i EDGE dla zapytania o stawki*/
+/* Poczontek menue z ?+ i par */
+#kalkAddMenuWraper{
+	width: 100%;
+	margin-top: 5px;
+}
+#kalkAddNazwaInput{
+	height: 28px;
+	width: 88%;
+	font-size: 120%;
+}
+.kalkAddNazwaBtn{
+	display: inline-block;
+	width: 29%;
+	min-height: 36px;
+	line-height: 36px;
+	font-size: 180%;
+}
+/* Koniec menue z ?+ i par */
+/* Auta tabela kodów CN*/
+#autoKodyCN, #kody table{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #DB002F;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#autoKodyCN td, #kody td{
+	border: solid 1px #DB002F;
+	padding: 5px;
+}
+#autoKodyCN sup{
+    vertical-align: super;
+    font-size: 80%;
+}
+#kody th{
+	padding: 10px;
+}
+.tbCnKod{
+	min-width: 120px;
+}
+/* Funkcjonalność add*/
+.kalkAddPozBox{
+	min-height: 50px;
+	margin: 15px;
+	padding: 10px;
+}
+/* MenuII ADD*/
+.menuIIbtn{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	padding: 5px;
+}
+.btnKalkMenuII{
+	padding: 12px;
+	font-size: 110%;
+	width: 90%;
+	margin: 5px auto;
+}
+/* Koniec ADD*/
+/* Konec kalkulator */
+/* Poczętek SENT*/
+/* Oddzielenie poszczególnych kontenerów */
+#sentWykazCN, #wykazPozostale, #sentWykazLeki{
+	margin-top: 25px;
+	padding: 15px;
+}
+/* Style ukrywający divy do otwarcia*/
+#sentWykazCNTabela, #sentWykazPozostaleTabela, #sentWykazLekiTabela{
+	height: 0px;
+	overflow: hidden;
+}
+/* Style dla tabeli w kod CN i leki*/
+#sentWykazCN table, #sentWykazCN th, #sentWykazCN td, .sentBox table, .sentBox td{
+	border: 1px solid #DB002F;
+	padding: 10px;
+	margin-top: 15px;
+}
+.sentBox table{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	font-size: 80%;
+}
+/* Style dla divów otwieranych na całe okno po kliknięci w kod CN oraz pozycję taryfikatora kw */
+.sentBox, .tarBox{
+	width: 100%;
+	height: 150%;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	background-color: white;
+	padding: 20px;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;/* iphone spawdzić */
+}
+.sentBox>img, .tarBox>img{
+	display: block;
+	float: right;
+	padding: 30px;
+	cursor: pointer;
+}
+/* Koniec divów otwieranych na całe okno po kliknięci w kod CN */
+/* Style dla divóww z pozostałymi kategoriami w otwieranym divie pozostałe */
+#sentWykazPozostaleTabela>div,#lekiBigBox>div, #lekiWyszukiwarka{
+	margin: 20px;
+	padding: 15px;
+}
+/* Style dla divów dla każdego leku */
+#lekiWyszukiwarka>label{
+	font-size: 115%;
+}
+/* Wyszukiwarka input */
+#lekiInput{
+width: 100%;
+height: 40px;
+font-size: 115%;
+}
+/* Koniec SENT */
+/* Początek KWKKS */
+.kwkksLink{
+	display: block;
+	margin: 5px;
+	color: #DB002F;
+	text-decoration: none;
+	font-size: 125%;
+	padding: 20px;
+}
+#kwkksMainBox{
+	margin: 5px;
+	padding-top: 20px;
+}
+.kwkksContentBox{
+	margin: 10px 5px;
+	padding: 15px;
+}
+.btn{
+	display: inline-block;
+	padding: 10px;
+	margin: 5px 2px;
+	background-color: white;
+}
+.overflowH{
+	height: 0px;
+	overflow: hidden;
+}
+#przepisySmallBox a{
+	display: block;
+	margin-top: 20px;
+}
+/* Początek taryfikatora */
+#taryfikatorMenuBox>div{
+	width: 99%;
+}
+#tarWyszukiwarka{
+	margin: 4px;
+	padding: 5px;
+}
+#tarWyszukiwarka>input{
+	width: 100%;
+	height: 40px;
+	font-size: 110%;
+}
+#taryfikatorIImenu>div{
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	-webkit-border-radius: 10px/10px;
+	-moz-border-radius: 10px/10px;
+	border-radius: 10px/10px; 
+	border: 0px;
+}
+.tarPoz{
+	margin: 20px 10px;
+	padding: 15px;
+}
+.tarPoz:first-of-type{
+	margin-top: 50px;
+}
+/* Taryfikator tabele*/
+#tarBigBox table{
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border: solid 1px #DB002F;
+}
+#tarBigBox table td{
+	padding: 10px;
+	font-size: 120%;
+	border: solid 1px #DB002F;
+}
+/* Koniec Taryfikator tabele*/
+/* Koniec taryfikatora */
+/* Początek Znaków */
+#znakiMenuBox>div{
+	width: 99%;
+}
+.znakiSmallBox{
+	min-height: 72px;
+	margin: 5px
+}
+.kwSmallLeft{
+	margin-top: 2px;
+	margin-left: 20px;
+	float: left;
+}
+.kwSmallCenter{
+	font-size: 110%;
+	margin-top: 10px;
+}
+.kwSmallRight{
+	margin: 5px;
+}
+/* Koniec Znaków */
+/* Koniec Kw */
+/* Początek KKS */
+#przepisySmallBox>div{
+	margin: 20px;
+	padding: 20px;/* zmienić dla małych urządzeń*/
+}
+/* Koniec KKS */
+/* Koniec Kwkks */
+/* strona construction */
+main img{
+	max-width: 100%;
+}
+/*media przenieść do osobnych plików i podpiąć do head*/
+@media screen and (min-width: 750px){
+	menu{
+		float: right;
+		width: 30%;
+	}
+	section{
+		width: 70%;
+	}
+	.sentBox{
+		padding-left: 150px;
+		padding-right: 150px;
+		/*sprawdzić czy działa i ustawić dla sent*/
+	}
+	#znakiMenuBox>div{
+		width: 49%;
+	}
+}

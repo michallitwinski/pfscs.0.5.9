@@ -1,0 +1,44 @@
+{
+    "techchnology": [{
+        "title" : "CSS 3",
+        "number" : "0",
+        "image" : "tech_1.png"
+    },
+        
+    {
+        "title" : "Html 5",
+        "number" : "1",
+        "image" : "tech_0.png"
+    },
+  
+    {
+        "title" : "JavaScript",
+        "number" : "2",
+        "image" : "tech_2.png"
+    },
+  
+    {
+        "title" : "Node.js",
+        "number" : "3",
+        "image" : "tech_3.png"
+    },
+  
+    {
+        "title" : "Express",
+        "number" : "4",
+        "image" : "tech_4.png"
+    },
+  
+    {
+        "title" : "ejs",
+        "number" : "5",
+        "image" : "tech_5.png"
+    },
+
+    {
+        "title" : "AJAX",
+        "number" : "5",
+        "image" : "tech_6.png"
+    }]
+  
+}

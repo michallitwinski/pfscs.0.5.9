@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Spis i opis</title>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokol.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/protokolPrint.css" media="print">
+</head>
+
+<body>
+    <% include proMenu.ejs %>
+	<div id="protoWrapper">
+		<div style="text-align: right" id="ProNrDr">P-4</div>
+		<div id="proTarR1C1">
+		</div>
+		<div id="proTarR1C2">
+			<p><span id="proTarSygn" class="text2 clear" contenteditable="true">sygnatura?</span><span id="proTarSygnNr" class="text2" contenteditable="true">Nr?</span><br>
+				<i>(nazwa i numer rejestru albo znak sprawy)</i><br>
+				<span id="proTarRef" class="text2" contenteditable="true">referat?</span><br>
+				<i>(nazwa jednostki prowadzącej sprawę)</i><br>
+			</p>
+		</div>
+		<div id="proSpisR2" class="clear">
+			<span class="text1">Spis i opis</span>
+		</div>
+		<div id="proSpisR3C1N1" class="text3 left">
+			<input id="spis1" type="checkbox" name="prospis" checked><label for="spis1"><span></span>wydanych dobrowolnie po wezwaniu
+				dokonującego czynność</label><br>
+			<input id="spis2" type="checkbox" name="prospis"><label for="spis2"><span></span>znalezionych w toku przeszukania</label><br>
+			<input id="spis3" type="checkbox" name="prospis"><label for="spis3"><span></span>przymusowo odebranych</label>
+		</div>
+		<div id="proTarR4" class="clear" style="padding-top: 0px;">
+			<div id="proSpisAuto" contenteditable="true" class="just">
+			</div>
+			<div class="center">
+				(oddzielnie opisać rzeczy wydane dobrowolnie, oddzielnie rzeczy ujawnione w toku przeszukania; w przypadku
+				znalezienia rzeczy w miejscu wskazującym na celowe ich ukrycie, opisać szczegółowo to miejsce)
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="proPodpisyObok">
+			…………………………………………………………………<br>
+			<i> (stopień funkcjonariusza celnego)</i>
+		</div>
+		<div class="proPodpisyObok">
+			…………………………………………………………………<br>
+			<i> (imię i nazwisko)</i>
+		</div>
+		<div id="proSpisR6" class="clear">
+			<br>
+			<span class="text3">z <b><span contenteditable="true" id="proJednostka">jednostka?</span></b></span><br>
+			(nazwa jednostki)
+		</div>
+		<div id="proSpisR7" class="text3 just pad left">
+			na podstawie art. 217 kpk rzeczy opisane w pozycji <span contenteditable="true" id="kalkSpisIloscPoz">????</span> zatrzymał sporządzając
+			protokół zatrzymania rzeczy
+		</div>
+		<div class="text3 clear" id="proTarR6C1">
+			Czynności zakończono :
+		</div>
+		<div id="proTarR6C2" class="tabDataPro">
+			<table>
+				<tr contenteditable="true" class="text2" id="dataKoniecId">
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="pusteTd" contenteditable="false"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+					<td class="dataKoniecClass"></td>
+				</tr>
+				<tr class="pusteTr">
+					<td>g</td>
+					<td>g</td>
+					<td>m</td>
+					<td>m</td>
+					<td></td>
+					<td>d</td>
+					<td>d</td>
+					<td>m</td>
+					<td>m</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+					<td>r</td>
+				</tr>
+			</table>
+		</div>
+		<div class="clear just text3 pad">
+			Otrzymałem (am) kopię spisu i opisu rzeczy, stanowiącą pokwitowanie zabranych rzeczy *.
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="proPodpisyObok">
+			…………………………………………………………………<br>
+			<i>(data)</i>
+		</div>
+		<div class="proPodpisyObok">
+			…………………………………………………………………<br>
+			<i>(podpis)</i>
+		</div>
+		<div class="clear left">
+			<br>
+			*) niepotrzebne skreślić / postawić znak x w odpowiedniej kratce
+		</div>
+	</div>
+	</div>
+</body>
+<script src="../javascripts/kalk/protokolI.js"></script>
+</html>

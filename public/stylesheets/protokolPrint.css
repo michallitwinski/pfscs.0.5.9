@@ -1,0 +1,11 @@
+#proMenu, #kody2tab, #btnProAdd{
+    display: none;
+}
+.tabDataPro{
+    background-color: #FFFFCC !important;
+    -webkit-print-color-adjust: exact;
+}
+.tdDark{
+    background-color: lightgrey !important;
+    -webkit-print-color-adjust: exact;
+}

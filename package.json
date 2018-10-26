@@ -1,0 +1,15 @@
+{
+  "name": "pfscs",
+  "version": "0.5.9",
+  "description": "Pomocnik funkcjonariusza",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Litwiński",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

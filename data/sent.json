@@ -1,0 +1,2063 @@
+{
+    "wykazCN": [{
+        "kod" : 1507,
+        "opis" : "Olej sojowy i jego frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+        
+    {
+        "kod" : 1508,
+        "opis" : "Olej z orzeszków ziemnych i jego frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+        
+    },
+  
+    {
+        "kod" : 1509,
+        "opis" : "Oliwa i jej frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1510,
+        "opis" : "Pozostałe oleje i ich frakcje, otrzymywane wyłącznie z oliwek, nawet rafinowane, ale niemodyfikowane chemicznie, włącznie z mieszaninami tych olejów lub ich frakcji z olejami lub frakcjami objętymi pozycją 1509",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1511,
+        "opis" : "Olej palmowy i jego frakcje, nawet rafinowany, ale niemodyfikowany chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1512,
+        "opis" : "Olej z nasion słonecznika, z krokosza barwierskiego lub z nasion bawełny i ich frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 1513,
+        "opis" : "Olej kokosowy (z kopry), olej z ziaren palmowych lub olej babassu i ich frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 1514,
+        "opis" : "Olej rzepakowy, rzepikowy lub gorczycowy oraz ich frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1515,
+        "opis" : "Pozostałe ciekłe tłuszcze i oleje roślinne (włącznie z olejem jojoba) i ich frakcje, nawet rafinowane, ale niemodyfikowane chemicznie",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1516,
+        "opis" : "Tłuszcze i oleje, zwierzęce lub roślinne i ich frakcje, częściowo lub całkowicie uwodornione, estryfikowane wewnętrznie, reestryfikowane lub elaidynizowane, nawet rafinowane, ale dalej nieprzetworzone",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 1517,
+        "opis" : "Margaryna; jadalne mieszaniny lub produkty z tłuszczów lub olejów, zwierzęcych lub roślinnych, lub z frakcji różnych tłuszczów lub olejów, z niniejszego działu, inne niż jadalne tłuszcze lub oleje lub ich frakcje, objęte pozycją 1516 - z wyłączeniem margaryny oraz margaryny płynnej",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 26 kg lub 26 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 2207,
+        "opis" : "Nieoznaczone znakami akcyzy - alkohol etylowy nieskażony o objętościowej mocy alkoholu 80% obj. lub większej; alkohol etylowy i pozostałe wyroby alkoholowe, o dowolnej mocy, skażone",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 5 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 2707,
+        "opis" : "Oleje i pozostałe produkty destylacji wysokotemperaturowej smoły węglowej; podobne produkty, w których masa składników aromatycznych jest większa niż składników niearomatycznych, np. benzen, toluen, ksylol, naftalen",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 11 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 2710,
+        "opis" : "Oleje ropy naftowej i oleje otrzymywane z minerałów bitumicznych, inne niż surowe; preparaty gdzie indziej niewymienione ani niewłączone, zawierające 70% masy lub więcej olejów ropy naftowej lub olejów otrzymywanych z minerałów bitumicznych, których te oleje stanowią składniki zasadnicze preparatów, np. benzyna lakiernicza, benzyna lotnicza, benzyna silnikowa, oleje napędowe, oleje opałowe; oleje odpadowe",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 11 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ["CN 2710 19 81 - oleje silnikowe", "CN 2710 19 87 - oleje przekładniowe", "CN 2710 19 91 - oleje antykorozyjne", "CN 2710 19 99 - pozostałe oleje smarowe"]
+    },
+  
+    {
+        "kod" : 2905,
+        "opis" : "Alkohole alifatyczne i ich fluorowcowane, sulfonowane, nitrowane lub nitrozowane pochodne, np. alkohol metylowy, alkohol propylowy, alkohol izopropylowy, alkohol butylowy, sorbitol, glikol, gliceryna",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 11 litrów",
+        "akcyza" : ["2905 11 00"],
+        "akcyzaOpis": ["Metanol (alkohol metylowy) – niebędący pochodzenia syntetycznego – jeżeli jest przeznaczony do celów opałowych lub napędowych"],
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 2917,
+        "opis" : "Kwasy polikarboksylowe, ich bezwodniki, halogenki, nadtlenki i nadtlenokwasy; ich fluorowcowane, sulfonowane, nitrowane lub nitrozowane pochodne ",
+        "wylaczenia" : "",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 3403,
+        "opis" : "Preparaty smarowe (włącznie z cieczami chłodząco-smarującymi, preparatami do rozluźniania śrub i nakrętek, preparatami przeciwrdzewnymi i antykorozyjnymi, preparatami zapobiegającymi przyleganiu do formy opartymi na smarach); preparaty w rodzaju stosowanych do natłuszczania materiałów włókienniczych, skóry wyprawionej, skór futerkowych lub pozostałych materiałów, z wyłączeniem preparatów zawierających, jako składnik zasadniczy, 70% masy lub więcej olejów ropy naftowej lub olejów otrzymanych z minerałów bitumicznych",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 16 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+
+    {
+        "kod" : 3811,
+        "opis" : "Środki przeciwstukowe; inhibitory utleniania; inhibitory tworzenia się żywic; dodatki zwiększające lepkość; preparaty antykorozyjne; pozostałe preparaty dodawane do olejów mineralnych (włącznie z benzyną) lub do innych cieczy, stosowanych do tych samych celów, co oleje mineralne",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 16 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 3814,
+        "opis" : "Zawierające alkohol etylowy - organiczne złożone rozpuszczalniki i rozcieńczalniki, gdzie indziej niewymienione ani niewłączone; gotowe zmywacze farb i lakierów",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 11 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 3820,
+        "opis" : "Zawierające alkohol etylowy - środki zapobiegające zamarzaniu i gotowe płyny przeciwoblodzeniow",
+        "wylaczenia" : "z wyłączeniem opakowań jednostkowych nie większych niż 16 litrów",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 3824,
+        "opis" : "Gotowe spoiwa do form odlewniczych lub rdzeni; produkty chemiczne i preparaty przemysłu chemicznego lub przemysłów pokrewnych (włączając te składające się z mieszanin produktów naturalnych), gdzie indziej niewymienione ani niewłączone, np. oleje fuzlowe powstające jako produkt uboczny przy produkcji alkoholu etylowego",
+        "wylaczenia" : "",
+        "akcyza" : ["3824 90 91", "3824 90 97"],
+        "akcyzaOpis": ["Monoalkilowe estry kwasów tłuszczowych, zawierające objętościowo 96,5% lub więcej estrów (FAMAE) – jeżeli są przeznaczone do celów opałowych lub napędowych","Pozostałe produkty chemiczne i preparaty przemysłu chemicznego lub przemysłów pokrewnych (włączając te składające się z mieszanin produktów naturalnych), gdzie indziej niewymienione ani niewłączone – jeżeli są przeznaczone do celów opałowych lub napędowych"],
+        "dodatkowe": ""
+    },
+  
+    {
+        "kod" : 3826,
+        "opis" : "Biodiesel i jego mieszaniny, niezawierające lub zawierające mniej niż 70% masy olejów ropy naftowej lub olejów otrzymywanych z minerałów bitumicznych ",
+        "wylaczenia" : "",
+        "akcyza" : "",
+        "akcyzaOpis": "",
+        "dodatkowe": ""
+    }],
+
+
+
+
+    "wykazPozostale":[{
+        "towar": "Susz tytońowy",
+        "opis": "za susz tytoniowy uznaje się, bez względu na wilgotność, tytoń, który nie jest połączony z żywą rośliną i nie jest jeszcze wyrobem tytoniowym (kod systemowy 0001) – bez względu na jego ilość w przesyłce"
+    },
+
+    {
+        "towar": "Alkohol całkowicie skażony",
+        "opis": "wyroby nieprzeznaczone do spożycia przez ludzi zawierające alkohol całkowicie skażony (kod systemowy 0002)"
+    }],
+
+
+
+    "leki":[{
+            "lp": 1,
+            "nazwa": "Abilify Maintena",
+            "międzynarodowa": "Aripiprazolum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "400 mg",
+            "opakowania": "1 fiol.",
+            "kod": "5702157142200"
+        },
+        {
+            "lp": 2,
+            "nazwa": "Actrapid Penfill",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 3,
+            "nazwa": "Anafranil",
+            "międzynarodowa": "Clomipraminum",
+            "postac": "tabl. powl.",
+            "moc": "25 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909990295012"
+        },
+        {
+            "lp": 4,
+            "nazwa": "Anafranil",
+            "międzynarodowa": "Clomipraminum",
+            "postac": "tabl. powl.",
+            "moc": "10 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909990294916"
+        },
+        {
+            "lp": 5,
+            "nazwa": "Apidra SoloStar",
+            "międzynarodowa": "Insulinum glulisinum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wstrz.po 3 ml",
+            "kod": "5909990617197"
+        },
+        {
+            "lp": 6,
+            "nazwa": "Atecortin",
+            "międzynarodowa": "Oxytetracyclini hydrochloridum + Polymyxini B sulfas + Hydrocortisoni acetas",
+            "postac": "krople do oczu i uszu, zawiesina",
+            "moc": "(5 mg + 10000 j.m. + 15 mg)/ml",
+            "opakowania": "1 tuba 5 ml",
+            "kod": "5909990124718"
+        },
+        {
+            "lp": 7,
+            "nazwa": "Atimos",
+            "międzynarodowa": "Formoterolum",
+            "postac": "aerozol inhalacyjny, roztwór",
+            "moc": "12 µg/dawkę odmierzoną",
+            "opakowania": "1 szt. (1 poj.po 120 daw.)",
+            "kod": "5909990620777"
+        },
+        {
+            "lp": 8,
+            "nazwa": "Atrovent",
+            "międzynarodowa": "Ipratropii bromidum",
+            "postac": "płyn do inhalacji z nebulizatora",
+            "moc": "0,25 mg/ml",
+            "opakowania": "1 butelka 20 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 9,
+            "nazwa": "Atrovent N",
+            "międzynarodowa": "Ipratropii bromidum",
+            "postac": "aerozol wziewny, roztwór",
+            "moc": "20 mcg/dawkę inh.",
+            "opakowania": "1 poj. 10 ml (200 dawek)",
+            "kod": "###"
+        },
+        {
+            "lp": 10,
+            "nazwa": "Bebilon pepti 2 DHA",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek",
+            "moc": "",
+            "opakowania": "450 g",
+            "kod": "8718117603275"
+        },
+        {
+            "lp": 11,
+            "nazwa": "Berodual",
+            "międzynarodowa": "Fenoteroli hydrobromidum + Ipratropii bromidum",
+            "postac": "roztwór do nebulizacji",
+            "moc": "(0,5 mg + 0,25 mg)/ml",
+            "opakowania": "1 butelka 20 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 12,
+            "nazwa": "Berodual N",
+            "międzynarodowa": "Fenoteroli hydrobromidum + Ipratropii bromidum",
+            "postac": "aerozol inhalacyjny, roztwór",
+            "moc": "(50 mcg + 21 mcg)/dawkę inh.",
+            "opakowania": "1 poj. (200 dawek)",
+            "kod": "###"
+        },
+        {
+            "lp": 13,
+            "nazwa": "Berodual N",
+            "międzynarodowa": "Fenoteroli hydrobromidum + Ipratropii bromidum",
+            "postac": "aerozol inhalacyjny, roztwór",
+            "moc": "(50 mcg + 21 mcg)/dawkę inh.",
+            "opakowania": "1 poj. (200 dawek)",
+            "kod": "###"
+        },
+        {
+            "lp": 14,
+            "nazwa": "Braltus",
+            "międzynarodowa": "Tiotropii bromidum",
+            "postac": "proszek do inhalacji w kapsułce twardej",
+            "moc": "10 µg/dawkę dostarczaną",
+            "opakowania": "30 kaps.",
+            "kod": "5909991299545"
+        },
+        {
+            "lp": 15,
+            "nazwa": "Budesonide Easyhaler",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji",
+            "moc": "200 µg/dawkę",
+            "opakowania": "1 inh.po 200 daw. + opak. ochronne (zestaw startowy)",
+            "kod": "5909990337323"
+        },
+        {
+            "lp": 16,
+            "nazwa": "Budesonide Easyhaler",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji",
+            "moc": "400 µg/dawkę",
+            "opakowania": "1 inh.po 100 daw. + opak. ochronne (zestaw startowy)",
+            "kod": "5909990337286"
+        },
+        {
+            "lp": 17,
+            "nazwa": "Bufomix Easyhaler",
+            "międzynarodowa": "Budesonidum + Formoterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "160+4,5 µg/dawkę inhalacyjną",
+            "opakowania": "1 inh.po 60 daw. z opakowaniem ochronnym",
+            "kod": "5909991137465"
+        },
+        {
+            "lp": 18,
+            "nazwa": "Bufomix Easyhaler",
+            "międzynarodowa": "Budesonidum + Formoterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "160+4,5 µg/dawkę inhalacyjną",
+            "opakowania": "1 inh.po 120 daw. z opakowaniem ochronnym",
+            "kod": "5909991137458"
+        },
+        {
+            "lp": 19,
+            "nazwa": "Bufomix Easyhaler",
+            "międzynarodowa": "Budesonidum + Formoterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "320+9 µg/dawkę inhalacyjną",
+            "opakowania": "1 inh.po 60 daw. z opakowaniem ochronnym",
+            "kod": "5909991137625"
+        },
+        {
+            "lp": 20,
+            "nazwa": "Cardura XL",
+            "międzynarodowa": "Doxazosinum",
+            "postac": "tabl. o zmodyfikowanym uwalnianiu",
+            "moc": "4 mg",
+            "opakowania": "30 tabl.",
+            "kod": "5909990431410"
+        },
+        {
+            "lp": 21,
+            "nazwa": "Cardura XL",
+            "międzynarodowa": "Doxazosinum",
+            "postac": "tabl. o zmodyfikowanym uwalnianiu",
+            "moc": "8 mg",
+            "opakowania": "30 tabl.",
+            "kod": "5909990431519"
+        },
+        {
+            "lp": 22,
+            "nazwa": "Clexane",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 mg/ml",
+            "opakowania": "10 amp.-strzyk. 0,8 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 23,
+            "nazwa": "Clexane",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "20 mg/0,2 ml",
+            "opakowania": "10 amp.-strzyk. 0,2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 24,
+            "nazwa": "Clexane",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "40 mg/0,4 ml",
+            "opakowania": "10 amp.-strzyk. 0,4 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 25,
+            "nazwa": "Clexane",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "60 mg/0,6 ml",
+            "opakowania": "10 amp.-strzyk. 0,6 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 26,
+            "nazwa": "Clexane",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "80 mg/0,8 ml",
+            "opakowania": "10 amp.-strzyk. 0,8 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 27,
+            "nazwa": "Clexane forte",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "120 mg/0,8 ml",
+            "opakowania": "10 amp.-strzyk. 0,8 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 28,
+            "nazwa": "Clexane forte",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "150 mg/ml",
+            "opakowania": "10 amp.-strzyk. 1 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 29,
+            "nazwa": "Colistin TZF",
+            "międzynarodowa": "Colistimethatum natricum",
+            "postac": "liofilizat do sporządzania roztworu do wstrzykiwań, infuzji i inhalacji",
+            "moc": "1 000 000 j.m.",
+            "opakowania": "1 fiol.",
+            "kod": "5909990366521"
+        },
+        {
+            "lp": 30,
+            "nazwa": "Colistin TZF",
+            "międzynarodowa": "Colistimethatum natricum",
+            "postac": "liofilizat do sporządzania roztworu do wstrzykiwań, infuzji i inhalacji",
+            "moc": "1 000 000 j.m.",
+            "opakowania": "20 fiol.",
+            "kod": "5909990366514"
+        },
+        {
+            "lp": 31,
+            "nazwa": "Combigan",
+            "międzynarodowa": "Brimonidinum + Timololum",
+            "postac": "krople do oczu, roztwór",
+            "moc": "2+5 mg/ml",
+            "opakowania": "1 but.po 5 ml",
+            "kod": "5909990570546"
+        },
+        {
+            "lp": 32,
+            "nazwa": "Concerta",
+            "międzynarodowa": "Methylphenidati hydrochloridum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "18 mg",
+            "opakowania": "30 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 33,
+            "nazwa": "Concerta",
+            "międzynarodowa": "Methylphenidati hydrochloridum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "36 mg",
+            "opakowania": "30 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 34,
+            "nazwa": "Convulex",
+            "międzynarodowa": "Acidum valproicum",
+            "postac": "kapsułki miękkie",
+            "moc": "500 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 35,
+            "nazwa": "Convulex 150",
+            "międzynarodowa": "Acidum valproicum",
+            "postac": "kapsułki miękkie",
+            "moc": "150 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 36,
+            "nazwa": "Convulex 300",
+            "międzynarodowa": "Acidum valproicum",
+            "postac": "kapsułki miękkie",
+            "moc": "300 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 37,
+            "nazwa": "Copaxone",
+            "międzynarodowa": "Glatirameri acetas",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "20 mg/ml",
+            "opakowania": "28 amp.-strz. (4 blist.a 7 amp.-strz.a 1 ml)",
+            "kod": "5909990017065"
+        },
+        {
+            "lp": 38,
+            "nazwa": "Copaxone",
+            "międzynarodowa": "Glatirameri acetas",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "40 mg/ml",
+            "opakowania": "12 amp.-strz.po 1 ml",
+            "kod": "5909991216382"
+        },
+        {
+            "lp": 39,
+            "nazwa": "Depo-Medrol",
+            "międzynarodowa": "Methylprednisolonum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "40 mg/ml",
+            "opakowania": "1 fiol.po 1 ml",
+            "kod": "5909990154814"
+        },
+        {
+            "lp": 40,
+            "nazwa": "Diprophos",
+            "międzynarodowa": "Betamethasoni dipropionas + Betamethasoni natrii phosphas",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "(6,43 mg + 2,63 mg)/ml",
+            "opakowania": "1 amp. 1 ml",
+            "kod": "5909990121618"
+        },
+        {
+            "lp": 41,
+            "nazwa": "Diprophos",
+            "międzynarodowa": "Betamethasoni dipropionas + Betamethasoni natrii phosphas",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "(6,43 mg + 2,63 mg)/ml",
+            "opakowania": "5 amp.po 1 ml",
+            "kod": "5909990121625"
+        },
+        {
+            "lp": 42,
+            "nazwa": "DuoResp Spiromax",
+            "międzynarodowa": "Budesonidum + Formoterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "160+4,5 µg",
+            "opakowania": "1 inhalator (120 dawek)",
+            "kod": "5909991136932"
+        },
+        {
+            "lp": 43,
+            "nazwa": "DuoResp Spiromax",
+            "międzynarodowa": "Budesonidum + Formoterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "320+9 µg",
+            "opakowania": "1 inhalator (60 dawek)",
+            "kod": "5909991136963"
+        },
+        {
+            "lp": 44,
+            "nazwa": "Effox long 50",
+            "międzynarodowa": "Isosorbidi mononitras",
+            "postac": "tabl. o przedłużonym uwalnianiu",
+            "moc": "50 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909990368624"
+        },
+        {
+            "lp": 45,
+            "nazwa": "Eliquis",
+            "międzynarodowa": "Apixabanum",
+            "postac": "tabl. powl.",
+            "moc": "2,5 mg",
+            "opakowania": "60 tabl.",
+            "kod": "5909990861057"
+        },
+        {
+            "lp": 46,
+            "nazwa": "Eliquis",
+            "międzynarodowa": "Apixabanum",
+            "postac": "tabl. powl.",
+            "moc": "5 mg",
+            "opakowania": "56 tabl.",
+            "kod": "5909991019396"
+        },
+        {
+            "lp": 47,
+            "nazwa": "Enbrel",
+            "międzynarodowa": "Etanerceptum",
+            "postac": "proszek i rozpuszczalnik do sporządzenia roztworu do wstrzykiwań",
+            "moc": "25 mg/ml",
+            "opakowania": "4 fiol. + 4 amp.-strz.+ 4 igły + 4 nasadki na fiol. + 8 gazików",
+            "kod": "5909990777938"
+        },
+        {
+            "lp": 48,
+            "nazwa": "Enbrel",
+            "międzynarodowa": "Etanerceptum",
+            "postac": "roztwór do wstrzykiwań w ampułko-strzykawce",
+            "moc": " 50 mg",
+            "opakowania": "4 amp.-strz.po 1 ml + 4 gaziki z alkoholem",
+            "kod": "5909990618255"
+        },
+        {
+            "lp": 49,
+            "nazwa": "Enbrel",
+            "międzynarodowa": "Etanerceptum",
+            "postac": "roztwór do wstrzykiwań we wstrzykiwaczu",
+            "moc": "50 mg",
+            "opakowania": "4 wstrz.po 1 ml + 4 gaziki z alkoholem",
+            "kod": "5909990712755"
+        },
+        {
+            "lp": 50,
+            "nazwa": "Enbrel",
+            "międzynarodowa": "Etanerceptum",
+            "postac": "proszek i rozpuszczalnik do sporządzania roztworu do wstrzykiwań do stosowania u dzieci",
+            "moc": "10 mg/ml",
+            "opakowania": "4 fiol. + 4 amp.-strz.+ 4 igły + 4 nasadki na fiol. + 8 gazików",
+            "kod": "5909990880881"
+        },
+        {
+            "lp": 51,
+            "nazwa": "Envarsus",
+            "międzynarodowa": "Tacrolimusum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "0,75 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909991192709"
+        },
+        {
+            "lp": 52,
+            "nazwa": "Envarsus",
+            "międzynarodowa": "Tacrolimusum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "1 mg",
+            "opakowania": "30 tabl.",
+            "kod": "5909991192730"
+        },
+        {
+            "lp": 53,
+            "nazwa": "Envarsus",
+            "międzynarodowa": "Tacrolimusum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "1 mg",
+            "opakowania": "90  tabl.",
+            "kod": "5909991192754"
+        },
+        {
+            "lp": 54,
+            "nazwa": "Envarsus",
+            "międzynarodowa": "Tacrolimusum",
+            "postac": "tabletki o przedłużonym uwalnianiu",
+            "moc": "4 mg",
+            "opakowania": "30 tabl.",
+            "kod": "5909991192761"
+        },
+        {
+            "lp": 55,
+            "nazwa": "Ezetrol",
+            "międzynarodowa": "Ezetimibum",
+            "postac": "tabletki",
+            "moc": "10 mg",
+            "opakowania": "28 sztuk",
+            "kod": "5909990221066"
+        },
+        {
+            "lp": 56,
+            "nazwa": "Fostex",
+            "międzynarodowa": "Beclometasoni dipropionas + Formoteroli fumaras dihydricus",
+            "postac": "aerozol inhalacyjny, roztwór",
+            "moc": "(100 mcg  + 6 mcg)/dawkę",
+            "opakowania": "1 poj. 180 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 57,
+            "nazwa": "Fostex",
+            "międzynarodowa": "Beclometasonum + Formoterolum",
+            "postac": "aerozol inhalacyjny, roztwór",
+            "moc": "200+6 µg/dawkę",
+            "opakowania": "poj.po 180 daw.",
+            "kod": "5909991245696"
+        },
+        {
+            "lp": 58,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "10 000 j.m. a.Xa/0,4 ml",
+            "opakowania": "5 amp.-strzyk. 0,4 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 59,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "10 000 j.m. a.Xa/4 ml",
+            "opakowania": "10 amp. 4 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 60,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "10 000 j.m. a.Xa/ml",
+            "opakowania": "10 amp. 1 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 61,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "12 500 j.m. a.Xa/0,5 ml",
+            "opakowania": "5 amp.-strzyk. 0,5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 62,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "15 000 j.m. a.Xa/0,6 ml",
+            "opakowania": "5 amp.-strzyk. 0,6 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 63,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "18 000 j.m. a.Xa/0,72 ml",
+            "opakowania": "5 amp.-strzyk. 0,72 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 64,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2500 j.m. a.Xa/0,2 ml",
+            "opakowania": "10 amp.-strzyk. 0,2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 65,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "5000 j.m. a.Xa/0,2 ml",
+            "opakowania": "10 amp.-strzyk. 0,2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 66,
+            "nazwa": "Fragmin",
+            "międzynarodowa": "Dalteparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "7 500 j.m. a.Xa/0,3 ml",
+            "opakowania": "10 amp.-strzyk. 0,3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 67,
+            "nazwa": "Fraxiparine",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2850 j.m. a.Xa/0,3 ml",
+            "opakowania": "10 amp.-strzyk. 0,3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 68,
+            "nazwa": "Fraxiparine",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "3800 j.m. a.Xa/0,4 ml",
+            "opakowania": "10 amp.-strzyk. 0,4 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 69,
+            "nazwa": "Fraxiparine",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "5700 j.m.a.Xa/0,6 ml",
+            "opakowania": "10 amp.-strzyk. 0,6 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 70,
+            "nazwa": "Fraxiparine",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "7600 j.m. a.Xa/0,8 ml",
+            "opakowania": "10 amp.-strzyk. 0,8 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 71,
+            "nazwa": "Fraxiparine",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "9500 j.m. a.Xa/ml",
+            "opakowania": "10 amp.-strzyk. 1,0 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 72,
+            "nazwa": "Fraxodi",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "11 400 j.m. AXa/0,6 ml",
+            "opakowania": "10 amp.-strzyk. 0,6 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 73,
+            "nazwa": "Fraxodi",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "15 200 j.m. AXa/0,8 ml",
+            "opakowania": "10 amp.-strzyk. 0,8 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 74,
+            "nazwa": "Fraxodi",
+            "międzynarodowa": "Nadroparinum calcicum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "19 000 j.m. AXa/1 ml",
+            "opakowania": "10 amp.-strzyk. 1 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 75,
+            "nazwa": "Gamma anty-D 150",
+            "międzynarodowa": "Immunoglobulinum humanum anti-D Immunoglobulina ludzka anty-D",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "150 mcg/ml",
+            "opakowania": "1 amp. 1 ml",
+            "kod": "5909990061211"
+        },
+        {
+            "lp": 76,
+            "nazwa": "Gamma anty-D 50",
+            "międzynarodowa": "Immunoglobulinum humanum anti-D Immunoglobulina ludzka anty-D",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "50 mcg/ml",
+            "opakowania": "1 amp. 1 ml",
+            "kod": "5909990061112"
+        },
+        {
+            "lp": 77,
+            "nazwa": "Ganfort",
+            "międzynarodowa": "Bimatoprostum + Timololum",
+            "postac": " krople do oczu, roztwór",
+            "moc": "0,3+5 mg/ml",
+            "opakowania": "1 but.po 3 ml",
+            "kod": "5909990574315"
+        },
+        {
+            "lp": 78,
+            "nazwa": "Humalog",
+            "międzynarodowa": "Insulinum lisprum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 79,
+            "nazwa": "Humalog Mix25",
+            "międzynarodowa": "Insulinum lisprum zinci protaminati injectio + Insulinum lisprum, injectio neutralis",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 80,
+            "nazwa": "Humalog Mix50",
+            "międzynarodowa": "Insulinum lisprum zinci protaminati injectio + Insulinum lisprum, injectio neutralis",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 81,
+            "nazwa": "Hydroxycarbamid Teva",
+            "międzynarodowa": "Hydroxycarbamidum",
+            "postac": "kapsułki",
+            "moc": "500 mg",
+            "opakowania": "100 kaps. w butelce",
+            "kod": "###"
+        },
+        {
+            "lp": 82,
+            "nazwa": "Hydroxyurea medac",
+            "międzynarodowa": "Hydroxycarbamidum",
+            "postac": "kapsułki twarde",
+            "moc": "500 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 83,
+            "nazwa": "Hydroxyzinum Teva",
+            "międzynarodowa": "Hydroxyzini hydrochloridum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "50 mg/ml",
+            "opakowania": "5 amp. 2 ml",
+            "kod": "5909990114610"
+        },
+        {
+            "lp": 84,
+            "nazwa": "Ig VENA",
+            "międzynarodowa": "Immunoglobulinum humanum normale ad usum intravenosum",
+            "postac": "roztwór do infuzji",
+            "moc": "50 g/l",
+            "opakowania": "1 fiol.po 100 ml + zest. do infuzji",
+            "kod": "5909990049875"
+        },
+        {
+            "lp": 85,
+            "nazwa": "Ig VENA",
+            "międzynarodowa": "Immunoglobulinum humanum normale ad usum intravenosum",
+            "postac": "roztwór do infuzji",
+            "moc": "50 g/l",
+            "opakowania": "1 fiol.po 20 ml",
+            "kod": "5909990049868"
+        },
+        {
+            "lp": 86,
+            "nazwa": "Ig VENA",
+            "międzynarodowa": "Immunoglobulinum humanum normale ad usum intravenosum",
+            "postac": "roztwór do infuzji",
+            "moc": "50 g/l",
+            "opakowania": "1 fiol.po 200 ml + zest. do infuzji",
+            "kod": "5909990049882"
+        },
+        {
+            "lp": 87,
+            "nazwa": "Ig VENA",
+            "międzynarodowa": "Immunoglobulinum humanum normale ad usum intravenosum",
+            "postac": "roztwór do infuzji",
+            "moc": "50 g/l",
+            "opakowania": "1 fiol.po 50 ml + zest. do infuzji",
+            "kod": "5909990049851"
+        },
+        {
+            "lp": 88,
+            "nazwa": "Indapen SR",
+            "międzynarodowa": "Indapamidum",
+            "postac": "tabl. o przedłużonym uwalnianiu",
+            "moc": "1.5 mg",
+            "opakowania": "30 tabl. (3 blist.po 10 szt.)",
+            "kod": "5909990665907"
+        },
+        {
+            "lp": 89,
+            "nazwa": "Infanrix - IPV + Hib",
+            "międzynarodowa": "Vaccinum diphtheriae, tetani, pertussis sine cellulis ex elementis praeparatum, polimyelitidis inactivatum et haemophili stirpe b coniugatum adsorbatum",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "1 dawka (0,5 ml)",
+            "opakowania": "1 amp.-strzyk. zawiesiny DTPa-IPV 0,5 ml + fiol. proszku (HiB) + igły",
+            "kod": "###"
+        },
+        {
+            "lp": 90,
+            "nazwa": "Infanrix - IPV + Hib",
+            "międzynarodowa": "Vaccinum diphtheriae, tetani, pertussis sine cellulis ex elementis praeparatum, polimyelitidis inactivatum et haemophili stirpe b coniugatum adsorbatum",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "1 dawka (0,5 ml)",
+            "opakowania": "1 fiol. zawiesiny DTPa-IPV 0,5 ml + fiol. proszku (HiB)",
+            "kod": "###"
+        },
+        {
+            "lp": 91,
+            "nazwa": "Infanrix - IPV + Hib",
+            "międzynarodowa": "Vaccinum diphtheriae, tetani, pertussis sine cellulis ex elementis praeparatum, polimyelitidis inactivatum et haemophili stirpe b coniugatum adsorbatum",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "1 dawka (0,5 ml)",
+            "opakowania": "1 amp.-strzyk. zawiesiny DTPa-IPV 0,5 ml + fiol. proszku (HiB)",
+            "kod": "###"
+        },
+        {
+            "lp": 92,
+            "nazwa": "Infanrix - IPV + Hib",
+            "międzynarodowa": "Vaccinum diphtheriae, tetani, pertussis sine cellulis ex elementis praeparatum, polimyelitidis inactivatum et haemophili stirpe b coniugatum adsorbatum",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "1 dawka (0,5 ml)",
+            "opakowania": "10 amp.-strzyk. zawiesiny DTPa-IPV 0,5 ml + fiol. proszku (HiB)",
+            "kod": "###"
+        },
+        {
+            "lp": 93,
+            "nazwa": "Infanrix - IPV + Hib",
+            "międzynarodowa": "Vaccinum diphtheriae, tetani, pertussis sine cellulis ex elementis praeparatum, polimyelitidis inactivatum et haemophili stirpe b coniugatum adsorbatum",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "1 dawka (0,5 ml)",
+            "opakowania": "10 fiol. zawiesiny DTPa-IPV 0,5 ml + fiol. proszku (HiB)",
+            "kod": "5909990891627"
+        },
+        {
+            "lp": 94,
+            "nazwa": "Infanrix hexa",
+            "międzynarodowa": "Szczepionka przeciwko błonicy (D), tężcowi (T), krztuścowi (komponenta acelularna) (Pa), wirusowemu zapaleniu wątroby typu B (rDNA) (HBV), poliomyelitis (inaktywowana) (IPV) i przeciwko Haemophilus influenzae typ b (Hib)skoniugowana (adsorbowana)",
+            "postac": "zawiesina i proszek do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "",
+            "opakowania": "1 fiol. proszku + 1 amp.-strzyk 0,5 ml zawiesiny",
+            "kod": "###"
+        },
+        {
+            "lp": 95,
+            "nazwa": "Infanrix hexa",
+            "międzynarodowa": "Szczepionka przeciwko błonicy (D), tężcowi (T), krztuścowi (komponenta acelularna) (Pa), wirusowemu zapaleniu wątroby typu B (rDNA) (HBV), poliomyelitis (inaktywowana) (IPV) i przeciwko Haemophilus influenzae typ b (Hib)skoniugowana (adsorbowana)",
+            "postac": "zawiesina i proszek do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "",
+            "opakowania": "1 fiol. proszku + 1 amp.-strzyk 0,5 ml zawiesiny + 2 igły",
+            "kod": "###"
+        },
+        {
+            "lp": 96,
+            "nazwa": "Infanrix hexa",
+            "międzynarodowa": "Szczepionka przeciwko błonicy (D), tężcowi (T), krztuścowi (komponenta acelularna) (Pa), wirusowemu zapaleniu wątroby typu B (rDNA) (HBV), poliomyelitis (inaktywowana) (IPV) i przeciwko Haemophilus influenzae typ b (Hib)skoniugowana (adsorbowana)",
+            "postac": "zawiesina i proszek do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "",
+            "opakowania": "20 fiol. proszku + 20 amp.-strzyk. 0,5 ml zawiesiny",
+            "kod": "###"
+        },
+        {
+            "lp": 97,
+            "nazwa": "Infatrini Peptisorb",
+            "międzynarodowa": "Dieta mlekozastępcza",
+            "postac": "płyn doustny",
+            "moc": "",
+            "opakowania": "800 ml (4 x 200 ml) ",
+            "kod": "8716900562433"
+        },
+        {
+            "lp": 98,
+            "nazwa": "Insulatard Penfill",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 99,
+            "nazwa": "Insuman Basal",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 100,
+            "nazwa": "Insuman Basal SoloStar",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 101,
+            "nazwa": "Insuman Comb 25",
+            "międzynarodowa": "Insulinum humanum isophanum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 102,
+            "nazwa": "Insuman Comb 25 SoloStar",
+            "międzynarodowa": "Insulinum humanum isophanum",
+            "postac": "zawiesina do wstrzykiwań we wstrzykiwaczu",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 103,
+            "nazwa": "Insuman Rapid",
+            "międzynarodowa": "Insulini iniectio neutralis",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 104,
+            "nazwa": "Insuman Rapid SoloStar",
+            "międzynarodowa": "Insulini iniectio neutralis",
+            "postac": "roztwór do wstrzykiwań we wstrzykiwaczu",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 105,
+            "nazwa": "Keppra",
+            "międzynarodowa": "Levetiracetamum",
+            "postac": "roztwór do stosowania doustnego",
+            "moc": "100 mg/ml",
+            "opakowania": "300 ml",
+            "kod": "5909990006755"
+        },
+        {
+            "lp": 106,
+            "nazwa": "Keppra",
+            "międzynarodowa": "Levetiracetamum",
+            "postac": "tabl. powl.",
+            "moc": "250 mg",
+            "opakowania": "50 szt.",
+            "kod": "5909990901111"
+        },
+        {
+            "lp": 107,
+            "nazwa": "Kreon 25 000",
+            "międzynarodowa": "Pancreatinum",
+            "postac": "kapsułki dojelitowe",
+            "moc": "25 000 j.Ph.Eur. lipazy",
+            "opakowania": "50 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 108,
+            "nazwa": "Lantus",
+            "międzynarodowa": "Insulinum glarginum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wstrzykiwaczy 3 ml SoloStar",
+            "kod": "5909990617555"
+        },
+        {
+            "lp": 109,
+            "nazwa": "Levemir",
+            "międzynarodowa": "Insulinum detemirum",
+            "postac": " roztwór do wstrzykiwań we wkładzie",
+            "moc": "100 j/ml",
+            "opakowania": "5 wkł.po 3 ml (Penfil)",
+            "kod": "5909990005741"
+        },
+        {
+            "lp": 110,
+            "nazwa": "Liprolog",
+            "międzynarodowa": "Insulinum lisprum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100  j.m./ml",
+            "opakowania": "10 wkł.po 3 ml",
+            "kod": "5909990005536"
+        },
+        {
+            "lp": 111,
+            "nazwa": "Lyrica",
+            "międzynarodowa": "Pregabalinum",
+            "postac": "kapsułki twarde",
+            "moc": "75 mg",
+            "opakowania": "14 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 112,
+            "nazwa": "Lyrica",
+            "międzynarodowa": "Pregabalinum",
+            "postac": "kapsułki twarde",
+            "moc": "75 mg",
+            "opakowania": "56 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 113,
+            "nazwa": "Lyrica",
+            "międzynarodowa": "Pregabalinum",
+            "postac": "kapsułki twarde",
+            "moc": "150 mg",
+            "opakowania": "56 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 114,
+            "nazwa": "Lyrica",
+            "międzynarodowa": "Pregabalinum",
+            "postac": "kapsułki twarde",
+            "moc": "150 mg",
+            "opakowania": "14 kaps.",
+            "kod": "5909990009350"
+        },
+        {
+            "lp": 115,
+            "nazwa": "Madopar 125 mg",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "kapsułki",
+            "moc": "25 mg + 100 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 116,
+            "nazwa": "Madopar 125 mg",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "tabletki do sporządzania zawiesiny doustnej",
+            "moc": "25 mg + 100 mg",
+            "opakowania": "100 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 117,
+            "nazwa": "Madopar 250",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "kapsułki",
+            "moc": "50 mg + 200 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 118,
+            "nazwa": "Madopar 250",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "tabletki",
+            "moc": "50 mg + 200 mg",
+            "opakowania": "100 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 119,
+            "nazwa": "Madopar 62,5",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "kapsułki",
+            "moc": "12,5 mg + 50 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 120,
+            "nazwa": "Madopar 62,5 mg",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "tabletki do sporządzania zawiesiny doustnej",
+            "moc": "12,5 mg + 50 mg",
+            "opakowania": "100 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 121,
+            "nazwa": "Madopar HBS",
+            "międzynarodowa": "Benserazidum + Levodopum",
+            "postac": "kapsułki",
+            "moc": "100 mg + 25 mg",
+            "opakowania": "100 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 122,
+            "nazwa": "Miflonide",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji w kapsułkach twardych",
+            "moc": "200 mcg",
+            "opakowania": "60 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 123,
+            "nazwa": "Miflonide",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji w kapsułkach twardych",
+            "moc": "400 mcg",
+            "opakowania": "60 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 124,
+            "nazwa": "Minirin Melt",
+            "międzynarodowa": "Desmopressinum",
+            "postac": "liofilizat doustny",
+            "moc": "60 µg",
+            "opakowania": "30 szt.",
+            "kod": "5909990068494"
+        },
+        {
+            "lp": 125,
+            "nazwa": "Minirin Melt",
+            "międzynarodowa": "Desmopressinum",
+            "postac": "liofilizat doustny",
+            "moc": "120 µg",
+            "opakowania": "30 szt.",
+            "kod": "5909990068548"
+        },
+        {
+            "lp": 126,
+            "nazwa": "Mivacron",
+            "międzynarodowa": "Mivacurii chloridum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2 mg/ml",
+            "opakowania": "5 amp. 5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 127,
+            "nazwa": "Mixtard 30 Penfill",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań we wkładzie",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 128,
+            "nazwa": "Mixtard 40 Penfill",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań we wkładzie",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 129,
+            "nazwa": "Mixtard 50 Penfill",
+            "międzynarodowa": "Insulinum humanum",
+            "postac": "zawiesina do wstrzykiwań we wkładzie",
+            "moc": "100 j.m./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 130,
+            "nazwa": "Neocate Advance",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek",
+            "moc": "",
+            "opakowania": "400 g",
+            "kod": "5016533616170"
+        },
+        {
+            "lp": 131,
+            "nazwa": "Neocate LCP",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek",
+            "moc": "",
+            "opakowania": "400 g",
+            "kod": "5016533646740"
+        },
+        {
+            "lp": 132,
+            "nazwa": "Neoparin",
+            "międzynarodowa": "Enoxaparinum natricum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "40 mg/0,4 ml",
+            "opakowania": "10 amp.-strz.po 0,4 ml",
+            "kod": "5906395161034"
+        },
+        {
+            "lp": 133,
+            "nazwa": "Neulasta",
+            "międzynarodowa": "Pegfilgrastimum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "6 mg/0,6 ml",
+            "opakowania": "1 amp.-strzyk. 0,6 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 134,
+            "nazwa": "NovoMix 30 Penfill",
+            "międzynarodowa": "Insulinum aspartum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 135,
+            "nazwa": "NovoMix 50 Penfill",
+            "międzynarodowa": "Insulinum aspartum",
+            "postac": "zawiesina do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 136,
+            "nazwa": "NovoRapid Penfill",
+            "międzynarodowa": "Insulinum aspartum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "100 j./ml",
+            "opakowania": "5 wkładów 3 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 137,
+            "nazwa": "Nutramigen 1 LGG",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek do sporządzania roztworu",
+            "moc": "",
+            "opakowania": "400 g",
+            "kod": "8712045027530"
+        },
+        {
+            "lp": 138,
+            "nazwa": "Nutramigen 2 LGG",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek do sporządzania roztworu",
+            "moc": "",
+            "opakowania": "400 g",
+            "kod": "8712045027547"
+        },
+        {
+            "lp": 139,
+            "nazwa": "Nutramigen PURAMINO",
+            "międzynarodowa": "Dieta eliminacyjna mlekozastępcza",
+            "postac": "proszek do przygotowania roztworu doustnego",
+            "moc": "",
+            "opakowania": "400 g",
+            "kod": "8712045027554"
+        },
+        {
+            "lp": 140,
+            "nazwa": "Onbrez Breezhaler",
+            "międzynarodowa": "Indacaterolum",
+            "postac": "proszek do inhalacji w kaps. twardej",
+            "moc": "300 µg",
+            "opakowania": "30 szt. + inhalator",
+            "kod": "5909990738472"
+        },
+        {
+            "lp": 141,
+            "nazwa": "Oxis Turbuhaler",
+            "międzynarodowa": "Formoteroli fumaras dihydricus",
+            "postac": "proszek do inhalacji",
+            "moc": "9 mcg/ dawkę inh.",
+            "opakowania": "1 poj. 60 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 142,
+            "nazwa": "Oxis Turbuhaler",
+            "międzynarodowa": "Formoteroli fumaras dihydricus",
+            "postac": "proszek do inhalacji",
+            "moc": "4,5 mcg/dawkę",
+            "opakowania": "1 poj. 60 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 143,
+            "nazwa": "Pentasa",
+            "międzynarodowa": "Mesalazinum",
+            "postac": "czopki",
+            "moc": "1 g",
+            "opakowania": "28 szt. (4 blist.po 7 szt.)",
+            "kod": "5909990656813"
+        },
+        {
+            "lp": 144,
+            "nazwa": "Pentasa",
+            "międzynarodowa": "Mesalazinum",
+            "postac": "czopki",
+            "moc": "1 g",
+            "opakowania": "14 szt. (2 blist.po 7 szt.)",
+            "kod": "5909990656820"
+        },
+        {
+            "lp": 145,
+            "nazwa": "Pentaxim",
+            "międzynarodowa": "Szczepionka przeciw błonicy, tężcowi, krztuścowi (bezkomórkowa, złożona), poliomyelitis (inaktywowana) i haemophilus typ b (skoniugowana), adsorbowana",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "nie mniej niż 30 j.m. + nie mniej niż 40 j.m. + 25 mcg + 25 mcg + 40 jednostek antygenu D + 8 jednostek antygenu D + 32 jednostek antygenu D + 10 mcg",
+            "opakowania": "1 fiol. s.subst. + 1 amp.-strzyk. z zawiesiną 0,5 ml bez igły",
+            "kod": "5909990625284"
+        },
+        {
+            "lp": 146,
+            "nazwa": "Pentaxim",
+            "międzynarodowa": "Szczepionka przeciw błonicy, tężcowi, krztuścowi (bezkomórkowa, złożona), poliomyelitis (inaktywowana) i haemophilus typ b (skoniugowana), adsorbowana",
+            "postac": "proszek i zawiesina do sporządzania zawiesiny do wstrzykiwań",
+            "moc": "nie mniej niż 30 j.m. + nie mniej niż 40 j.m. + 25 mcg + 25 mcg + 40 jednostek antygenu D + 8 jednostek antygenu D + 32 jednostek antygenu D + 10 mcg",
+            "opakowania": "1 fiol. s.subst. + 1 amp.-strzyk. z zawiesiną 0,5 ml z 2 osobnymi igłami",
+            "kod": "5909990625260"
+        },
+        {
+            "lp": 147,
+            "nazwa": "Perlinganit",
+            "międzynarodowa": "Glyceroli trinitras",
+            "postac": "roztwór do infuzji",
+            "moc": "1 mg/ml",
+            "opakowania": "10 amp. 10 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 148,
+            "nazwa": "Polstigminum",
+            "międzynarodowa": "Neostigmini methylsulfas",
+            "postac": " roztwór do wstrzykiwań",
+            "moc": " 0,5 mg/ml",
+            "opakowania": "10 amp. 1 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 149,
+            "nazwa": "Pradaxa",
+            "międzynarodowa": "Dabigatranum etexilatum",
+            "postac": "kapsułki twarde",
+            "moc": "150 mg",
+            "opakowania": "30 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 150,
+            "nazwa": "Privigen",
+            "międzynarodowa": "Immunoglobulinum humanum",
+            "postac": "roztwór do infuzji",
+            "moc": "100 mg/ml",
+            "opakowania": "1 fiol.po 100 ml",
+            "kod": "5909990725793"
+        },
+        {
+            "lp": 151,
+            "nazwa": "Privigen",
+            "międzynarodowa": "Immunoglobulinum humanum",
+            "postac": "roztwór do infuzji",
+            "moc": "100 mg/ml",
+            "opakowania": "1 fiol.po 200 ml",
+            "kod": "5909990725809"
+        },
+        {
+            "lp": 152,
+            "nazwa": "Privigen",
+            "międzynarodowa": "Immunoglobulinum humanum",
+            "postac": "roztwór do infuzji",
+            "moc": "100 mg/ml",
+            "opakowania": "1 fiol.po 25 ml",
+            "kod": "5909990725823"
+        },
+        {
+            "lp": 153,
+            "nazwa": "Privigen",
+            "międzynarodowa": "Immunoglobulinum humanum",
+            "postac": "roztwór do infuzji",
+            "moc": "100 mg/ml",
+            "opakowania": "1 fiol.po 400 ml",
+            "kod": "5909991078676"
+        },
+        {
+            "lp": 154,
+            "nazwa": "Privigen",
+            "międzynarodowa": "Immunoglobulinum humanum",
+            "postac": "roztwór do infuzji",
+            "moc": "100 mg/ml",
+            "opakowania": "1 fiol.po 50 ml",
+            "kod": "5909990725786"
+        },
+        {
+            "lp": 155,
+            "nazwa": "Promonta",
+            "międzynarodowa": "Montelukastum",
+            "postac": "tabl. powl.",
+            "moc": "10 mg",
+            "opakowania": "28 szt. (4 blist.po 7 szt.)",
+            "kod": "5909990671090"
+        },
+        {
+            "lp": 156,
+            "nazwa": "Pulmicort",
+            "międzynarodowa": "Budesonidum",
+            "postac": "zawiesina do nebulizacji",
+            "moc": "0,125 mg/ml",
+            "opakowania": "20 poj. 2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 157,
+            "nazwa": "Pulmicort",
+            "międzynarodowa": "Budesonidum",
+            "postac": "zawiesina do nebulizacji",
+            "moc": "0,25 mg/ml",
+            "opakowania": "20 poj. 2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 158,
+            "nazwa": "Pulmicort",
+            "międzynarodowa": "Budesonidum",
+            "postac": "zawiesina do nebulizacji",
+            "moc": "0,5 mg/ml",
+            "opakowania": "20 poj. 2 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 159,
+            "nazwa": "Pulmicort Turbuhaler",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji",
+            "moc": "100 mcg/dawkę inh.",
+            "opakowania": "1 poj. 200 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 160,
+            "nazwa": "Pulmicort Turbuhaler",
+            "międzynarodowa": "Budesonidum",
+            "postac": "proszek do inhalacji",
+            "moc": "200 mcg/dawkę inh.",
+            "opakowania": "1 poj. 100 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 161,
+            "nazwa": "Pulmozyme",
+            "międzynarodowa": "Dornasum alfa",
+            "postac": "roztwór do nebulizacji",
+            "moc": "1 mg/ml",
+            "opakowania": "30 amp. 2,5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 162,
+            "nazwa": "Rispolept",
+            "międzynarodowa": "Risperidonum",
+            "postac": "roztwór doustny",
+            "moc": "1 mg/ml",
+            "opakowania": "1 butelka 100 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 163,
+            "nazwa": "Rispolept",
+            "międzynarodowa": "Risperidonum",
+            "postac": " tabl. powl.",
+            "moc": "1 mg",
+            "opakowania": "20 szt. (2 blist.po 10 szt.)",
+            "kod": "5909990670413"
+        },
+        {
+            "lp": 164,
+            "nazwa": "Rispolept",
+            "międzynarodowa": "Risperidonum",
+            "postac": " tabl. powl.",
+            "moc": "2 mg",
+            "opakowania": "20 szt. (2 blist.po 10 szt.)",
+            "kod": "5909990670512"
+        },
+        {
+            "lp": 165,
+            "nazwa": "Rispolept Consta",
+            "międzynarodowa": "Risperidonum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "25 mg",
+            "opakowania": "1 zestaw (1 fiol. + 1 amp.-strzyk. + 1 urządzenie + 2 igły)",
+            "kod": "###"
+        },
+        {
+            "lp": 166,
+            "nazwa": "Rispolept Consta",
+            "międzynarodowa": "Risperidonum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "37,5 mg",
+            "opakowania": "1 zestaw (1 fiol. + 1 amp.-strzyk. + 1 urządzenie + 2 igły)",
+            "kod": "###"
+        },
+        {
+            "lp": 167,
+            "nazwa": "Rispolept Consta",
+            "międzynarodowa": "Risperidonum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "50 mg",
+            "opakowania": "1 zestaw (1 fiol. + 1 amp.-strzyk. + 1 urządzenie + 2 igły)",
+            "kod": "###"
+        },
+        {
+            "lp": 168,
+            "nazwa": "Rytmonorm 150",
+            "międzynarodowa": "Propafenoni hydrochloridum",
+            "postac": "tabletki powlekane",
+            "moc": "150 mg",
+            "opakowania": "20 tabl.",
+            "kod": "5909990100811"
+        },
+        {
+            "lp": 169,
+            "nazwa": "Salofalk 1 g",
+            "międzynarodowa": "Mesalazinum",
+            "postac": "czopki",
+            "moc": "1000 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909990806430"
+        },
+        {
+            "lp": 170,
+            "nazwa": "Salofalk 500",
+            "międzynarodowa": "Mesalazinum",
+            "postac": "tabletki dojelitowe",
+            "moc": "500 mg",
+            "opakowania": "50 szt.",
+            "kod": "###"
+        },
+        {
+            "lp": 171,
+            "nazwa": "Salofalk 500",
+            "międzynarodowa": "Mesalazinum",
+            "postac": "czopki",
+            "moc": "500 mg",
+            "opakowania": "30 szt.",
+            "kod": "5909990422227"
+        },
+        {
+            "lp": 172,
+            "nazwa": "Seretide 125",
+            "międzynarodowa": "Fluticasoni propionas + Salmeterolum",
+            "postac": "aerozol inhalacyjny, zawiesina",
+            "moc": "(125 mcg + 25 mcg)/dawkę inh.",
+            "opakowania": "1 poj. 120 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 173,
+            "nazwa": "Seretide 250",
+            "międzynarodowa": "Fluticasoni propionas + Salmeterolum",
+            "postac": "aerozol wziewny, zawiesina",
+            "moc": "(250 mcg + 25 mcg)/dawkę inh.",
+            "opakowania": "1 poj. 120 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 174,
+            "nazwa": "Seretide 50",
+            "międzynarodowa": "Fluticasoni propionas + Salmeterolum",
+            "postac": " aerozol wziewny, zawiesina",
+            "moc": "50+25 µg/dawkę inhalacyjną",
+            "opakowania": "120 daw. (1 poj.po 120 daw.)",
+            "kod": "5909990906918"
+        },
+        {
+            "lp": 175,
+            "nazwa": "Serevent",
+            "międzynarodowa": "Salmeterolum",
+            "postac": "aerozol wziewny, zawiesina",
+            "moc": "25 mcg/dawkę inh.",
+            "opakowania": "1 poj. 120 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 176,
+            "nazwa": "Serevent Dysk",
+            "międzynarodowa": "Salmeterolum",
+            "postac": "proszek do inhalacji",
+            "moc": "50 mcg/dawkę inh.",
+            "opakowania": "1 poj. 60 dawek",
+            "kod": "###"
+        },
+        {
+            "lp": 177,
+            "nazwa": "Somatuline Autogel",
+            "międzynarodowa": "Lanreotidum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "120 mg",
+            "opakowania": "1 amp.-strz.po 0,5 ml z automatycznym systemem zabezpieczającym + igła",
+            "kod": "5909991094614"
+        },
+        {
+            "lp": 178,
+            "nazwa": "Spiriva",
+            "międzynarodowa": "Tiotropium",
+            "postac": "proszek do inhalacji w kapsułkach twardych",
+            "moc": "18 mcg/dawkę inh.",
+            "opakowania": "30 kaps.",
+            "kod": "###"
+        },
+        {
+            "lp": 179,
+            "nazwa": "Spiriva",
+            "międzynarodowa": "Tiotropium",
+            "postac": "proszek do inhalacji w kapsułkach twardych",
+            "moc": "18 mcg/dawkę inh.",
+            "opakowania": "30 kaps. z inhalatorem",
+            "kod": "###"
+        },
+        {
+            "lp": 180,
+            "nazwa": "Spiriva Respimat",
+            "międzynarodowa": "Tiotropium",
+            "postac": "roztwór do inhalacji",
+            "moc": "2,5 mcg/dawkę odmierzoną",
+            "opakowania": "1 wkład 30 dawek leczniczych (60 dawek odmierzonych) + 1 inhalator Respimat",
+            "kod": "###"
+        },
+        {
+            "lp": 181,
+            "nazwa": "Sutent",
+            "międzynarodowa": "Sunitinibum",
+            "postac": "kapsułki twarde",
+            "moc": "12,5 mg",
+            "opakowania": "28 kaps. (4 blist.po 7 szt.)",
+            "kod": "5909990079377"
+        },
+        {
+            "lp": 182,
+            "nazwa": "Sutent",
+            "międzynarodowa": "Sunitinibum",
+            "postac": "kapsułki twarde",
+            "moc": "25 mg",
+            "opakowania": "28 kaps. (4 blist.po 7 szt.)",
+            "kod": "5909990079384"
+        },
+        {
+            "lp": 183,
+            "nazwa": "Sutent",
+            "międzynarodowa": "Sunitinibum",
+            "postac": "kapsułki twarde",
+            "moc": "50 mg",
+            "opakowania": "28 kaps. (4 blist.po 7 szt.)",
+            "kod": "5909990079391"
+        },
+        {
+            "lp": 184,
+            "nazwa": "Symbicort Turbuhaler",
+            "międzynarodowa": "Budesonidum + Formoteroli fumaras dihydricus",
+            "postac": "proszek do inhalacji",
+            "moc": "(160 mcg + 4,5 mcg)/dawkę inh.",
+            "opakowania": "1 inhalator 60 dawek",
+            "kod": "5909990873029"
+        },
+        {
+            "lp": 185,
+            "nazwa": "Symbicort Turbuhaler",
+            "międzynarodowa": "Budesonidum + Formoteroli fumaras dihydricus",
+            "postac": "proszek do inhalacji",
+            "moc": "(320 mcg + 9 mcg)/dawkę inh.",
+            "opakowania": "1 inhalator 60 dawek",
+            "kod": "5909990873241"
+        },
+        {
+            "lp": 186,
+            "nazwa": "Symbicort Turbuhaler",
+            "międzynarodowa": "Budesonidum + Formoteroli fumaras dihydricus",
+            "postac": "proszek do inhalacji",
+            "moc": "(80 mcg + 4,5 mcg)/dawkę inh.",
+            "opakowania": "1 inhalator 60 dawek",
+            "kod": "5909990872886"
+        },
+        {
+            "lp": 187,
+            "nazwa": "Tuberculin PPD RT23 SSI",
+            "międzynarodowa": "Tuberculini derivatum proteinosum purificatum ad usum humanum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2 T.U./dawkę 0,1 ml",
+            "opakowania": "1 fiol. 5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 188,
+            "nazwa": "Tuberculin PPD RT23 SSI",
+            "międzynarodowa": "Tuberculini derivatum proteinosum purificatum ad usum humanum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2 T.U./dawkę 0,1 ml",
+            "opakowania": "1 fiol. 1,5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 189,
+            "nazwa": "Tuberculin PPD RT23 SSI",
+            "międzynarodowa": "Tuberculini derivatum proteinosum purificatum ad usum humanum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2 T.U./dawkę 0,1 ml",
+            "opakowania": "10 fiol. 1,5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 190,
+            "nazwa": "Tuberculin PPD RT23 SSI",
+            "międzynarodowa": "Tuberculini derivatum proteinosum purificatum ad usum humanum",
+            "postac": "roztwór do wstrzykiwań",
+            "moc": "2 T.U./dawkę 0,1 ml",
+            "opakowania": "10 fiol. 5 ml",
+            "kod": "###"
+        },
+        {
+            "lp": 191,
+            "nazwa": "Vesicare 10 mg",
+            "międzynarodowa": "Solifenacini succinas",
+            "postac": "tabletki powlekane",
+            "moc": "10 mg",
+            "opakowania": "30 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 192,
+            "nazwa": "Vesicare 5 mg",
+            "międzynarodowa": "Solifenacini succinas",
+            "postac": "tabletki powlekane",
+            "moc": "5 mg",
+            "opakowania": "30 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 193,
+            "nazwa": "Vessel due F",
+            "międzynarodowa": "Sulodexidum",
+            "postac": "kapsułki miękkie",
+            "moc": "250 LSU",
+            "opakowania": "50 kaps.",
+            "kod": "5909990039616"
+        },
+        {
+            "lp": 194,
+            "nazwa": "Vimpat",
+            "międzynarodowa": "Lakozamid",
+            "postac": "tabletki powlekane",
+            "moc": "200 mg",
+            "opakowania": "56 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 195,
+            "nazwa": "Xarelto",
+            "międzynarodowa": "Rivaroxabanum",
+            "postac": "tabletki powlekane",
+            "moc": "20 mg",
+            "opakowania": "14 tabl.",
+            "kod": "###"
+        },
+        {
+            "lp": 196,
+            "nazwa": "Xarelto",
+            "międzynarodowa": "Rivaroxabanum",
+            "postac": "tabl. powl.",
+            "moc": "15 mg",
+            "opakowania": "14 szt.",
+            "kod": "5909990910601"
+        },
+        {
+            "lp": 197,
+            "nazwa": "Xarelto",
+            "międzynarodowa": "Rivaroxabanum",
+            "postac": "tabl. powl.",
+            "moc": "15 mg",
+            "opakowania": "42 szt.",
+            "kod": "5909990910663"
+        },
+        {
+            "lp": 198,
+            "nazwa": "Xarelto",
+            "międzynarodowa": "Rivaroxabanum",
+            "postac": "tabl. powl.",
+            "moc": "15 mg",
+            "opakowania": "28 szt.",
+            "kod": "5909990910656"
+        },
+        {
+            "lp": 199,
+            "nazwa": "Xarelto",
+            "międzynarodowa": "Rivaroxabanum",
+            "postac": "tabl. powl.",
+            "moc": "20 mg",
+            "opakowania": "28 szt.",
+            "kod": "5909990910724"
+        },
+        {
+            "lp": 200,
+            "nazwa": "Zinnat",
+            "międzynarodowa": "Cefuroximum",
+            "postac": "granulat do sporządzania zawiesiny doustnej",
+            "moc": "250 mg/5 ml",
+            "opakowania": "1 but.po 50 ml",
+            "kod": "5909990468812"
+        },
+        {
+            "lp": 201,
+            "nazwa": "Zoladex",
+            "międzynarodowa": "Goserelinum",
+            "postac": "implant podskórny",
+            "moc": "3,6 mg",
+            "opakowania": "1 amp.-strzyk.",
+            "kod": "###"
+        },
+        {
+            "lp": 202,
+            "nazwa": "Zoladex LA",
+            "międzynarodowa": "Goserelinum",
+            "postac": "implant podskórny",
+            "moc": "10,8 mg",
+            "opakowania": "1 amp.-strzyk.",
+            "kod": "###"
+        },
+        {
+            "lp": 203,
+            "nazwa": "Zypadhera",
+            "międzynarodowa": "Olanzapinum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "300 mg",
+            "opakowania": "1 fiol. proszku + 1 fiol. rozp. + 1 strzykawka + 2 igły",
+            "kod": "###"
+        },
+        {
+            "lp": 204,
+            "nazwa": "Zypadhera",
+            "międzynarodowa": "Olanzapinum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "210 mg",
+            "opakowania": "1 fiol.pr.po 0,21 g (+1 fiol.roz.3 ml)",
+            "kod": "5909990686803"
+        },
+        {
+            "lp": 205,
+            "nazwa": "Zypadhera",
+            "międzynarodowa": "Olanzapinum",
+            "postac": "proszek i rozpuszczalnik do sporządzania zawiesiny do wstrzykiwań o przedłużonym uwalnianiu",
+            "moc": "405 mg",
+            "opakowania": "1 fiol.pr.po 0,405 g (+1fiol.roz.3 ml)",
+            "kod": "5909990686834"
+        }
+    ]
+  
+}
