@@ -1,1 +1,0 @@
-https://protected-hollows-11972.herokuapp.com/ | https://git.heroku.com/protected-hollows-11972.git
