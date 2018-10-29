@@ -130,7 +130,7 @@ function createObject() {
 // Funkcja on load odpalana na onload pliku Wspólne
 function spirytusLoad() {
     var req = createObject();
-    req.open('GET', "http://api.nbp.pl/api/exchangerates/rates/a/eur/?format=xml", true);
+    req.open('GET', "https://api.nbp.pl/api/exchangerates/rates/a/eur/?format=xml", true);
     req.send(null);
     req.onreadystatechange = function () {
         if (req.readyState == 4 && req.status == 200) {
@@ -221,7 +221,7 @@ function kursDnia() {
         wynik_stawki.innerHTML = " NBP nie publikuje tabeli kursów na weekend";
     } else {
         var req = createObject();
-        req.open('GET', "http://api.nbp.pl/api/exchangerates/rates/a/eur/" + in_data + "/?format=xml", true);
+        req.open('GET', "https://api.nbp.pl/api/exchangerates/rates/a/eur/" + in_data + "/?format=xml", true);
         req.send(null);
         req.onreadystatechange = function () {
             if (req.readyState == 4 && req.status == 200) {

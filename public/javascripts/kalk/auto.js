@@ -170,7 +170,7 @@ function ustawKurs(){
         zap(data);
         function zap(zapData){
             var req = createObject();
-            req.open('GET',"http://api.nbp.pl/api/exchangerates/rates/a/"+auta_waluta.value+"/"+zapData+"/?format=xml",true);
+            req.open('GET',"https://api.nbp.pl/api/exchangerates/rates/a/"+auta_waluta.value+"/"+zapData+"/?format=xml",true);
             req.send(null);
             req.onreadystatechange = function(){
                 if(req.readyState == 4 && req.status == 200){
