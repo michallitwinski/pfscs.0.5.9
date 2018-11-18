@@ -1,6 +1,6 @@
 {
   "name": "pfscs",
-  "version": "0.5.9",
+  "version": "0.6.1",
   "description": "Pomocnik funkcjonariusza",
   "main": "app.js",
   "scripts": {

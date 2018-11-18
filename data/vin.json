@@ -1,0 +1,994 @@
+[
+    {
+        "kod": "JA3",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "JA4",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "JA",
+        "marka": "Isuzu"
+    },
+    {
+        "kod": "JD",
+        "marka": "Daihatsu"
+    },
+    {
+        "kod": "JF",
+        "marka": "Subaru"
+    },
+    {
+        "kod": "JH",
+        "marka": "Honda"
+    },
+    {
+        "kod": "JL5",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "JMB",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "JMY",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "JMZ",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "JN",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "JS",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "JT",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "KL",
+        "marka": "Daewoo"
+    },
+    {
+        "kod": "KM",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "KN",
+        "marka": "Kia"
+    },
+    {
+        "kod": "KNM",
+        "marka": "Renault"
+    },
+    {
+        "kod": "MAJ",
+        "marka": "Ford"
+    },
+    {
+        "kod": "MAL",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "MAT",
+        "marka": "Tata"
+    },
+    {
+        "kod": "MA7",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "MBJ",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "MBR",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "MCA",
+        "marka": "Fiat"
+    },
+    {
+        "kod": "MCB",
+        "marka": "GM"
+    },
+    {
+        "kod": "MC2",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "MDH",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "MEE",
+        "marka": "Renault"
+    },
+    {
+        "kod": "MEX",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "MHF",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "MHR",
+        "marka": "Honda"
+    },
+    {
+        "kod": "MLC",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "MLH",
+        "marka": "Honda"
+    },
+    {
+        "kod": "MMB",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "MMC",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "MMM",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "MMS",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "MMT",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "MM8",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "MNB",
+        "marka": "Ford"
+    },
+    {
+        "kod": "MNT",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "MPA",
+        "marka": "Isuzu"
+    },
+    {
+        "kod": "MP1",
+        "marka": "Isuzu"
+    },
+    {
+        "kod": "MRH",
+        "marka": "Honda"
+    },
+    {
+        "kod": "MR0",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "MS0",
+        "marka": "KIA"
+    },
+    {
+        "kod": "MS3",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "NLA",
+        "marka": "Honda"
+    },
+    {
+        "kod": "NLE",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "NLH",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "NMB",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "NM0",
+        "marka": "Ford"
+    },
+    {
+        "kod": "NMT",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "SAD",
+        "marka": "Jaguar"
+    },
+    {
+        "kod": "SAL",
+        "marka": "Land Rover"
+    },
+    {
+        "kod": "SAJ",
+        "marka": "Jaguar"
+    },
+    {
+        "kod": "SAR",
+        "marka": "Rover"
+    },
+    {
+        "kod": "SB1",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "SBM",
+        "marka": "McLaren"
+    },
+    {
+        "kod": "SCA",
+        "marka": "Rolls Royce"
+    },
+    {
+        "kod": "SCB",
+        "marka": "Bentley"
+    },
+    {
+        "kod": "SCC",
+        "marka": "Lotus Cars"
+    },
+    {
+        "kod": "SCE",
+        "marka": "DeLorean"
+    },
+    {
+        "kod": "SCF",
+        "marka": "Aston"
+    },
+    {
+        "kod": "SDB",
+        "marka": "Peugeot"
+    },
+    {
+        "kod": "SFA",
+        "marka": "Ford"
+    },
+    {
+        "kod": "SHH",
+        "marka": "Honda"
+    },
+    {
+        "kod": "SHS",
+        "marka": "Honda"
+    },
+    {
+        "kod": "SJN",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "SKF",
+        "marka": "Vauxhall"
+    },
+    {
+        "kod": "SUL",
+        "marka": "FSC"
+    },
+    {
+        "kod": "SUP",
+        "marka": "Daewoo"
+    },
+    {
+        "kod": "SWV",
+        "marka": "TA-NO"
+    },
+    {
+        "kod": "TMB",
+        "marka": "Škoda"
+    },
+    {
+        "kod": "TRU",
+        "marka": "Audi"
+    },
+    {
+        "kod": "TSM",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "TW1",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "UU1",
+        "marka": "Dacia"
+    },
+    {
+        "kod": "UU6",
+        "marka": "Daewoo"
+    },
+    {
+        "kod": "U5Y",
+        "marka": "Kia"
+    },
+    {
+        "kod": "U6Y",
+        "marka": "Kia"
+    },
+    {
+        "kod": "VF1",
+        "marka": "Renault"
+    },
+    {
+        "kod": "VF2",
+        "marka": "Renault"
+    },
+    {
+        "kod": "VF3",
+        "marka": "Peugeot"
+    },
+    {
+        "kod": "VF7",
+        "marka": "Citroën"
+    },
+    {
+        "kod": "VNK",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "VSE",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "VSK",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "VSS",
+        "marka": "SEAT"
+    },
+    {
+        "kod": "VSX",
+        "marka": "Opel"
+    },
+    {
+        "kod": "VS6",
+        "marka": "Ford"
+    },
+    {
+        "kod": "VS7",
+        "marka": "Citroën"
+    },
+    {
+        "kod": "VWA",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "VWV",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "WAU",
+        "marka": "Audi"
+    },
+    {
+        "kod": "WA1",
+        "marka": "Audi"
+    },
+    {
+        "kod": "WBA",
+        "marka": "BMW"
+    },
+    {
+        "kod": "WBS",
+        "marka": "BMW"
+    },
+    {
+        "kod": "WBW",
+        "marka": "BMW"
+    },
+    {
+        "kod": "WBY",
+        "marka": "BMW"
+    },
+    {
+        "kod": "WDA",
+        "marka": "Daimler"
+    },
+    {
+        "kod": "WDB",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "WDC",
+        "marka": "DaimlerChrysler"
+    },
+    {
+        "kod": "WDD",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "WDF",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "WF0",
+        "marka": "Ford"
+    },
+    {
+        "kod": "WME",
+        "marka": "Smart"
+    },
+    {
+        "kod": "WMW",
+        "marka": "MINI"
+    },
+    {
+        "kod": "WMX",
+        "marka": "Mercedes-AMG"
+    },
+    {
+        "kod": "WP0",
+        "marka": "Porsche"
+    },
+    {
+        "kod": "WP1",
+        "marka": "Porsche"
+    },
+    {
+        "kod": "W0L",
+        "marka": "Opel"
+    },
+    {
+        "kod": "W0V",
+        "marka": "Opel"
+    },
+    {
+        "kod": "WUA",
+        "marka": "Audi"
+    },
+    {
+        "kod": "WVG",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "WVW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "WV1",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "XLB",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "XMC",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "XTC",
+        "marka": "KAMAZ"
+    },
+    {
+        "kod": "XTH",
+        "marka": "GAZ"
+    },
+    {
+        "kod": "XTY",
+        "marka": "LiAZ"
+    },
+    {
+        "kod": "XW8",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "X7L",
+        "marka": "Renault"
+    },
+    {
+        "kod": "X7M",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "YBW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "YCM",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "YK1",
+        "marka": "Saab"
+    },
+    {
+        "kod": "YS3",
+        "marka": "Saab"
+    },
+    {
+        "kod": "YTN",
+        "marka": "Saab"
+    },
+    {
+        "kod": "YV1",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "YV4",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "ZAM",
+        "marka": "Maserati"
+    },
+    {
+        "kod": "ZAR",
+        "marka": "Alfa Romeo"
+    },
+    {
+        "kod": "ZFA",
+        "marka": "Fiat"
+    },
+    {
+        "kod": "ZFC",
+        "marka": "Fiat"
+    },
+    {
+        "kod": "ZFF",
+        "marka": "Ferrari"
+    },
+    {
+        "kod": "ZHW",
+        "marka": "Lamborghini"
+    },
+    {
+        "kod": "ZLA",
+        "marka": "Lancia"
+    },
+    {
+        "kod": "1B3",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "1C3",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "1C4",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "1C6",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "1D3",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "1FA",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1FB",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1FC",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1FD",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1FM",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1FT",
+        "marka": "Ford"
+    },
+    {
+        "kod": "1G1",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "1G2",
+        "marka": "Pontiac"
+    },
+    {
+        "kod": "1G3",
+        "marka": "Oldsmobile"
+    },
+    {
+        "kod": "1G4",
+        "marka": "Buick"
+    },
+    {
+        "kod": "1G6",
+        "marka": "Cadillac"
+    },
+    {
+        "kod": "1G8",
+        "marka": "Saturn"
+    },
+    {
+        "kod": "1GM",
+        "marka": "Pontiac"
+    },
+    {
+        "kod": "1GY",
+        "marka": "Cadillac"
+    },
+    {
+        "kod": "1H",
+        "marka": "Honda"
+    },
+    {
+        "kod": "1J4",
+        "marka": "Jeep"
+    },
+    {
+        "kod": "1J8",
+        "marka": "Jeep"
+    },
+    {
+        "kod": "1L",
+        "marka": "Lincoln"
+    },
+    {
+        "kod": "1ME",
+        "marka": "Mercury"
+    },
+    {
+        "kod": "1N",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "1P3",
+        "marka": "Plymouth"
+    },
+    {
+        "kod": "1VW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "1YV",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "1ZV",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2A4",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "2B3",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "2B7",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "2C3",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "2D3",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "2FA",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2FB",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2FC",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2FM",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2FT",
+        "marka": "Ford"
+    },
+    {
+        "kod": "2G1",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "2G2",
+        "marka": "Pontiac"
+    },
+    {
+        "kod": "2G3",
+        "marka": "Oldsmobile"
+    },
+    {
+        "kod": "2G4",
+        "marka": "Buick"
+    },
+    {
+        "kod": "2HG",
+        "marka": "Honda"
+    },
+    {
+        "kod": "2HK",
+        "marka": "Honda"
+    },
+    {
+        "kod": "2HJ",
+        "marka": "Honda"
+    },
+    {
+        "kod": "2HM",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "2P3",
+        "marka": "Plymouth"
+    },
+    {
+        "kod": "2V4",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "2V8",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "3C4",
+        "marka": "Chrysler"
+    },
+    {
+        "kod": "3D3",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "3D4",
+        "marka": "Dodge"
+    },
+    {
+        "kod": "3FA",
+        "marka": "Ford"
+    },
+    {
+        "kod": "3FE",
+        "marka": "Ford"
+    },
+    {
+        "kod": "3MD",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "3MZ",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "3N",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "3P3",
+        "marka": "Plymouth"
+    },
+    {
+        "kod": "3VW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "4F",
+        "marka": "Mazda"
+    },
+    {
+        "kod": "4JG",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "4M",
+        "marka": "Mercury"
+    },
+    {
+        "kod": "4T",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "4US",
+        "marka": "BMW"
+    },
+    {
+        "kod": "4V1",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4V2",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4V3",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4V4",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4V5",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4V6",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4VL",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4VM",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "4VZ",
+        "marka": "Volvo"
+    },
+    {
+        "kod": "5L",
+        "marka": "Lincoln"
+    },
+    {
+        "kod": "5N1",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "5NP",
+        "marka": "Hyundai"
+    },
+    {
+        "kod": "5YJ",
+        "marka": "Tesla"
+    },
+    {
+        "kod": "6F4",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "6FP",
+        "marka": "Ford"
+    },
+    {
+        "kod": "6MM",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "6T1",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "8AD",
+        "marka": "Peugeot"
+    },
+    {
+        "kod": "8AF",
+        "marka": "Ford"
+    },
+    {
+        "kod": "8AG",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "8AJ",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "8AK",
+        "marka": "Suzuki"
+    },
+    {
+        "kod": "8AP",
+        "marka": "Fiat"
+    },
+    {
+        "kod": "8AW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "8A1",
+        "marka": "Renault"
+    },
+    {
+        "kod": "8GD",
+        "marka": "Peugeot"
+    },
+    {
+        "kod": "8GG",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "935",
+        "marka": "Citroën"
+    },
+    {
+        "kod": "936",
+        "marka": "Peugeot"
+    },
+    {
+        "kod": "93H",
+        "marka": "Honda"
+    },
+    {
+        "kod": "93R",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "93U",
+        "marka": "Audi"
+    },
+    {
+        "kod": "93V",
+        "marka": "Audi"
+    },
+    {
+        "kod": "93X",
+        "marka": "Mitsubishi"
+    },
+    {
+        "kod": "93Y",
+        "marka": "Renault"
+    },
+    {
+        "kod": "94D",
+        "marka": "Nissan"
+    },
+    {
+        "kod": "9BD",
+        "marka": "Fiat"
+    },
+    {
+        "kod": "9BF",
+        "marka": "Ford"
+    },
+    {
+        "kod": "9BG",
+        "marka": "Chevrolet"
+    },
+    {
+        "kod": "9BM",
+        "marka": "Mercedes-Benz"
+    },
+    {
+        "kod": "9BR",
+        "marka": "Toyota"
+    },
+    {
+        "kod": "9BW",
+        "marka": "Volkswagen"
+    },
+    {
+        "kod": "9FB",
+        "marka": "Renault"
+    },
+    {
+        "kod": "WB1",
+        "marka": "BMW"
+    }
+]

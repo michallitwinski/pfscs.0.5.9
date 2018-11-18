@@ -16,8 +16,9 @@ var akcyza = 0;
 // przypisywanie zdarzeń do funkcji
 auta_data.addEventListener('input', obliczDni, false);
 auta_waluta.addEventListener('input', ustawKurs, true);
+document.getElementById('ieStawkiZapBtn').addEventListener('click', ustawKurs, true); // IE przycisk zatwierdź dla pobierania waluty
 btn_oblicz.addEventListener('click', obliczAuto, false);
-// ponowne oblicznie poz mnianie
+// ponowne oblicznie poz znianie
 auta_pojemnosc_silnika.addEventListener('input', ponownieObliczAuto, false);
 auta_kwota_zakupu.addEventListener('blur', ponownieObliczAuto, false);
 //zmienne do obliczneń
@@ -56,7 +57,6 @@ function autaLoad(){
     document.getElementById('kalkAddZlicz').classList.add('ukryj');
     document.getElementById('btn_protokoly').classList.add('ukryj');
 };
-
 //funkcja zwracająca ilość dni w podanym miesiącu
 var iloscDni = function(month,year) {
     return new Date(year, month, 0).getDate();
@@ -82,7 +82,7 @@ function obliczDni(){
         m = "0"+m;
     };
     inputDateReturn = d+"-"+m+"-"+y; // data odsyłana do paragrafu
-    dzienMiesaca = iloscDni(m-1,y);//funkcjonalność licząca ile dni na dany miesiąc
+    dzienMiesaca = iloscDni(m-1,y); // funkcjonalność licząca ile dni na dany miesiąc
     var data1_ms = curentDate.getTime();
     var data2_ms = inputDate.getTime();
     var timeDiff = Math.abs(data2_ms - data1_ms);
@@ -117,10 +117,6 @@ function obliczDni(){
     };
     ponownieObliczAuto();
     return dataPoczatek = inputDateReturn;
-};
-// nowy obiek żądania
-function createObject(){
-    return new XMLHttpRequest();
 };
 // żądanie nowej waluty
 function ustawKurs(){
@@ -247,4 +243,8 @@ function obliczAuto(){
             return akcyza = auto_akcyza, przekroczonoProg = przekroczono;
         }
     };
+};
+// Link do komisów w zakładce pojazd AKC-U
+function komislLink(){
+    window.location.href = "/pojazdykomis";
 };

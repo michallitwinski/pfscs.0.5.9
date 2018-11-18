@@ -84,6 +84,21 @@ exports.pojazdy = function (req, res) {
         stawki: stawki,
     });
 };
+// Pojazdy Komis
+exports.pojazdykomis = function (req, res) {
+    res.render("kalkulator", {
+        kalkulator_typ: "pojazdykomis",
+        kalkulator: kalkulator,
+        stawkiLata: stawkiLata,
+        stawki: stawki,
+    });
+};
+// wysyłanie jeson z nrvin
+exports.nrvin = function (req, res) {
+    var nrvinJson = require('../data/vin.json');
+    res.setHeader('Content-Type', 'application/json');
+    res.json(nrvinJson);
+};
 // wysyłanie jason z stawkani
 exports.wysylanieStawek = function (req, res) {
     var stawkiOdpJson = require('../data/stawki' + req.params.rok + '.json');

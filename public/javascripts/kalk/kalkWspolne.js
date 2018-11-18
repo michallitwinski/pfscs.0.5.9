@@ -1,3 +1,7 @@
+// nowy obiek żądania
+function createObject() {
+    return new XMLHttpRequest();
+};
 //funkcjonalność uruchomiająca obliczenia na enter
 document.addEventListener('keyup', function (event) {
     if (event.keyCode === 13) {
@@ -151,7 +155,6 @@ function stworzBtnMenuII() {
 function noweElementy(noweId, typ, nazwa) {
     nowyElement = document.createElement('div');
     nowyElement.setAttribute('class', 'menuIIbtn border light');
-    //nowyElement.setAttribute('id', 'NowyElementMenuII_' + noweId); //narazae id nie jest potrzebne
     nowyElement.innerHTML = typ + ": " + nazwa + " - <i>Usuń</i>";
     nowyElement.addEventListener('click', function () {
         //funkcja karzdego BTN menuII 1 usunięcie elementu tablicy
@@ -185,7 +188,6 @@ window.onload = function () {
             kalkAddZlicz.classList.remove('ukryj');
         }
     }
-
     // znajdujemy rok by w poniższych ifach ograniczyć zapytania do serwera gdy nie zmienił się rok na stronie do której wracamy
     // rozpoznawanie przeglądatek Microsoftu
     var isIE = false || !!document.documentMode,
@@ -248,9 +250,15 @@ window.onload = function () {
     }
     if (document.getElementById('kalkNazwa').innerHTML == "Pojazdy") {
         autaLoad();
+        if(isIE || isEdge) {
+            document.getElementById('ieStawkiZapBtn').classList.remove('ukryj');
+        }
     }
     if (document.getElementById('kalkNazwa').innerHTML == "Należności") {
         zliczLoad();
+    }
+    if (document.getElementById('kalkNazwa').innerHTML == "Auto Komis") {
+        autaLoadKomis();
     }
 }
 // Funkcjonalność onclick dla ADD
@@ -264,9 +272,8 @@ function dodajNowyTowar() {
     // dodawanie pojedyńczego diva do menuII po kliknięciu
     var autoElementy = document.getElementById('autoElementy');
     autoElementy.appendChild(noweElementy(tabl, tablicaObiektowAdd[tabl].typ, tablicaObiektowAdd[tabl].nazwa));
-
 }
-//Zdarzenie Onclick + i walidacja
+//Zdarzenie Onclick przycisku plus walidacja
 var btn_plus = document.getElementById('kalkAddplusBtn');
 btn_plus.addEventListener('click', function () {
     if (iloscZew == 0) {
@@ -291,6 +298,7 @@ btn_plus.addEventListener('click', function () {
         }
     }
 });
+// Przycisk z informacją
 var btn_zap = document.getElementById('kalkAddzapBtn');
 btn_zap.addEventListener('click', function () {
 
@@ -312,6 +320,7 @@ btn_zap.addEventListener('click', function () {
     alert('Działa');
 
 });
+// Przycisk Zlicz
 kalkAddZlicz.addEventListener('click', function () {
     if (kalkAddNazwaInput.value == "") {
         window.location.href = "/zlicz";
@@ -402,3 +411,4 @@ btn_kalkspis.addEventListener('click', function () {
             window.location.href = "/kalkspis";
         }
 }, false);
+// Koniec funkcjonalności Odpowiadająca za Protokoły edytowalne

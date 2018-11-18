@@ -97,9 +97,6 @@ function obliczWodka() {
 };
 // funkcjonalność wyboru roku i zapytania ajax
 var stawki_rok = document.getElementById('stawki_rok');
-function createObject() {
-    return new XMLHttpRequest();
-}
 stawki_rok.addEventListener('input', zapytanieStawki, true);
 function zapytanieStawki() {
     var req = createObject();

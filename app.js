@@ -25,6 +25,9 @@ app.get('/wodka', routes.wodka);
 app.get('/zlicz', routes.zlicz);
 //pojazdy
 app.get('/pojazdy', routes.pojazdy);
+app.get('/pojazdykomis', routes.pojazdykomis);
+// Przesyłanie Marek Pojazdów po VIN
+app.get('/nrvin', routes.nrvin);
 // Przesyłanie stawek w pliku jason
 app.get('/stawki/:rok?', routes.wysylanieStawek);
 //Sent

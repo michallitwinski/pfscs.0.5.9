@@ -1,0 +1,51 @@
+<div id="wiecej_kalk">
+<div id="btn_druk" class="przyciski border light">Drukuj</div>
+<div id="btn_stawki" class="przyciski border light">Stawki</div>
+<div id="btn_kody" class="przyciski border light">Kody</div>
+<div id="btn_komis" class="przyciski border light" onclick="komislLink()">Komis</div>
+
+<div id="stawki" class="ukryj">
+<p>
+Stawkai akcyzy wg pojemności silnika:<br>
+<% for( var i = 0; i<stawki.pojazdy.pojemnosc.length; i++) { %>
+    - <%= stawki.pojazdy.pojemnosc[i]%>: <input typ="number" id="stawka_akcyzy_<%=i%>" value="<%= stawki.pojazdy.stawki[i]%>" disabled><br>
+<% } %>
+Termin na złożenie deklaracji akcyzy w dniach:<input typ="number" id="auta_termin" value="<%=stawki.pojazdy.termin%>" disabled><br>
+
+Ustawowy próg przestępstwa wynosi: <input typ="number" id="prog_przetępstwa" value="<%=stawki.prog_przetępstwa%>" disabled><br>
+</div>
+<br>
+<div id="kody" class="ukryj">
+Kody CN <br>
+<table id="autoKodyCN">
+    <tr>
+        <td colspan="2">Pojazdy z silnikiem tłokowym wewnętrznego spalania z zapłonem iskrowym:</td>
+    </tr>
+    <tr>
+        <td>O pojemności skokowej nieprzekraczającej 1 000 cm<sup>3</sup></td><td>8703 21</td>
+    </tr>
+    <tr>
+        <td>O pojemności od 1 000 cm<sup>3</sup>, ale nieprzekraczającej 1 500 cm<sup>3</sup></td><td>8703 22</td>
+    </tr>
+    <tr>
+        <td>O pojemności od 1 500 cm<sup>3</sup>, ale nieprzekraczającej 3 000 cm<sup>3</sup></td><td>8703 23</td>
+    </tr>
+    <tr>
+        <td>O pojemności skokowej przekraczającej 3 000 cm<sup>3</sup></td><td>8703 24</td>
+    </tr>
+    <tr>
+        <td colspan="2">Pojazdy z silnikiem tłokowym wewnętrznego spalania z zapłonem samoczynnym:</td>
+    </tr>
+    <tr>
+        <td>O pojemności skokowej nieprzekraczającej 1 500 cm<sup>3</sup></td><td>8703 31</td>
+    </tr>
+    <tr>
+        <td>O pojemności od 1 500 cm<sup>3</sup>, ale nieprzekraczającej 2 500 cm<sup>3</sup></td><td>8703 32</td>
+    </tr>
+    <tr>
+        <td>O pojemności skokowej przekraczającej 2 500 cm<sup>3</sup></td><td>8703 33</td>
+    </tr>
+</table>
+</p>
+</div>
+</div>

@@ -1,0 +1,49 @@
+<h2 id="kalkNazwa" class="displayPrint">Auto Komis</h2><br>
+
+<div id="autoKomisEdit">
+
+</div>
+
+<div id="autoKomisEditSuma" class="border light ukryj">
+<div>Łączna suma podatku akcyzowego wynosi: <span id="sumaKomis"></span> PLN.</div>
+<div id="pPKomis">Uwaga przekroczono ustawowy próg przestępstwa</div>
+</div>
+
+<div id="autoKomisForm" class="border light">
+
+<label for="nrVin">Podaj nr Vin: </label> <input type="text" id="nrVin" class="inputType"><br>
+
+<label for="data_gran">Data graniczna: </label><input type="date" id="data_gran" class="inputType" disabled><br>
+
+<label for="data_input">Podaj datę przemieszczenia: </label><input type="date" id="data_input" class="inputType"><br>
+
+<label for="pojemnosc_silnika">Podaj pojemność silnika:</label> 
+<select id="pojemnosc_silnika" class="inputType">
+    <% for( var i = 0; i<stawki.pojazdy.pojemnosc.length; i++) { %>
+        <option value="<%=stawki.pojazdy.stawki[i]%>"><%= stawki.pojazdy.pojemnosc[i]%></option>
+    <% } %>
+</select><br>
+
+<label for="waluta">Podaj walutę zakupu:
+    <select id="waluta" class="inputType">
+        <option>PLN</option>
+        <option>EUR</option>
+        <option>GBP</option>
+        <option>USD</option>
+    </select><br>
+    
+    <label for="kwota">Podaj kwotę zakupu: </label><input type="number" id="kwota"><br>
+    
+    <label id="wynik_kurs1" for="wynik_kursInput"></label><input type="number" id="wynik_kursInput" class="ukryj"></span><br>
+    
+    <span id="wynik_kurs2"></span>
+</div>
+
+<% include ../kalkulator/btn_wynik.ejs%>
+
+<div id="btn_komis_wyczysc" class="przyciski border ukryj">Wyczyść</div>
+
+<% include ../kalkulator/wynik_pojazd.ejs %>
+
+<script src="javascripts/kalk/autokomis.js"></script>
+<script src="javascripts/kalk/kalkWspolne.js"></script>

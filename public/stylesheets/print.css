@@ -2,11 +2,15 @@ body{
 	font-family: 'Domine', 'Times New Roman', 'Times', serif;
 	color: black;
 }
-menu, header, #btn_oblicz, #btn_druk, #btn_stawki, #btn_kurs_dnia_pokaz, #btn_wiecej, #btn_protar,#stawki_rok_block, #btn_kody, #wiecej_kalk, a{
+menu, header, #btn_oblicz, #btn_druk, #btn_stawki, #btn_kurs_dnia_pokaz, #btn_wiecej, #btn_protar,#stawki_rok_block, #btn_kody, .displayPrint, #autoKomisForm, #btn_komis_wyczysc, .komisBtnDel, #wiecej_kalk, a{
     display: none;
 }
 .border{
 	border: 3px solid black;
+}
+.autoObiektWypisz{
+	border: none;
+	box-shadow: none;
 }
 #stawki_rok{
 	border: 1px solid black;

@@ -122,11 +122,7 @@ var wynik_stawki = document.getElementById('wynik_stawki');
 var btn_kurs_dnia_pokaz = document.getElementById('btn_kurs_dnia_pokaz');
 var kurs_dnia_input = document.getElementById('kurs_dnia_input');
 var kurs_dnia_div = document.getElementById('kurs_dnia_div');
-//koniec przypisania elementów
-// nowy obiek żądania
-function createObject() {
-    return new XMLHttpRequest();
-};
+// koniec przypisania elementów
 // Funkcja on load odpalana na onload pliku Wspólne
 function spirytusLoad() {
     var req = createObject();

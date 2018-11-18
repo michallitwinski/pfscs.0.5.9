@@ -126,7 +126,7 @@ menu a{
 	width: 90%;
 	margin: 5px auto;
 }
-menu a:hover, nav a:hover, #btn_oblicz:hover, #btn_druk:hover, #btn_wiecej:hover ,#btn_stawki:hover, #btn_protokoly:hover, #btn_kody:hover, .kalkAddNazwaBtn:hover, .menuIIbtn:hover, #kalkAddZlicz:hover, #btn_protar:hover, #btn_proogl:hover, #btn_kalkspis:hover, #btn_back:hover, #ieStawkiZapBtn:hover{
+menu a:hover, nav a:hover, #btn_oblicz:hover, #btn_druk:hover, #btn_wiecej:hover ,#btn_stawki:hover, #btn_protokoly:hover, #btn_kody:hover, .kalkAddNazwaBtn:hover, .menuIIbtn:hover, #kalkAddZlicz:hover, #btn_protar:hover, #btn_proogl:hover, #btn_kalkspis:hover, #btn_back:hover, #ieStawkiZapBtn:hover, #btn_komis:hover, .komisBtnDel:hover, #btn_komis_wyczysc:hover{
 	color: white;
 	background-color: #d87886;
 	cursor: pointer;
@@ -337,6 +337,31 @@ menu>div{
 	margin: 5px auto;
 }
 /* Koniec ADD*/
+/* Początek części Komis */
+.autoObiektWypisz{
+	margin: 5px 0px;
+	text-align: left;
+	padding: 10px;
+}
+.komisBtnDel{
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+}
+#autoKomisEditSuma{
+	padding: 15px;
+	margin-bottom: 5px;
+}
+#pPKomis{
+	color: red;
+	margin-top: 20px;
+}
+
+
+
+
+
+/* Koniec części Komis */
 /* Konec kalkulator */
 /* Poczętek SENT*/
 /* Oddzielenie poszczególnych kontenerów */

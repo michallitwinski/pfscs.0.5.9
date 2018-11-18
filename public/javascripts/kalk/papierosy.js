@@ -148,9 +148,6 @@ function obliczPapierosy() {
 // Koniec funkcji oblicz papierosy
 // funkcjonalność wyboru roku i zapytania ajax
 var stawki_rok = document.getElementById('stawki_rok');
-function createObject() {
-    return new XMLHttpRequest();
-}
 // Obsłóga przycisku z zapytaniem o stawki dla microsoftu
 document.getElementById('ieStawkiZapBtn').addEventListener('click', function(){
     zapytanieStawki();
