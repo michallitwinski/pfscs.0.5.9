@@ -125,6 +125,10 @@ function ustawKurs() {
         };
     };
 };
+// Zapytanie o valutę dla przeglądarek Microsoft
+document.getElementById('ieStawkiZapBtn').addEventListener('click', function(){
+    ustawKurs();
+},false);
 // Koniec funkcjonlności pobierania kórsów walut
 // Początek funkcjonalności Sessionstorage
 // Pobieranie zawartości tablicy do js
@@ -199,27 +203,24 @@ function stworzAuto(obiekt, i) {
     span0.innerHTML = (i + 1) + ".";
     var span1 = document.createElement('span');
     span1.setAttribute('contenteditable', 'true');
-    if(obiekt.marka != 'brak') span1.innerHTML = ' Pojazd marki: '+obiekt.marka+' o nr VIN: ' + obiekt.vin;
+    if (obiekt.marka != 'brak') span1.innerHTML = ' Pojazd marki: ' + obiekt.marka + ' o nr VIN: ' + obiekt.vin;
     else span1.innerHTML = ' Pojazd o nr VIN: ' + obiekt.vin;
     var span2 = document.createElement('span');
-    span2.innerHTML = ', o pojemności silnika: ' + obiekt.pojemnosc;
+    span2.innerHTML = ', zakupiony za kwotę: ' + obiekt.kwota + " " + obiekt.waluta;
     var span3 = document.createElement('span');
-    span3.innerHTML = ', zakupiony za kwotę: ' + obiekt.kwota + " " + obiekt.waluta;
+    span3.setAttribute('contenteditable', 'true');
+    span3.innerHTML = ', przemieszczony na terytorium kraju w dniu: ' + obiekt.data_przemieszczenia + '.<br>';
     var span4 = document.createElement('span');
-    span4.setAttribute('contenteditable', 'true');
-    span4.innerHTML = ', przemieszczony na terytorium kraju w dniu: ' + obiekt.data_przemieszczenia + '.<br>';
+    span4.innerHTML = 'Należny podatek akcyzowy wynosi: ' + obiekt.podatek;
     var span5 = document.createElement('span');
-    span5.innerHTML = 'Należny podatek akcyzowy wynosi: ' + obiekt.podatek;
-    var span6 = document.createElement('span');
-    span6.innerHTML = ' (przeliczono po kursie: ' + obiekt.kurs + ')';
+    span5.innerHTML = ' (przeliczono po kursie: ' + obiekt.kurs + ')';
     nowyElement.appendChild(span0);
     nowyElement.appendChild(span1);
     nowyElement.appendChild(span2);
     nowyElement.appendChild(span3);
     nowyElement.appendChild(span4);
-    nowyElement.appendChild(span5);
     if (obiekt.waluta != "PLN") {
-        nowyElement.appendChild(span6);
+        nowyElement.appendChild(span5);
     }
     var btn_del = document.createElement('div');
     btn_del.setAttribute('class', 'border light komisBtnDel');
@@ -244,12 +245,12 @@ function dodajPojazd() {
     var waluta = auta_waluta.value;
     var kurs = wynik_kursInput.value
     var podatek = 0;
-    // Validacja VIN (można poprawić)
+    // Validacja VIN
     if (nrVin.length != 17) {
         wynik_1.innerHTML = "Błędna długość nr VIN";
     } else if (nrVin.toUpperCase().includes('I') || nrVin.toUpperCase().includes('O') || nrVin.toUpperCase().includes('Q')) {
         wynik_1.innerHTML = "Nr VIN nie zawiera I, O lub Q";
-    } else if (kwota == "" || kwota < 0) { 
+    } else if (kwota == "" || kwota < 0) {
         wynik_1.innerHTML = "Wpisz poprawną kwotę";
     } else {
         wynik_1.innerHTML = "";
@@ -266,7 +267,6 @@ function dodajPojazd() {
         var obiekt = {
             "vin": nrVin,
             "data_przemieszczenia": data,
-            "pojemnosc": pojemnosc,
             "kwota": kwota,
             "kurs": kurs,
             "waluta": waluta,
@@ -275,6 +275,8 @@ function dodajPojazd() {
         }
         zapiszAuto(obiekt);
         wyswietlMain();
+        document.getElementById('nrVin').value = "";
+        document.getElementById('kwota').value = "";
     }
 }
 // Konice funcjonalności przycisku dodaj
@@ -303,13 +305,13 @@ function sprawdziMarke(vin) {
     var kod1 = vin.substring(0, 2);
     var kod2 = vin.substring(0, 3);
     for (var i = 0; i < tablicaVin.length; i++) {
-        if(tablicaVin[i].kod == kod1){
+        if (tablicaVin[i].kod == kod1) {
             markapojazdu = tablicaVin[i].marka;
         }
     }
-    for (var i = 0; i < tablicaVin.length; i++) {
-        if(tablicaVin[i].kod == kod2){
-            markapojazdu = tablicaVin[i].marka;
+    for (var j = 0; j < tablicaVin.length; j++) {
+        if (tablicaVin[j].kod == kod2) {
+            markapojazdu = tablicaVin[j].marka;
         }
     }
     return markapojazdu;

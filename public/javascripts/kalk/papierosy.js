@@ -151,7 +151,7 @@ var stawki_rok = document.getElementById('stawki_rok');
 // Obsłóga przycisku z zapytaniem o stawki dla microsoftu
 document.getElementById('ieStawkiZapBtn').addEventListener('click', function(){
     zapytanieStawki();
-},false)
+},false);
 stawki_rok.addEventListener('input', zapytanieStawki, true);
 function zapytanieStawki() {
     var req = createObject();

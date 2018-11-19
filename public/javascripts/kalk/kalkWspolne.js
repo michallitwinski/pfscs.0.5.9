@@ -14,7 +14,7 @@ btn_druk.addEventListener('click', drukujWynik, false);
 function drukujWynik() {
     window.print();
 };
-// poniższy if jest by cały skrypt działał w zakładce zlicz
+// Poniższy if jest by cały skrypt działał w zakładce zlicz
 if (document.getElementById('kalkNazwa').innerHTML != "Należności") {
     // funkcja rozwijająca więcej (jest taka rozbudowana by może dodać animację)
     var btn_wiecej = document.getElementById('btn_wiecej');
@@ -259,6 +259,9 @@ window.onload = function () {
     }
     if (document.getElementById('kalkNazwa').innerHTML == "Auto Komis") {
         autaLoadKomis();
+        if(isIE || isEdge) {
+            document.getElementById('ieStawkiZapBtn').classList.remove('ukryj');
+        }
     }
 }
 // Funkcjonalność onclick dla ADD
