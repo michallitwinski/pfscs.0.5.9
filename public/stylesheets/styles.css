@@ -356,11 +356,16 @@ menu>div{
 	color: red;
 	margin-top: 20px;
 }
-
-
-
-
-
+.podpisyKomisObok{
+	display: inline-block;
+	margin: 40px 25px 0px 25px;
+}
+.podpisyKomisSize{
+	font-size: 70%;
+}
+.podpisyKomis{
+	display: none;
+}
 /* Koniec części Komis */
 /* Konec kalkulator */
 /* Poczętek SENT*/

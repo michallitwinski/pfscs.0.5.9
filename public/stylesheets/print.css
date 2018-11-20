@@ -40,6 +40,9 @@ input[type=radio]:not(old):checked + label > span:before{
 	text-align: center;
 	text-shadow: none;
 }
+.podpisyKomis{
+	display: block;
+}
 footer{
     border: none !important;
     box-shadow: none !important;
